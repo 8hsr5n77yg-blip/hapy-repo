@@ -1,0 +1,938 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - navigation [ref=e5]:
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "首页" [ref=e8] [cursor=pointer]:
+              - /url: https://www.smzdm.com/
+          - listitem [ref=e9]:
+            - link "好价" [ref=e10] [cursor=pointer]:
+              - /url: https://www.smzdm.com/jingxuan/
+          - listitem [ref=e11]:
+            - link "社区" [ref=e12] [cursor=pointer]:
+              - /url: https://post.smzdm.com/
+          - listitem [ref=e13]:
+            - link "百科" [ref=e14] [cursor=pointer]:
+              - /url: https://wiki.smzdm.com/
+      - generic [ref=e15]:
+        - list [ref=e16]:
+          - text: 
+          - listitem [ref=e17]:
+            - link "集团官网" [ref=e18] [cursor=pointer]:
+              - /url: https://www.zhidemai.com
+          - listitem [ref=e19]:
+            - link "商业合作" [ref=e20] [cursor=pointer]:
+              - /url: https://e.smzdm.com/
+          - listitem [ref=e21]:
+            - link "爆料投稿 " [ref=e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - text: 爆料投稿
+              - generic [ref=e23]: 
+        - text: 
+        - generic [ref=e24]:
+          - link "登录" [ref=e25] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - link "注册" [ref=e27] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - list: 
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - link:
+          - /url: https://www.smzdm.com/
+          - img [ref=e31] [cursor=pointer]
+      - link "社区" [ref=e34] [cursor=pointer]:
+        - /url: https://post.smzdm.com/
+      - generic [ref=e35]:
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - searchbox "卡西欧" [ref=e39]
+            - text: 
+          - button "" [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]: 
+        - link "写篇文章" [ref=e42] [cursor=pointer]:
+          - /url: https://post.smzdm.com/tougao/
+  - generic [ref=e43]:
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - text: 当前位置：
+        - link "社区首页" [ref=e48] [cursor=pointer]:
+          - /url: https://post.smzdm.com/
+        - generic [ref=e49]: ">"
+        - link "玩模乐器" [ref=e51] [cursor=pointer]:
+          - /url: https://m.smzdm.com/interest/aexxkd3/
+        - generic [ref=e52]: ">"
+        - link "玩具" [ref=e54] [cursor=pointer]:
+          - /url: https://m.smzdm.com/interest/a1qqy52/
+        - generic [ref=e55]: ">"
+        - link "DIY玩具" [ref=e57] [cursor=pointer]:
+          - /url: https://m.smzdm.com/interest/ay11lz5/
+        - generic [ref=e58]: ">"
+        - generic [ref=e59]: 笔记详情
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - img "DIY玩具" [ref=e66]
+              - img "DIY玩具" [ref=e68]
+              - img "DIY玩具" [ref=e70]
+              - img "DIY玩具" [ref=e72]
+            - button "Next slide" [ref=e73] [cursor=pointer]
+          - list [ref=e78]:
+            - listitem [ref=e79]:
+              - img "zaozuo" [ref=e80]
+            - listitem [ref=e81]:
+              - img "zaozuo" [ref=e82]
+            - listitem [ref=e83]:
+              - img "zaozuo" [ref=e84]
+            - listitem [ref=e85]:
+              - img "zaozuo" [ref=e86]
+          - generic [ref=e87]:
+            - article [ref=e88]:
+              - heading "大学生拼豆也可以月入过万" [level=1] [ref=e89]: 大学生拼豆也可以月入过万
+              - generic [ref=e92]: 2026-05-08 13:16:04
+              - generic [ref=e93]:
+                - paragraph [ref=e94]:
+                  - text: 拼豆手作正成为校园创业新热点，其市场潜力巨大。想实现月入过万，需系统规划，核心在于
+                  - strong [ref=e95]: 组合盈利
+                  - text: 与
+                  - strong [ref=e96]: 高效执行
+                  - text: 。
+                - paragraph [ref=e97]:
+                  - strong [ref=e98]: 首选三大高利润模式：
+                - paragraph [ref=e99]:
+                  - strong [ref=e100]: 卖成品
+                  - text: ：定制钥匙扣、摆件，毛利常超85%。一个成本几元的小挂件，可售价数十元。
+                - paragraph [ref=e101]:
+                  - strong [ref=e102]: 卖图纸
+                  - text: ：将设计转化为电子图纸，边际成本为零，一次创作可重复销售，是稳定的“睡后收入”。
+                - paragraph [ref=e103]:
+                  - strong [ref=e104]: 卖材料包
+                  - text: ：为爱好者提供“图纸+材料”一站式套装，复购率高，易于批量销售。
+                - paragraph [ref=e105]:
+                  - strong [ref=e106]: 成功关键路径：
+                - paragraph [ref=e107]:
+                  - strong [ref=e108]: 时间投入
+                  - text: ：欲达目标，需日均专注6-8小时，进行制作、运营与客服。
+                - paragraph [ref=e109]:
+                  - strong [ref=e110]: 渠道聚焦
+                  - text: ：以小红书、抖音为主阵地，通过展示作品、分享过程吸引精准客户。建立私域社群，维护回头客。
+                - paragraph [ref=e111]:
+                  - strong [ref=e112]: 差异化出圈
+                  - text: ：专注热门IP、个性化肖像或节日主题设计，打造独家款式，避免低效价格战。
+                - paragraph [ref=e113]:
+                  - strong [ref=e114]: 建议起步路线：
+                - paragraph [ref=e115]: 先小额投资试水，在闲鱼、朋友圈接单练手。随后专注一个平台（如小红书），打造爆款笔记引流。待订单稳定后，逐步拓展至材料包、图纸等多元收入，并建立个人品牌。
+                - paragraph [ref=e116]:
+                  - strong [ref=e117]: 重要提示
+                  - text: ：务必注重版权与品控，平衡学业与创业。已有众多学生博主通过此路径成功。核心在于热爱驱动下的持续创作与运营，从热爱到事业，每一步都算数。
+            - generic:
+              - text:  
+              - list
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - link " 1" [ref=e121] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e122]: 
+                  - text: "1"
+                - link " 2" [ref=e123] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e124]: 
+                  - text: "2"
+                - link " 3" [ref=e125] [cursor=pointer]:
+                  - /url: "#comments"
+                  - generic [ref=e126]: 
+                  - emphasis [ref=e127]: "3"
+              - generic [ref=e128]:
+                - generic [ref=e129]:
+                  - link "分享" [ref=e130] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                  - text:     
+                - link "举报" [ref=e131] [cursor=pointer]:
+                  - /url: javascript:void(0);
+            - paragraph [ref=e132]: 本文作者
+            - generic [ref=e133]:
+              - link "挂件 首席观察员 话痨 1文章 | 67爆料 | 21粉丝" [ref=e134] [cursor=pointer]:
+                - /url: https://zhiyou.smzdm.com/member/7624078340/
+                - img "挂件" [ref=e136]
+                - generic [ref=e137]:
+                  - heading "首席观察员" [level=2] [ref=e138]:
+                    - text: 首席观察员
+                    - emphasis [ref=e139]:
+                      - img [ref=e140]
+                  - paragraph [ref=e141]: 话痨
+                  - generic [ref=e142]:
+                    - generic [ref=e143]: 1文章
+                    - text: "|"
+                    - generic [ref=e144]: 67爆料
+                    - text: "|"
+                    - generic [ref=e145]: 21粉丝
+              - link " 关注" [ref=e146] [cursor=pointer]:
+                - /url: javascript:;
+                - generic [ref=e147]: 
+                - text: 关注
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - generic [ref=e151]:
+                  - emphasis [ref=e152]: "3"
+                  - text: 评论
+                - generic [ref=e153]:
+                  - paragraph
+                  - link [ref=e155] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                  - generic [ref=e157]:
+                    - generic [ref=e158]:
+                      - textbox "评论千万条，友善第一条～" [ref=e159]
+                      - button "发表 评论" [ref=e161] [cursor=pointer]:
+                        - text: 发表
+                        - text: 评论
+                    - generic [ref=e164]: 
+                - generic [ref=e165]:
+                  - list [ref=e167]:
+                    - listitem [ref=e168]: 精彩
+                    - listitem [ref=e169] [cursor=pointer]: 最新
+                  - list [ref=e171]:
+                    - listitem [ref=e172]:
+                      - link [ref=e174] [cursor=pointer]:
+                        - /url: https://zhiyou.smzdm.com/member/5959076228/pinglun
+                      - generic [ref=e175]:
+                        - generic [ref=e176]:
+                          - generic [ref=e177]:
+                            - generic [ref=e178]:
+                              - heading "cobra_yh" [level=3] [ref=e179]:
+                                - link "cobra_yh" [ref=e180] [cursor=pointer]:
+                                  - /url: https://zhiyou.smzdm.com/member/5959076228/pinglun
+                              - link [ref=e181] [cursor=pointer]:
+                                - /url: https://zhiyou.smzdm.com/user/tequan/
+                                - img [ref=e182]
+                            - generic [ref=e184] [cursor=pointer]: 
+                          - generic [ref=e185]: 骗鬼呢
+                          - generic [ref=e186]:
+                            - generic [ref=e187]:
+                              - generic [ref=e188]: 05-12 19:47
+                              - generic [ref=e189]: ·
+                              - generic [ref=e190]: 福建
+                            - text: 
+                            - generic [ref=e191]:
+                              - generic [ref=e192] [cursor=pointer]:
+                                - generic [ref=e193]: "1"
+                                - generic [ref=e194]: 
+                              - generic [ref=e196] [cursor=pointer]: 
+                              - generic [ref=e197] [cursor=pointer]: 回复
+                          - text: 
+                        - generic [ref=e198]:
+                          - generic [ref=e200]:
+                            - generic [ref=e201]:
+                              - generic [ref=e202]:
+                                - heading "首席观察员" [level=4] [ref=e203]:
+                                  - link "首席观察员" [ref=e204] [cursor=pointer]:
+                                    - /url: https://zhiyou.smzdm.com/member/7624078340/pinglun
+                                - generic [ref=e206]: 作者
+                                - generic [ref=e207]: 
+                                - heading "cobra_yh" [level=4] [ref=e208]:
+                                  - link "cobra_yh" [ref=e209] [cursor=pointer]:
+                                    - /url: https://zhiyou.smzdm.com/member/5959076228/pinglun
+                              - generic [ref=e211] [cursor=pointer]: 
+                            - generic [ref=e212]: 没有实践过
+                            - generic [ref=e213]:
+                              - generic [ref=e214]:
+                                - generic [ref=e215]: 05-12 22:17
+                                - generic [ref=e216]: ·
+                                - generic [ref=e217]: 广东
+                              - text: 
+                              - generic [ref=e218]:
+                                - generic [ref=e220] [cursor=pointer]: 
+                                - generic [ref=e222] [cursor=pointer]: 
+                                - generic [ref=e223] [cursor=pointer]: 回复
+                            - text: 
+                          - text: 
+                    - listitem [ref=e225]:
+                      - link [ref=e227] [cursor=pointer]:
+                        - /url: https://zhiyou.smzdm.com/member/8759406407/pinglun
+                      - generic [ref=e229]:
+                        - generic [ref=e230]:
+                          - generic [ref=e231]:
+                            - heading "啊东能靠谱不" [level=3] [ref=e232]:
+                              - link "啊东能靠谱不" [ref=e233] [cursor=pointer]:
+                                - /url: https://zhiyou.smzdm.com/member/8759406407/pinglun
+                            - link [ref=e234] [cursor=pointer]:
+                              - /url: https://zhiyou.smzdm.com/user/tequan/
+                              - img [ref=e235]
+                          - generic [ref=e237] [cursor=pointer]: 
+                        - generic [ref=e238]: 性价比高
+                        - generic [ref=e239]:
+                          - generic [ref=e240]:
+                            - generic [ref=e241]: 05-21 12:57
+                            - generic [ref=e242]: ·
+                            - generic [ref=e243]: 辽宁
+                          - text: 
+                          - generic [ref=e244]:
+                            - generic [ref=e246] [cursor=pointer]: 
+                            - generic [ref=e248] [cursor=pointer]: 
+                            - generic [ref=e249] [cursor=pointer]: 回复
+                        - text: 
+                  - text:                 
+              - text:         
+            - generic [ref=e250]:
+              - generic [ref=e251]:
+                - heading "相关笔记推荐" [level=4] [ref=e252]
+                - list [ref=e253]:
+                  - listitem [ref=e254]:
+                    - link "查看更多" [ref=e255] [cursor=pointer]:
+                      - /url: https://post.smzdm.com/talk/
+              - list [ref=e258]:
+                - listitem [ref=e259]:
+                  - generic [ref=e260]:
+                    - link "【布好玩_萝卜点数配对】" [ref=e261] [cursor=pointer]:
+                      - /url: https://post.smzdm.com/talk/p/awwg804p/
+                      - img "【布好玩_萝卜点数配对】" [ref=e262]
+                    - generic [ref=e263]:
+                      - paragraph [ref=e264]:
+                        - link "【布好玩_萝卜点数配对】" [ref=e265] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/awwg804p/
+                      - generic [ref=e266]:
+                        - text: 【布好玩_萝卜点数配对】趣味手工教具，趣味玩数字，轻松掌握数物对应，启蒙幼儿数学...
+                        - link "阅读全文" [ref=e267] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/awwg804p/
+                      - generic [ref=e268]:
+                        - link " 0" [ref=e269] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e270]: 
+                          - text: "0"
+                        - link " 0" [ref=e271] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e272]: 
+                          - text: "0"
+                        - link " 0" [ref=e273] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/awwg804p
+                          - generic [ref=e274]: 
+                          - emphasis [ref=e275]: "0"
+                - listitem [ref=e276]:
+                  - generic [ref=e277]:
+                    - link "现在的孩子玩的橡皮泥都不一样了" [ref=e278] [cursor=pointer]:
+                      - /url: https://post.smzdm.com/talk/p/a82kg0wn/
+                      - img "现在的孩子玩的橡皮泥都不一样了" [ref=e279]
+                    - generic [ref=e280]:
+                      - paragraph [ref=e281]:
+                        - link "现在的孩子玩的橡皮泥都不一样了" [ref=e282] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/a82kg0wn/
+                      - generic [ref=e283]:
+                        - text: 最近给孩子买了两种类似的解压玩具，本质上都是非牛流体。这种号称“玻璃”的玩具...
+                        - link "阅读全文" [ref=e284] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/a82kg0wn/
+                      - generic [ref=e285]:
+                        - link " 0" [ref=e286] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e287]: 
+                          - text: "0"
+                        - link " 0" [ref=e288] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e289]: 
+                          - text: "0"
+                        - link " 0" [ref=e290] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/a82kg0wn
+                          - generic [ref=e291]: 
+                          - emphasis [ref=e292]: "0"
+                - listitem [ref=e293]:
+                  - generic [ref=e294]:
+                    - link "公园里的小生意，52岁大姐带娃摆摊做彩绘，轻松月入6000" [ref=e295] [cursor=pointer]:
+                      - /url: https://post.smzdm.com/talk/p/ad75w5vk/
+                      - img "公园里的小生意，52岁大姐带娃摆摊做彩绘，轻松月入6000" [ref=e296]
+                    - generic [ref=e297]:
+                      - paragraph [ref=e298]:
+                        - link "公园里的小生意，52岁大姐带娃摆摊做彩绘，轻松月入6000" [ref=e299] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/ad75w5vk/
+                      - generic [ref=e300]:
+                        - text: 周末下午两点，人民公园的草坪边上，秀兰的折叠桌准时支了起来。桌上摆着两排石膏娃娃...
+                        - link "阅读全文" [ref=e301] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/ad75w5vk/
+                      - generic [ref=e302]:
+                        - link " 9" [ref=e303] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e304]: 
+                          - text: "9"
+                        - link " 10" [ref=e305] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e306]: 
+                          - text: "10"
+                        - link " 8" [ref=e307] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/ad75w5vk
+                          - generic [ref=e308]: 
+                          - emphasis [ref=e309]: "8"
+                - listitem [ref=e310]:
+                  - generic [ref=e311]:
+                    - link "【布好玩_萝卜点数配对】" [ref=e312] [cursor=pointer]:
+                      - /url: https://post.smzdm.com/talk/p/am9gzqdz/
+                      - img "【布好玩_萝卜点数配对】" [ref=e313]
+                    - generic [ref=e314]:
+                      - paragraph [ref=e315]:
+                        - link "【布好玩_萝卜点数配对】" [ref=e316] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/am9gzqdz/
+                      - generic [ref=e317]:
+                        - text: 【布好玩_萝卜点数配对】趣味手工教具，趣味玩数字，轻松掌握数物对应，启蒙幼儿数学...
+                        - link "阅读全文" [ref=e318] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/am9gzqdz/
+                      - generic [ref=e319]:
+                        - link " 0" [ref=e320] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e321]: 
+                          - text: "0"
+                        - link " 0" [ref=e322] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e323]: 
+                          - text: "0"
+                        - link " 0" [ref=e324] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/am9gzqdz
+                          - generic [ref=e325]: 
+                          - emphasis [ref=e326]: "0"
+                - listitem [ref=e327]:
+                  - generic [ref=e328]:
+                    - link "春日手作：指尖编织春日温柔" [ref=e329] [cursor=pointer]:
+                      - /url: https://post.smzdm.com/talk/p/a6z6g67z/
+                      - img "春日手作：指尖编织春日温柔" [ref=e330]
+                    - generic [ref=e331]:
+                      - paragraph [ref=e332]:
+                        - link "春日手作：指尖编织春日温柔" [ref=e333] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/a6z6g67z/
+                      - generic [ref=e334]:
+                        - text: "#春日兴趣生活图鉴 春天的美好，也可以藏在指尖的手作里，趁着春日暖阳，安安静静..."
+                        - link "阅读全文" [ref=e335] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/a6z6g67z/
+                      - generic [ref=e336]:
+                        - link " 0" [ref=e337] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e338]: 
+                          - text: "0"
+                        - link " 0" [ref=e339] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e340]: 
+                          - text: "0"
+                        - link " 0" [ref=e341] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/a6z6g67z
+                          - generic [ref=e342]: 
+                          - emphasis [ref=e343]: "0"
+                - listitem [ref=e344]:
+                  - generic [ref=e345]:
+                    - link "【布好玩_趣味编辫子】玩教具" [ref=e346] [cursor=pointer]:
+                      - /url: https://post.smzdm.com/talk/p/ad73xpkk/
+                      - img "【布好玩_趣味编辫子】玩教具" [ref=e347]
+                    - generic [ref=e348]:
+                      - paragraph [ref=e349]:
+                        - link "【布好玩_趣味编辫子】玩教具" [ref=e350] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/ad73xpkk/
+                      - generic [ref=e351]:
+                        - text: 【布好玩_趣味编辫子】玩教具，动手编织超有趣！锻炼精细动作与专注力，培养耐心审美...
+                        - link "阅读全文" [ref=e352] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/ad73xpkk/
+                      - generic [ref=e353]:
+                        - link " 0" [ref=e354] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e355]: 
+                          - text: "0"
+                        - link " 0" [ref=e356] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e357]: 
+                          - text: "0"
+                        - link " 0" [ref=e358] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/ad73xpkk
+                          - generic [ref=e359]: 
+                          - emphasis [ref=e360]: "0"
+                - listitem [ref=e361]:
+                  - generic [ref=e362]:
+                    - link "春日DIY手工花，手残党也能轻松上手" [ref=e363] [cursor=pointer]:
+                      - /url: https://post.smzdm.com/talk/p/aomke6qr/
+                      - img "春日DIY手工花，手残党也能轻松上手" [ref=e364]
+                    - generic [ref=e365]:
+                      - paragraph [ref=e366]:
+                        - link "春日DIY手工花，手残党也能轻松上手" [ref=e367] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/aomke6qr/
+                      - generic [ref=e368]:
+                        - text: "#春日焕新好物手记 花朵是春日的浪漫，爱花却不会养花的友友们，专属福利来了，这几..."
+                        - link "阅读全文" [ref=e369] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/aomke6qr/
+                      - generic [ref=e370]:
+                        - link " 0" [ref=e371] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e372]: 
+                          - text: "0"
+                        - link " 0" [ref=e373] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e374]: 
+                          - text: "0"
+                        - link " 0" [ref=e375] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/aomke6qr
+                          - generic [ref=e376]: 
+                          - emphasis [ref=e377]: "0"
+                - listitem [ref=e378]:
+                  - generic [ref=e379]:
+                    - link "得力熊猫粘土，收纳与耐用度大比拼" [ref=e380] [cursor=pointer]:
+                      - /url: https://post.smzdm.com/talk/p/axk5d7k4/
+                      - img "得力熊猫粘土，收纳与耐用度大比拼" [ref=e381]
+                    - generic [ref=e382]:
+                      - paragraph [ref=e383]:
+                        - link "得力熊猫粘土，收纳与耐用度大比拼" [ref=e384] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/axk5d7k4/
+                      - generic [ref=e385]:
+                        - text: 救命！得力这盒熊猫粘土直接把杂牌按在地上摩擦了🐼 谁懂啊家人们！给娃挑粘土挑到眼...
+                        - link "阅读全文" [ref=e386] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/axk5d7k4/
+                      - generic [ref=e387]:
+                        - link " 2" [ref=e388] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e389]: 
+                          - text: "2"
+                        - link " 0" [ref=e390] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e391]: 
+                          - text: "0"
+                        - link " 1" [ref=e392] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/axk5d7k4
+                          - generic [ref=e393]: 
+                          - emphasis [ref=e394]: "1"
+                - listitem [ref=e395]:
+                  - generic [ref=e396]:
+                    - link "它石钢铁身躯居然能绣花，针脚比人手还细腻" [ref=e397] [cursor=pointer]:
+                      - /url: https://post.smzdm.com/talk/p/apqpgdp7/
+                      - img "它石钢铁身躯居然能绣花，针脚比人手还细腻" [ref=e398]
+                    - generic [ref=e399]:
+                      - paragraph [ref=e400]:
+                        - link "它石钢铁身躯居然能绣花，针脚比人手还细腻" [ref=e401] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/apqpgdp7/
+                      - generic [ref=e402]:
+                        - text: 直接打破吉尼斯纪录，拿下4.55美金顶级融资，连新华网都站台！！
+                        - link "阅读全文" [ref=e403] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/apqpgdp7/
+                      - generic [ref=e404]:
+                        - link " 0" [ref=e405] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e406]: 
+                          - text: "0"
+                        - link " 0" [ref=e407] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e408]: 
+                          - text: "0"
+                        - link " 0" [ref=e409] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/apqpgdp7
+                          - generic [ref=e410]: 
+                          - emphasis [ref=e411]: "0"
+                - listitem [ref=e412]:
+                  - generic [ref=e413]:
+                    - link "太神奇了，蚕居然能织扇子" [ref=e414] [cursor=pointer]:
+                      - /url: https://post.smzdm.com/talk/p/a709d0ll/
+                      - img "太神奇了，蚕居然能织扇子" [ref=e415]
+                    - generic [ref=e416]:
+                      - paragraph [ref=e417]:
+                        - link "太神奇了，蚕居然能织扇子" [ref=e418] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/a709d0ll/
+                      - generic [ref=e419]:
+                        - text: 网上看了视频觉得不可思议，买回来居然真的能行，太神奇了！
+                        - link "阅读全文" [ref=e420] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/a709d0ll/
+                      - generic [ref=e421]:
+                        - link " 0" [ref=e422] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e423]: 
+                          - text: "0"
+                        - link " 0" [ref=e424] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e425]: 
+                          - text: "0"
+                        - link " 0" [ref=e426] [cursor=pointer]:
+                          - /url: https://post.smzdm.com/talk/p/a709d0ll
+                          - generic [ref=e427]: 
+                          - emphasis [ref=e428]: "0"
+        - generic [ref=e429]:
+          - generic [ref=e432]:
+            - generic [ref=e433]: 京东京享红包
+            - generic [ref=e434]:
+              - text: 距结束
+              - text: ":"
+              - text: ":"
+            - generic [ref=e438]: 领京东618红包 最高26618元
+            - link "红包按钮" [ref=e439] [cursor=pointer]:
+              - /url: https://u.jd.com/HrKyqjs?type=nocps
+              - img "红包按钮" [ref=e440]
+          - generic [ref=e441]:
+            - generic [ref=e443]:
+              - link "挂件" [ref=e444] [cursor=pointer]:
+                - /url: https://zhiyou.smzdm.com/member/7624078340/
+                - img "挂件" [ref=e445]
+              - generic [ref=e446]:
+                - heading "首席观察员 友爱点赞" [level=2] [ref=e447]:
+                  - link "首席观察员" [ref=e448] [cursor=pointer]:
+                    - /url: https://zhiyou.smzdm.com/member/7624078340/
+                  - emphasis [ref=e449]:
+                    - img [ref=e450]
+                  - link "友爱点赞" [ref=e452] [cursor=pointer]:
+                    - /url: javascript:;
+                    - img "友爱点赞" [ref=e453]
+                - paragraph [ref=e454]: 话痨
+            - generic [ref=e455]:
+              - link "1 文章" [ref=e456] [cursor=pointer]:
+                - /url: https://zhiyou.smzdm.com/member/7624078340/article/
+                - emphasis [ref=e457]: "1"
+                - emphasis [ref=e458]: 文章
+              - link "67 爆料" [ref=e459] [cursor=pointer]:
+                - /url: https://zhiyou.smzdm.com/member/7624078340/baoliao/
+                - emphasis [ref=e460]: "67"
+                - emphasis [ref=e461]: 爆料
+              - link "21 粉丝" [ref=e462] [cursor=pointer]:
+                - /url: https://zhiyou.smzdm.com/member/7624078340/friendships/fans/
+                - emphasis [ref=e463]: "21"
+                - emphasis [ref=e464]: 粉丝
+            - generic [ref=e466] [cursor=pointer]:
+              - generic [ref=e467]: 
+              - text: 关注
+            - generic [ref=e468]:
+              - generic [ref=e469]: 作者其他文章
+              - link "查看更多" [ref=e471] [cursor=pointer]:
+                - /url: https://zhiyou.smzdm.com/member/7624078340/article/
+            - list [ref=e472]:
+              - listitem [ref=e473]:
+                - generic [ref=e474]:
+                  - link [ref=e475] [cursor=pointer]:
+                    - /url: https://post.smzdm.com/p/al323o4e/
+                    - img [ref=e476]
+                  - generic [ref=e477]:
+                    - link "520送礼指南｜SKG、祖玛珑…平价大牌这样搭，TA夸你会买！" [ref=e478] [cursor=pointer]:
+                      - /url: https://post.smzdm.com/p/al323o4e/
+                    - generic [ref=e479]:
+                      - generic [ref=e480]:
+                        - generic [ref=e481]: 
+                        - text: "0"
+                      - generic [ref=e482]:
+                        - generic [ref=e483]: 
+                        - text: "0"
+          - generic [ref=e486]:
+            - generic [ref=e488]: 相关好价
+            - list [ref=e489]:
+              - listitem [ref=e490]:
+                - generic [ref=e491]:
+                  - link [ref=e492] [cursor=pointer]:
+                    - /url: https://www.smzdm.com/p/175028706/
+                    - img [ref=e493]
+                  - generic [ref=e494]:
+                    - link "抓娃娃机儿童超大号玩具女孩小型家用夹娃娃机投币3-10岁 公主" [ref=e495] [cursor=pointer]:
+                      - /url: https://www.smzdm.com/p/175028706/
+                    - generic [ref=e496]: 39元（需买2件，需用券）
+              - listitem [ref=e497]:
+                - link "100粒桶装-云朵农场感官积木E7550" [ref=e499] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/p/175029070/
+              - listitem [ref=e500]:
+                - link "宝宝木质玩具大颗粒云朵农场感官启蒙积木桶男女孩生日礼物E7550" [ref=e502] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/p/175029792/
+              - listitem [ref=e503]:
+                - link "透彩雪花片 200片" [ref=e505] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/p/175029793/
+              - listitem [ref=e506]:
+                - link "24色拉链袋装粘土彩泥橡皮泥 开学玩具YC226-24" [ref=e508] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/p/174980761/
+              - listitem [ref=e509]:
+                - link "彩泥桶装 12色" [ref=e511] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/p/175020421/
+              - listitem [ref=e512]:
+                - link "彩虹主题轨道套装全系列兼容 E7574" [ref=e514] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/p/175024521/
+              - listitem [ref=e515]:
+                - link "木质火车轨道 世界大冒险火车轨道 E7331" [ref=e517] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/p/175025150/
+          - generic [ref=e518]:
+            - generic [ref=e519]:
+              - generic [ref=e520]: 热门众测
+              - link "查看更多" [ref=e522] [cursor=pointer]:
+                - /url: https://test.smzdm.com/
+            - toolbar [ref=e525]:
+              - text: <
+              - generic:
+                - listbox:
+                  - link [ref=e526] [cursor=pointer]:
+                    - /url: https://post.smzdm.com/p/aggk26zd/
+                    - img [ref=e527]
+                    - generic [ref=e528]:
+                      - generic [ref=e529]: 石头 M1S Ultra：超水解慕斯洗 2.0+全链路抑菌，母婴清洁新高度
+                      - generic [ref=e530]: 立即申请
+                  - option "【丰厚赏金】首农618｜把“京”喜好物带回家 【丰厚赏金】首农618｜把“京”喜好物带回家 立即申请" [ref=e531] [cursor=pointer]:
+                    - img "【丰厚赏金】首农618｜把“京”喜好物带回家" [ref=e532]
+                    - generic [ref=e533]:
+                      - generic [ref=e534]: 【丰厚赏金】首农618｜把“京”喜好物带回家
+                      - generic [ref=e535]: 立即申请
+                  - option [ref=e536] [cursor=pointer]:
+                    - img [ref=e537]
+                    - generic [ref=e538]:
+                      - generic [ref=e539]: 码住此文，套牢幸福丨持久、润滑、裸感全都有，6款避孕套大测评
+                      - generic [ref=e540]: 立即申请
+                  - option [ref=e541] [cursor=pointer]:
+                    - img [ref=e542]
+                    - generic [ref=e543]:
+                      - generic [ref=e544]: 六口之家的健康洗衣方案：石头Z1 Ultra，一次洗净烘透全家衣物
+                      - generic [ref=e545]: 立即申请
+                  - option [ref=e546] [cursor=pointer]:
+                    - img [ref=e547]
+                    - generic [ref=e548]:
+                      - generic [ref=e549]: 猫片太多手机爆满？交给绿联DXP4800 Pro，养猫人的最佳数码搭子
+                      - generic [ref=e550]: 立即申请
+                  - option [ref=e551] [cursor=pointer]:
+                    - img [ref=e552]
+                    - generic [ref=e553]:
+                      - generic [ref=e554]: 告别差不多纸巾！洁柔高端线，让我重新定义擦的幸福感
+                      - generic [ref=e555]: 立即申请
+                  - option [ref=e556] [cursor=pointer]:
+                    - img [ref=e557]
+                    - generic [ref=e558]:
+                      - generic [ref=e559]: 石头 M1S Ultra：超水解慕斯洗 2.0+全链路抑菌，母婴清洁新高度
+                      - generic [ref=e560]: 立即申请
+                  - link [ref=e561] [cursor=pointer]:
+                    - /url: https://test.smzdm.com/p/14415/
+                    - img [ref=e562]
+                    - generic [ref=e563]:
+                      - generic [ref=e564]: 【丰厚赏金】首农618｜把“京”喜好物带回家
+                      - generic [ref=e565]: 立即申请
+              - text: ">"
+              - tablist [ref=e566]:
+                - listitem [ref=e567]
+                - listitem [ref=e568]
+                - listitem [ref=e569]
+                - listitem [ref=e570]
+                - listitem [ref=e571]
+                - listitem [ref=e572]
+            - list [ref=e573]:
+              - listitem [ref=e574]:
+                - link "小白不崩溃，绿联DXP4800 GT实测：原来私有云可以这么省心" [ref=e575] [cursor=pointer]:
+                  - /url: https://post.smzdm.com/p/arzg2kqx/
+                  - img "小白不崩溃，绿联DXP4800 GT实测：原来私有云可以这么省心" [ref=e576]
+                - generic [ref=e577]:
+                  - link "小白不崩溃，绿联DXP4800 GT实测：原来私有云可以这么省心" [ref=e578] [cursor=pointer]:
+                    - /url: https://post.smzdm.com/p/arzg2kqx/
+                  - generic [ref=e579]:
+                    - generic [ref=e580]:
+                      - generic [ref=e581]: 
+                      - generic [ref=e582]: "151"
+                    - generic [ref=e583]:
+                      - generic [ref=e584]: 
+                      - generic [ref=e585]: "106"
+              - listitem [ref=e586]:
+                - link "摄影师生产力利器｜绿联 DXP4800 GT实测 万兆内网摆脱移动硬盘" [ref=e587] [cursor=pointer]:
+                  - /url: https://post.smzdm.com/p/a26e2o8p/
+                  - img "摄影师生产力利器｜绿联 DXP4800 GT实测 万兆内网摆脱移动硬盘" [ref=e588]
+                - generic [ref=e589]:
+                  - link "摄影师生产力利器｜绿联 DXP4800 GT实测 万兆内网摆脱移动硬盘" [ref=e590] [cursor=pointer]:
+                    - /url: https://post.smzdm.com/p/a26e2o8p/
+                  - generic [ref=e591]:
+                    - generic [ref=e592]:
+                      - generic [ref=e593]: 
+                      - generic [ref=e594]: "139"
+                    - generic [ref=e595]:
+                      - generic [ref=e596]: 
+                      - generic [ref=e597]: "46"
+              - listitem [ref=e598]:
+                - link "自媒体救星！绿联DXP4800 GT双万兆NAS实测：一站式搞定创作痛点" [ref=e599] [cursor=pointer]:
+                  - /url: https://post.smzdm.com/p/aomrx60r/
+                  - img "自媒体救星！绿联DXP4800 GT双万兆NAS实测：一站式搞定创作痛点" [ref=e600]
+                - generic [ref=e601]:
+                  - link "自媒体救星！绿联DXP4800 GT双万兆NAS实测：一站式搞定创作痛点" [ref=e602] [cursor=pointer]:
+                    - /url: https://post.smzdm.com/p/aomrx60r/
+                  - generic [ref=e603]:
+                    - generic [ref=e604]:
+                      - generic [ref=e605]: 
+                      - generic [ref=e606]: "114"
+                    - generic [ref=e607]:
+                      - generic [ref=e608]: 
+                      - generic [ref=e609]: "36"
+              - listitem [ref=e610]:
+                - link "美的含钛陶瓷锅，一把锅做出煎、炒、炖、烙美味菜肴，0氟易打理" [ref=e611] [cursor=pointer]:
+                  - /url: https://post.smzdm.com/p/apqoll7x/
+                  - img "美的含钛陶瓷锅，一把锅做出煎、炒、炖、烙美味菜肴，0氟易打理" [ref=e612]
+                - generic [ref=e613]:
+                  - link "美的含钛陶瓷锅，一把锅做出煎、炒、炖、烙美味菜肴，0氟易打理" [ref=e614] [cursor=pointer]:
+                    - /url: https://post.smzdm.com/p/apqoll7x/
+                  - generic [ref=e615]:
+                    - generic [ref=e616]:
+                      - generic [ref=e617]: 
+                      - generic [ref=e618]: "5"
+                    - generic [ref=e619]:
+                      - generic [ref=e620]: 
+                      - generic [ref=e621]: "6"
+          - generic [ref=e622]:
+            - generic [ref=e623]:
+              - generic [ref=e625]:
+                - generic [ref=e626] [cursor=pointer]: 最新文章
+                - generic [ref=e627] [cursor=pointer]: 热门文章
+              - link "查看更多" [ref=e629] [cursor=pointer]:
+                - /url: https://post.smzdm.com/
+            - list [ref=e630]:
+              - listitem [ref=e631]:
+                - generic [ref=e632]:
+                  - link [ref=e633] [cursor=pointer]:
+                    - /url: //post.smzdm.com/p/a26em4wp/
+                    - img [ref=e634]
+                  - generic [ref=e635]:
+                    - link "大疆在日本把摄像机卖疯了：狂揽72.5%的市场份额" [ref=e636] [cursor=pointer]:
+                      - /url: //post.smzdm.com/p/a26em4wp/
+                    - generic [ref=e637]:
+                      - generic [ref=e638]:
+                        - generic [ref=e639]: 
+                        - text: "0"
+                      - generic [ref=e640]:
+                        - generic [ref=e641]: 
+                        - text: "0"
+              - listitem [ref=e642]:
+                - text:  
+                - link "拒绝挤牙膏！美光HBM4产出效率暴涨2倍 明年量产HBM4E已锁定" [ref=e644] [cursor=pointer]:
+                  - /url: //post.smzdm.com/p/az8nm7wr/
+              - listitem [ref=e645]:
+                - text:  
+                - link "蓝臻3段乳铁蛋白真有用？算完这笔账我沉默了" [ref=e647] [cursor=pointer]:
+                  - /url: //post.smzdm.com/p/arzeod9z/
+              - listitem [ref=e648]:
+                - text:  
+                - link "国AA级只是底线！真正护眼台灯要看这3个被90%家长忽略的关键参数" [ref=e650] [cursor=pointer]:
+                  - /url: //post.smzdm.com/p/awwe9d3p/
+              - listitem [ref=e651]:
+                - text:  
+                - link "洛克王国》主策划亲笔回应S2翻车：没换血，是我们自己搞砸了" [ref=e653] [cursor=pointer]:
+                  - /url: //post.smzdm.com/p/a5r7zpe8/
+            - text:          
+          - generic [ref=e654]:
+            - generic [ref=e656]: 相关推荐
+            - list [ref=e657]:
+              - listitem [ref=e658]:
+                - link "DIY玩具" [ref=e659] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/s25k872/
+              - listitem [ref=e660]:
+                - link "指甲贴" [ref=e661] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/spyx572/
+              - listitem [ref=e662]:
+                - link "橡皮泥" [ref=e663] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/spk95n9/
+              - listitem [ref=e664]:
+                - link "涂鸦板" [ref=e665] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/s28653k/
+              - listitem [ref=e666]:
+                - link "水晶泥" [ref=e667] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/spwn0r8/
+              - listitem [ref=e668]:
+                - link "手指画" [ref=e669] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/spkl6l2/
+              - listitem [ref=e670]:
+                - link "儿童绘画" [ref=e671] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/s2rx6k2/
+              - listitem [ref=e672]:
+                - link "儿童画" [ref=e673] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/sp4r9zr/
+          - generic [ref=e674]:
+            - link "认证作者" [ref=e675] [cursor=pointer]:
+              - /url: https://www.smzdm.com/renzheng/home?from=xqy
+            - link [ref=e676] [cursor=pointer]:
+              - /url: https://news.smzdm.com/p/70092015/?fr=xqy
+          - text:   
+    - generic [ref=e677]:
+      - generic "收藏" [ref=e678] [cursor=pointer]:
+        - generic [ref=e679]: 
+        - generic [ref=e680]: "2"
+      - generic "评论" [ref=e681] [cursor=pointer]:
+        - link " 3" [ref=e682]:
+          - /url: "#comments"
+          - generic [ref=e683]: 
+          - generic [ref=e684]: "3"
+      - generic [ref=e685] [cursor=pointer]:
+        - generic [ref=e686]: 
+        - text:    
+    - text:    
+  - contentinfo [ref=e688]:
+    - generic [ref=e689]:
+      - generic [ref=e690]:
+        - generic [ref=e691]:
+          - link "关于我们" [ref=e692] [cursor=pointer]:
+            - /url: https://www.zhidemai.com/
+          - link "联系我们" [ref=e693] [cursor=pointer]:
+            - /url: https://www.smzdm.com/contact-us
+          - link "招聘专区" [ref=e694] [cursor=pointer]:
+            - /url: https://www.zhidemai.com/personnel/#join
+          - link "网站地图" [ref=e695] [cursor=pointer]:
+            - /url: https://www.smzdm.com/sitemap.html
+          - link "商业合作" [ref=e697] [cursor=pointer]:
+            - /url: https://e.smzdm.com/
+          - link "廉洁举报" [ref=e698] [cursor=pointer]:
+            - /url: https://www.smzdm.com/lianjiejubao
+          - link "用户协议" [ref=e700] [cursor=pointer]:
+            - /url: https://res.smzdm.com/protocol/user/
+          - link "隐私政策" [ref=e701] [cursor=pointer]:
+            - /url: https://res.smzdm.com/protocol/privacy/
+        - generic [ref=e702]:
+          - paragraph [ref=e703]:
+            - link "京公网安备11010602100083" [ref=e704] [cursor=pointer]:
+              - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010602100083
+            - text: "|"
+            - link "电信与信息服务业务经营许可证：京ICP证160379号" [ref=e705] [cursor=pointer]:
+              - /url: https://www.smzdm.com/jingyingxuke/
+            - text: "|"
+            - link "京ICP备12048526号-2" [ref=e706] [cursor=pointer]:
+              - /url: http://beian.miit.gov.cn/
+          - paragraph [ref=e707]:
+            - link "营业性演出许可证 京演（机构）[2024]6171号" [ref=e708] [cursor=pointer]:
+              - /url: https://www.smzdm.com/yingyexingyanchu/
+            - text: "|"
+            - link "互联网药品信息服务资格证书 (京)-非经营性-2022-0049" [ref=e709] [cursor=pointer]:
+              - /url: https://www.smzdm.com/yaopinxuke/
+            - text: "|"
+            - link "营业执照" [ref=e710] [cursor=pointer]:
+              - /url: https://www.smzdm.com/yingyezhizhao
+          - paragraph [ref=e711]:
+            - link "广播电视节目制作经营许可证（京）字第07726号" [ref=e712] [cursor=pointer]:
+              - /url: https://www.smzdm.com/shipinxuke/
+          - paragraph [ref=e713]:
+            - text: 违法和不良信息举报/涉未成年人及
+            - img "chuanxiao" [ref=e714]
+            - text: 举报电话：4008108106-9 | 违法和不良信息举报邮箱：service@zhidemai.com
+          - paragraph [ref=e715]: © copyright 2010-2026 值得买科技. All rights reserved. 版权所有 本站内容未经书面许可,禁止一切形式的转载。
+        - paragraph [ref=e717]:
+          - link "互联网诚信经营示范单位" [ref=e718] [cursor=pointer]:
+            - /url: https://www.etrust.org.cn/CX885277142735.html
+            - img "互联网诚信经营示范单位" [ref=e719]
+          - link "credit" [ref=e720] [cursor=pointer]:
+            - /url: https://www.12377.cn/
+            - img "credit" [ref=e721]
+          - link "12315" [ref=e722] [cursor=pointer]:
+            - /url: https://www.12315.cn/
+            - img "12315" [ref=e723]
+      - generic [ref=e724]:
+        - img "qrcode" [ref=e726]
+        - list [ref=e727]:
+          - listitem [ref=e728]:
+            - generic [ref=e729]:
+              - generic [ref=e730]: 
+              - text: smzdm_smzdm
+          - listitem [ref=e731]:
+            - link " 关注什么值得买" [ref=e732] [cursor=pointer]:
+              - /url: https://service.weibo.com/share/share.php?url=https%3A%2F%2Fpost.smzdm.com%2Ftalk%2Fp%2Fa3m3pp7r%2F&title=%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%8B%BC%E8%B1%86%E4%B9%9F%E5%8F%AF%E4%BB%A5%E6%9C%88%E5%85%A5%E8%BF%87%E4%B8%87_%E4%BB%80%E4%B9%88%E5%80%BC%E5%BE%97%E4%B9%B0
+              - generic [ref=e733]: 
+              - text: 关注什么值得买
+          - listitem [ref=e734]:
+            - link " Rss 订阅中心" [ref=e735] [cursor=pointer]:
+              - /url: https://www.smzdm.com/dingyue
+              - generic [ref=e736]: 
+              - text: Rss 订阅中心
+    - list [ref=e737]:
+      - listitem [ref=e738]:
+        - link [ref=e739] [cursor=pointer]:
+          - /url: https://zhangdama.smzdm.com/chat?from=zdm
+      - listitem [ref=e740]:
+        - generic [ref=e742]: 
+      - listitem [ref=e743]:
+        - link "" [ref=e744] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e745]: 
+      - listitem [ref=e746]:
+        - link "" [ref=e747] [cursor=pointer]:
+          - /url: https://www.smzdm.com/about
+          - generic [ref=e748]: 
+      - listitem [ref=e749]:
+        - generic [ref=e750]:
+          - text: 举报
+          - text: 电话
+      - listitem [ref=e751]:
+        - link "" [ref=e752] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e753]: 
+  - text: 

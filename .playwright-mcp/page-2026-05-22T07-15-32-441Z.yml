@@ -1,0 +1,526 @@
+- generic [ref=e7]:
+  - generic [ref=e8]:
+    - generic [ref=e562]: 资产登记
+    - generic [ref=e30]:
+      - generic [ref=e31] [cursor=pointer]:
+        - generic [ref=e32]: 沃德辰龙
+        - img [ref=e35]
+      - generic [ref=e37] [cursor=pointer]:
+        - generic [ref=e38]: 帮助文档
+        - img [ref=e41]
+      - generic [ref=e47] [cursor=pointer]: 刘航 13842951343
+  - generic [ref=e48]:
+    - generic [ref=e49] [cursor=pointer]:
+      - generic [ref=e50]:
+        - img [ref=e52]
+        - generic [ref=e56]: 搜索菜单
+        - generic [ref=e57]: Ctrl + /
+      - generic [ref=e59]:
+        - button "公共" [ref=e60]
+        - button "人力" [ref=e61]
+        - button "资产" [ref=e62]
+    - menu [ref=e65] [cursor=pointer]:
+      - menuitem "首页" [ref=e66]:
+        - generic [ref=e68]:
+          - img [ref=e70]
+          - text: 首页
+      - menuitem "待办事项 1 2" [ref=e74]:
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - img [ref=e79]
+            - text: 待办事项
+          - superscript [ref=e86]:
+            - paragraph [ref=e88]: "1"
+            - paragraph [ref=e90]: "2"
+      - generic [ref=e91]:
+        - img [ref=e93]
+        - generic [ref=e95]: 组织管理
+      - generic [ref=e96]:
+        - img [ref=e98]
+        - generic [ref=e102]: 绩效管理
+      - generic [ref=e103]:
+        - img [ref=e105]
+        - generic [ref=e109]: 薪酬管理
+      - generic [ref=e110]:
+        - img [ref=e112]
+        - generic [ref=e116]: 审批管理
+      - generic [ref=e117]:
+        - img [ref=e119]
+        - generic [ref=e123]: 学习管理
+      - generic [ref=e124]:
+        - img [ref=e126]
+        - generic [ref=e131]: 资产管理
+      - list [ref=e553]:
+        - menuitem "资产登记" [active] [ref=e554]:
+          - generic [ref=e556]: 资产登记
+        - generic [ref=e558]: 资产详情
+        - generic [ref=e560]: 资产报表
+      - generic [ref=e132]:
+        - img [ref=e134]
+        - generic [ref=e136]: 折旧管理
+      - generic [ref=e137]:
+        - img [ref=e139]
+        - generic [ref=e141]: 运营管理
+      - generic [ref=e142]:
+        - img [ref=e144]
+        - generic [ref=e148]: 库存管理
+      - generic [ref=e149]:
+        - img [ref=e151]
+        - generic [ref=e155]: 系统设置
+    - generic [ref=e156] [cursor=pointer]:
+      - img [ref=e159]
+      - generic [ref=e163]: 隐藏侧边栏
+  - img [ref=e167] [cursor=pointer]
+  - generic [ref=e168]:
+    - generic [ref=e569]:
+      - generic [ref=e571]:
+        - generic "所属组织" [ref=e573]
+        - generic [ref=e577] [cursor=pointer]:
+          - generic [ref=e578]:
+            - combobox "所属组织" [ref=e580]
+            - generic: 请选择
+          - generic:
+            - img:
+              - img
+      - generic [ref=e582]:
+        - generic "关联单据" [ref=e584]
+        - textbox "关联单据" [ref=e588]
+      - generic [ref=e590]:
+        - generic "物料分类" [ref=e592]
+        - generic [ref=e596] [cursor=pointer]:
+          - generic [ref=e597]:
+            - combobox "物料分类" [ref=e599]
+            - generic: 请选择
+          - generic:
+            - img:
+              - img
+      - generic [ref=e601]:
+        - generic "登记日期" [ref=e603]
+        - generic [ref=e608]:
+          - textbox "登记日期" [ref=e609]:
+            - /placeholder: 请选择日期
+          - generic:
+            - img "calendar":
+              - img
+      - generic [ref=e616]:
+        - generic [ref=e617]:
+          - button "查 询" [ref=e619] [cursor=pointer]:
+            - generic [ref=e620]: 查 询
+          - button "重 置" [ref=e622] [cursor=pointer]:
+            - generic [ref=e623]: 重 置
+        - separator [ref=e624]
+        - button "创建资产" [ref=e625] [cursor=pointer]:
+          - generic [ref=e626]: 创建资产
+    - generic [ref=e631]:
+      - table [ref=e633]:
+        - rowgroup [ref=e647]:
+          - row "物料分类 所属单元 物料名称 物料号 审核状态 原值(元) 数据来源 关联单据 登记人 登记日期" [ref=e648]:
+            - columnheader "物料分类" [ref=e649]
+            - columnheader "所属单元" [ref=e650]
+            - columnheader "物料名称" [ref=e651]
+            - columnheader "物料号" [ref=e652]
+            - columnheader "审核状态" [ref=e653]
+            - columnheader "原值(元)" [ref=e654]
+            - columnheader "数据来源" [ref=e655]
+            - columnheader "关联单据" [ref=e656]
+            - columnheader "登记人" [ref=e657]
+            - columnheader "登记日期" [ref=e658]
+            - columnheader [ref=e659]
+            - columnheader [ref=e660]
+      - table [ref=e662]:
+        - rowgroup [ref=e675]:
+          - row "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统 华孵1-4厅/华孵4厅 蛋鸡笼架系统-禽乐机械-无 20101010001186947826 待审批 11.00 手动创建 姚淼鑫 2026-05-14 详情 删除" [ref=e676]:
+            - cell "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统" [ref=e677]:
+              - generic [ref=e678] [cursor=pointer]: 设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统
+            - cell "华孵1-4厅/华孵4厅" [ref=e679]
+            - cell "蛋鸡笼架系统-禽乐机械-无" [ref=e680]:
+              - generic [ref=e681] [cursor=pointer]: 蛋鸡笼架系统-禽乐机械-无
+            - cell "20101010001186947826" [ref=e682]
+            - cell "待审批" [ref=e683]
+            - cell "11.00" [ref=e684]
+            - cell "手动创建" [ref=e685]
+            - cell [ref=e686]
+            - cell "姚淼鑫" [ref=e687]
+            - cell "2026-05-14" [ref=e688]
+            - cell "详情 删除" [ref=e689]:
+              - button "详情" [ref=e690] [cursor=pointer]:
+                - generic [ref=e691]: 详情
+              - button "删除" [ref=e692] [cursor=pointer]:
+                - generic [ref=e693]: 删除
+          - row "设施-房屋-附属用房-锅炉房-锅炉房 华雏1-2场/生产后勤 锅炉房-北京谷兴 30102020001157797912 待审批 130000.00 手动创建 姚淼鑫 2026-05-11 详情 删除" [ref=e694]:
+            - cell "设施-房屋-附属用房-锅炉房-锅炉房" [ref=e695]:
+              - generic [ref=e696] [cursor=pointer]: 设施-房屋-附属用房-锅炉房-锅炉房
+            - cell "华雏1-2场/生产后勤" [ref=e697]
+            - cell "锅炉房-北京谷兴" [ref=e698]:
+              - generic [ref=e699] [cursor=pointer]: 锅炉房-北京谷兴
+            - cell "30102020001157797912" [ref=e700]
+            - cell "待审批" [ref=e701]
+            - cell "130000.00" [ref=e702]
+            - cell "手动创建" [ref=e703]
+            - cell [ref=e704]
+            - cell "姚淼鑫" [ref=e705]
+            - cell "2026-05-11" [ref=e706]
+            - cell "详情 删除" [ref=e707]:
+              - button "详情" [ref=e708] [cursor=pointer]:
+                - generic [ref=e709]: 详情
+              - button "删除" [ref=e710] [cursor=pointer]:
+                - generic [ref=e711]: 删除
+          - row "设备-附属设备-运输设备-生产用车-运雏车 华雏1-2场/华雏1场 运雏车-河北中达凯 20206010001103119838 待登记 15000.15 采购集成 RK2026050700002 登记 详情" [ref=e712]:
+            - cell "设备-附属设备-运输设备-生产用车-运雏车" [ref=e713]:
+              - generic [ref=e714] [cursor=pointer]: 设备-附属设备-运输设备-生产用车-运雏车
+            - cell "华雏1-2场/华雏1场" [ref=e715]
+            - cell "运雏车-河北中达凯" [ref=e716]:
+              - generic [ref=e717] [cursor=pointer]: 运雏车-河北中达凯
+            - cell "20206010001103119838" [ref=e718]
+            - cell "待登记" [ref=e719]
+            - cell "15000.15" [ref=e720]
+            - cell "采购集成" [ref=e721]
+            - cell "RK2026050700002" [ref=e722]
+            - cell [ref=e723]
+            - cell [ref=e724]
+            - cell "登记 详情" [ref=e725]:
+              - button "登记" [ref=e726] [cursor=pointer]:
+                - generic [ref=e727]: 登记
+              - button "详情" [ref=e728] [cursor=pointer]:
+                - generic [ref=e729]: 详情
+          - row "设备-附属设备-运输设备-生产用车-运雏车 华雏1-2场/华雏1场 运雏车-河北中达凯 20206010001103119838 待登记 15000.15 采购集成 RK2026050700002 登记 详情" [ref=e730]:
+            - cell "设备-附属设备-运输设备-生产用车-运雏车" [ref=e731]:
+              - generic [ref=e732] [cursor=pointer]: 设备-附属设备-运输设备-生产用车-运雏车
+            - cell "华雏1-2场/华雏1场" [ref=e733]
+            - cell "运雏车-河北中达凯" [ref=e734]:
+              - generic [ref=e735] [cursor=pointer]: 运雏车-河北中达凯
+            - cell "20206010001103119838" [ref=e736]
+            - cell "待登记" [ref=e737]
+            - cell "15000.15" [ref=e738]
+            - cell "采购集成" [ref=e739]
+            - cell "RK2026050700002" [ref=e740]
+            - cell [ref=e741]
+            - cell [ref=e742]
+            - cell "登记 详情" [ref=e743]:
+              - button "登记" [ref=e744] [cursor=pointer]:
+                - generic [ref=e745]: 登记
+              - button "详情" [ref=e746] [cursor=pointer]:
+                - generic [ref=e747]: 详情
+          - row "设备-附属设备-运输设备-生产用车-运雏车 华孵1-4厅/华孵1厅 - 待审批 13.00 手动创建 姚淼鑫 2026-04-29 详情 删除" [ref=e748]:
+            - cell "设备-附属设备-运输设备-生产用车-运雏车" [ref=e749]:
+              - generic [ref=e750] [cursor=pointer]: 设备-附属设备-运输设备-生产用车-运雏车
+            - cell "华孵1-4厅/华孵1厅" [ref=e751]
+            - cell "-" [ref=e752]:
+              - generic [ref=e753] [cursor=pointer]: "-"
+            - cell [ref=e754]
+            - cell "待审批" [ref=e755]
+            - cell "13.00" [ref=e756]
+            - cell "手动创建" [ref=e757]
+            - cell [ref=e758]
+            - cell "姚淼鑫" [ref=e759]
+            - cell "2026-04-29" [ref=e760]
+            - cell "详情 删除" [ref=e761]:
+              - button "详情" [ref=e762] [cursor=pointer]:
+                - generic [ref=e763]: 详情
+              - button "删除" [ref=e764] [cursor=pointer]:
+                - generic [ref=e765]: 删除
+          - row "设备-附属设备-运输设备-生产用车-运雏车 华孵1-4厅/石家庄运输 运雏车-河北中达凯 20206010001103119838 待登记 180000.00 采购集成 RK2026042800001 登记 详情" [ref=e766]:
+            - cell "设备-附属设备-运输设备-生产用车-运雏车" [ref=e767]:
+              - generic [ref=e768] [cursor=pointer]: 设备-附属设备-运输设备-生产用车-运雏车
+            - cell "华孵1-4厅/石家庄运输" [ref=e769]
+            - cell "运雏车-河北中达凯" [ref=e770]:
+              - generic [ref=e771] [cursor=pointer]: 运雏车-河北中达凯
+            - cell "20206010001103119838" [ref=e772]
+            - cell "待登记" [ref=e773]
+            - cell "180000.00" [ref=e774]
+            - cell "采购集成" [ref=e775]
+            - cell "RK2026042800001" [ref=e776]
+            - cell [ref=e777]
+            - cell [ref=e778]
+            - cell "登记 详情" [ref=e779]:
+              - button "登记" [ref=e780] [cursor=pointer]:
+                - generic [ref=e781]: 登记
+              - button "详情" [ref=e782] [cursor=pointer]:
+                - generic [ref=e783]: 详情
+          - row "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统 华雏1-2场/华雏1场 蛋鸡笼架系统-禽乐机械-无 20101010001186947826 待登记 0.00 采购集成 RK2026042700015 登记 详情" [ref=e784]:
+            - cell "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统" [ref=e785]:
+              - generic [ref=e786] [cursor=pointer]: 设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统
+            - cell "华雏1-2场/华雏1场" [ref=e787]
+            - cell "蛋鸡笼架系统-禽乐机械-无" [ref=e788]:
+              - generic [ref=e789] [cursor=pointer]: 蛋鸡笼架系统-禽乐机械-无
+            - cell "20101010001186947826" [ref=e790]
+            - cell "待登记" [ref=e791]
+            - cell "0.00" [ref=e792]
+            - cell "采购集成" [ref=e793]
+            - cell "RK2026042700015" [ref=e794]
+            - cell [ref=e795]
+            - cell [ref=e796]
+            - cell "登记 详情" [ref=e797]:
+              - button "登记" [ref=e798] [cursor=pointer]:
+                - generic [ref=e799]: 登记
+              - button "详情" [ref=e800] [cursor=pointer]:
+                - generic [ref=e801]: 详情
+          - row "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统 华雏1-2场/华雏1场 蛋鸡笼架系统-禽乐机械-无 20101010001186947826 待登记 0.00 采购集成 RK2026042700015 登记 详情" [ref=e802]:
+            - cell "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统" [ref=e803]:
+              - generic [ref=e804] [cursor=pointer]: 设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统
+            - cell "华雏1-2场/华雏1场" [ref=e805]
+            - cell "蛋鸡笼架系统-禽乐机械-无" [ref=e806]:
+              - generic [ref=e807] [cursor=pointer]: 蛋鸡笼架系统-禽乐机械-无
+            - cell "20101010001186947826" [ref=e808]
+            - cell "待登记" [ref=e809]
+            - cell "0.00" [ref=e810]
+            - cell "采购集成" [ref=e811]
+            - cell "RK2026042700015" [ref=e812]
+            - cell [ref=e813]
+            - cell [ref=e814]
+            - cell "登记 详情" [ref=e815]:
+              - button "登记" [ref=e816] [cursor=pointer]:
+                - generic [ref=e817]: 登记
+              - button "详情" [ref=e818] [cursor=pointer]:
+                - generic [ref=e819]: 详情
+          - row "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统 华雏1-2场/华雏1场 蛋鸡笼架系统-禽乐机械-无 20101010001186947826 待登记 0.00 采购集成 RK2026042700015 登记 详情" [ref=e820]:
+            - cell "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统" [ref=e821]:
+              - generic [ref=e822] [cursor=pointer]: 设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统
+            - cell "华雏1-2场/华雏1场" [ref=e823]
+            - cell "蛋鸡笼架系统-禽乐机械-无" [ref=e824]:
+              - generic [ref=e825] [cursor=pointer]: 蛋鸡笼架系统-禽乐机械-无
+            - cell "20101010001186947826" [ref=e826]
+            - cell "待登记" [ref=e827]
+            - cell "0.00" [ref=e828]
+            - cell "采购集成" [ref=e829]
+            - cell "RK2026042700015" [ref=e830]
+            - cell [ref=e831]
+            - cell [ref=e832]
+            - cell "登记 详情" [ref=e833]:
+              - button "登记" [ref=e834] [cursor=pointer]:
+                - generic [ref=e835]: 登记
+              - button "详情" [ref=e836] [cursor=pointer]:
+                - generic [ref=e837]: 详情
+          - row "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统 华雏1-2场/华雏1场 蛋鸡笼架系统-禽乐机械-无 20101010001186947826 待登记 0.00 采购集成 RK2026042700015 登记 详情" [ref=e838]:
+            - cell "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统" [ref=e839]:
+              - generic [ref=e840] [cursor=pointer]: 设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统
+            - cell "华雏1-2场/华雏1场" [ref=e841]
+            - cell "蛋鸡笼架系统-禽乐机械-无" [ref=e842]:
+              - generic [ref=e843] [cursor=pointer]: 蛋鸡笼架系统-禽乐机械-无
+            - cell "20101010001186947826" [ref=e844]
+            - cell "待登记" [ref=e845]
+            - cell "0.00" [ref=e846]
+            - cell "采购集成" [ref=e847]
+            - cell "RK2026042700015" [ref=e848]
+            - cell [ref=e849]
+            - cell [ref=e850]
+            - cell "登记 详情" [ref=e851]:
+              - button "登记" [ref=e852] [cursor=pointer]:
+                - generic [ref=e853]: 登记
+              - button "详情" [ref=e854] [cursor=pointer]:
+                - generic [ref=e855]: 详情
+          - row "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统 华雏1-2场/华雏1场 蛋鸡笼架系统-禽乐机械-无 20101010001186947826 待登记 0.00 采购集成 RK2026042700015 登记 详情" [ref=e856]:
+            - cell "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统" [ref=e857]:
+              - generic [ref=e858] [cursor=pointer]: 设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统
+            - cell "华雏1-2场/华雏1场" [ref=e859]
+            - cell "蛋鸡笼架系统-禽乐机械-无" [ref=e860]:
+              - generic [ref=e861] [cursor=pointer]: 蛋鸡笼架系统-禽乐机械-无
+            - cell "20101010001186947826" [ref=e862]
+            - cell "待登记" [ref=e863]
+            - cell "0.00" [ref=e864]
+            - cell "采购集成" [ref=e865]
+            - cell "RK2026042700015" [ref=e866]
+            - cell [ref=e867]
+            - cell [ref=e868]
+            - cell "登记 详情" [ref=e869]:
+              - button "登记" [ref=e870] [cursor=pointer]:
+                - generic [ref=e871]: 登记
+              - button "详情" [ref=e872] [cursor=pointer]:
+                - generic [ref=e873]: 详情
+          - row "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统 华雏1-2场/华雏1场 蛋鸡笼架系统-禽乐机械-无 20101010001186947826 待登记 0.00 采购集成 RK2026042700015 登记 详情" [ref=e874]:
+            - cell "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统" [ref=e875]:
+              - generic [ref=e876] [cursor=pointer]: 设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统
+            - cell "华雏1-2场/华雏1场" [ref=e877]
+            - cell "蛋鸡笼架系统-禽乐机械-无" [ref=e878]:
+              - generic [ref=e879] [cursor=pointer]: 蛋鸡笼架系统-禽乐机械-无
+            - cell "20101010001186947826" [ref=e880]
+            - cell "待登记" [ref=e881]
+            - cell "0.00" [ref=e882]
+            - cell "采购集成" [ref=e883]
+            - cell "RK2026042700015" [ref=e884]
+            - cell [ref=e885]
+            - cell [ref=e886]
+            - cell "登记 详情" [ref=e887]:
+              - button "登记" [ref=e888] [cursor=pointer]:
+                - generic [ref=e889]: 登记
+              - button "详情" [ref=e890] [cursor=pointer]:
+                - generic [ref=e891]: 详情
+          - row "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统 华雏1-2场/华雏1场 蛋鸡笼架系统-禽乐机械-无 20101010001186947826 待登记 0.00 采购集成 RK2026042700015 登记 详情" [ref=e892]:
+            - cell "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统" [ref=e893]:
+              - generic [ref=e894] [cursor=pointer]: 设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统
+            - cell "华雏1-2场/华雏1场" [ref=e895]
+            - cell "蛋鸡笼架系统-禽乐机械-无" [ref=e896]:
+              - generic [ref=e897] [cursor=pointer]: 蛋鸡笼架系统-禽乐机械-无
+            - cell "20101010001186947826" [ref=e898]
+            - cell "待登记" [ref=e899]
+            - cell "0.00" [ref=e900]
+            - cell "采购集成" [ref=e901]
+            - cell "RK2026042700015" [ref=e902]
+            - cell [ref=e903]
+            - cell [ref=e904]
+            - cell "登记 详情" [ref=e905]:
+              - button "登记" [ref=e906] [cursor=pointer]:
+                - generic [ref=e907]: 登记
+              - button "详情" [ref=e908] [cursor=pointer]:
+                - generic [ref=e909]: 详情
+          - row "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统 华雏1-2场/华雏1场 蛋鸡笼架系统-禽乐机械-无 20101010001186947826 待登记 0.00 采购集成 RK2026042700015 登记 详情" [ref=e910]:
+            - cell "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统" [ref=e911]:
+              - generic [ref=e912] [cursor=pointer]: 设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统
+            - cell "华雏1-2场/华雏1场" [ref=e913]
+            - cell "蛋鸡笼架系统-禽乐机械-无" [ref=e914]:
+              - generic [ref=e915] [cursor=pointer]: 蛋鸡笼架系统-禽乐机械-无
+            - cell "20101010001186947826" [ref=e916]
+            - cell "待登记" [ref=e917]
+            - cell "0.00" [ref=e918]
+            - cell "采购集成" [ref=e919]
+            - cell "RK2026042700015" [ref=e920]
+            - cell [ref=e921]
+            - cell [ref=e922]
+            - cell "登记 详情" [ref=e923]:
+              - button "登记" [ref=e924] [cursor=pointer]:
+                - generic [ref=e925]: 登记
+              - button "详情" [ref=e926] [cursor=pointer]:
+                - generic [ref=e927]: 详情
+          - row "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统 华雏1-2场/华雏1场 蛋鸡笼架系统-禽乐机械-无 20101010001186947826 待登记 0.00 采购集成 RK2026042700015 登记 详情" [ref=e928]:
+            - cell "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统" [ref=e929]:
+              - generic [ref=e930] [cursor=pointer]: 设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统
+            - cell "华雏1-2场/华雏1场" [ref=e931]
+            - cell "蛋鸡笼架系统-禽乐机械-无" [ref=e932]:
+              - generic [ref=e933] [cursor=pointer]: 蛋鸡笼架系统-禽乐机械-无
+            - cell "20101010001186947826" [ref=e934]
+            - cell "待登记" [ref=e935]
+            - cell "0.00" [ref=e936]
+            - cell "采购集成" [ref=e937]
+            - cell "RK2026042700015" [ref=e938]
+            - cell [ref=e939]
+            - cell [ref=e940]
+            - cell "登记 详情" [ref=e941]:
+              - button "登记" [ref=e942] [cursor=pointer]:
+                - generic [ref=e943]: 登记
+              - button "详情" [ref=e944] [cursor=pointer]:
+                - generic [ref=e945]: 详情
+          - row "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统 华雏1-2场/华雏1场 蛋鸡笼架系统-禽乐机械-无 20101010001186947826 待登记 0.00 采购集成 RK2026042700015 登记 详情" [ref=e946]:
+            - cell "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统" [ref=e947]:
+              - generic [ref=e948] [cursor=pointer]: 设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统
+            - cell "华雏1-2场/华雏1场" [ref=e949]
+            - cell "蛋鸡笼架系统-禽乐机械-无" [ref=e950]:
+              - generic [ref=e951] [cursor=pointer]: 蛋鸡笼架系统-禽乐机械-无
+            - cell "20101010001186947826" [ref=e952]
+            - cell "待登记" [ref=e953]
+            - cell "0.00" [ref=e954]
+            - cell "采购集成" [ref=e955]
+            - cell "RK2026042700015" [ref=e956]
+            - cell [ref=e957]
+            - cell [ref=e958]
+            - cell "登记 详情" [ref=e959]:
+              - button "登记" [ref=e960] [cursor=pointer]:
+                - generic [ref=e961]: 登记
+              - button "详情" [ref=e962] [cursor=pointer]:
+                - generic [ref=e963]: 详情
+          - row "设备-附属设备-运输设备-生产用车-运雏车 京孵1-4厅/北京运输 运雏车-河北中达凯 20206010001103119838 待登记 120000.00 资产转移 登记 详情 删除" [ref=e964]:
+            - cell "设备-附属设备-运输设备-生产用车-运雏车" [ref=e965]:
+              - generic [ref=e966] [cursor=pointer]: 设备-附属设备-运输设备-生产用车-运雏车
+            - cell "京孵1-4厅/北京运输" [ref=e967]
+            - cell "运雏车-河北中达凯" [ref=e968]:
+              - generic [ref=e969] [cursor=pointer]: 运雏车-河北中达凯
+            - cell "20206010001103119838" [ref=e970]
+            - cell "待登记" [ref=e971]
+            - cell "120000.00" [ref=e972]
+            - cell "资产转移" [ref=e973]
+            - cell [ref=e974]
+            - cell [ref=e975]
+            - cell [ref=e976]
+            - cell "登记 详情 删除" [ref=e977]:
+              - button "登记" [ref=e978] [cursor=pointer]:
+                - generic [ref=e979]: 登记
+              - button "详情" [ref=e980] [cursor=pointer]:
+                - generic [ref=e981]: 详情
+              - button "删除" [ref=e982] [cursor=pointer]:
+                - generic [ref=e983]: 删除
+          - row "设备-附属设备-运输设备-生产用车-运雏车 京孵1-4厅/北京运输 运雏车-河北中达凯 20206010001103119838 待登记 150000.00 资产转移 登记 详情 删除" [ref=e984]:
+            - cell "设备-附属设备-运输设备-生产用车-运雏车" [ref=e985]:
+              - generic [ref=e986] [cursor=pointer]: 设备-附属设备-运输设备-生产用车-运雏车
+            - cell "京孵1-4厅/北京运输" [ref=e987]
+            - cell "运雏车-河北中达凯" [ref=e988]:
+              - generic [ref=e989] [cursor=pointer]: 运雏车-河北中达凯
+            - cell "20206010001103119838" [ref=e990]
+            - cell "待登记" [ref=e991]
+            - cell "150000.00" [ref=e992]
+            - cell "资产转移" [ref=e993]
+            - cell [ref=e994]
+            - cell [ref=e995]
+            - cell [ref=e996]
+            - cell "登记 详情 删除" [ref=e997]:
+              - button "登记" [ref=e998] [cursor=pointer]:
+                - generic [ref=e999]: 登记
+              - button "详情" [ref=e1000] [cursor=pointer]:
+                - generic [ref=e1001]: 详情
+              - button "删除" [ref=e1002] [cursor=pointer]:
+                - generic [ref=e1003]: 删除
+          - row "- 石家庄公司/石家庄职能 - 待审批 45454.00 手动创建 姚淼鑫 2026-04-20 详情 删除" [ref=e1004]:
+            - cell "-" [ref=e1005]:
+              - generic [ref=e1006] [cursor=pointer]: "-"
+            - cell "石家庄公司/石家庄职能" [ref=e1007]
+            - cell "-" [ref=e1008]:
+              - generic [ref=e1009] [cursor=pointer]: "-"
+            - cell [ref=e1010]
+            - cell "待审批" [ref=e1011]
+            - cell "45454.00" [ref=e1012]
+            - cell "手动创建" [ref=e1013]
+            - cell [ref=e1014]
+            - cell "姚淼鑫" [ref=e1015]
+            - cell "2026-04-20" [ref=e1016]
+            - cell "详情 删除" [ref=e1017]:
+              - button "详情" [ref=e1018] [cursor=pointer]:
+                - generic [ref=e1019]: 详情
+              - button "删除" [ref=e1020] [cursor=pointer]:
+                - generic [ref=e1021]: 删除
+          - row "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统 华蛋1-4场/华蛋1场 蛋鸡笼架系统-禽乐机械-无 20101010001186947826 待审批 5000.00 手动创建 姚淼鑫 2026-04-17 详情 删除" [ref=e1022]:
+            - cell "设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统" [ref=e1023]:
+              - generic [ref=e1024] [cursor=pointer]: 设备-生产设备-养殖设备-笼架系统-蛋鸡笼架系统
+            - cell "华蛋1-4场/华蛋1场" [ref=e1025]
+            - cell "蛋鸡笼架系统-禽乐机械-无" [ref=e1026]:
+              - generic [ref=e1027] [cursor=pointer]: 蛋鸡笼架系统-禽乐机械-无
+            - cell "20101010001186947826" [ref=e1028]
+            - cell "待审批" [ref=e1029]
+            - cell "5000.00" [ref=e1030]
+            - cell "手动创建" [ref=e1031]
+            - cell [ref=e1032]
+            - cell "姚淼鑫" [ref=e1033]
+            - cell "2026-04-17" [ref=e1034]
+            - cell "详情 删除" [ref=e1035]:
+              - button "详情" [ref=e1036] [cursor=pointer]:
+                - generic [ref=e1037]: 详情
+              - button "删除" [ref=e1038] [cursor=pointer]:
+                - generic [ref=e1039]: 删除
+    - list [ref=e1044]:
+      - listitem [ref=e1045]: 共 297 条记录
+      - listitem "上一页" [ref=e1046]:
+        - button "left" [disabled] [ref=e1047]:
+          - img "left" [ref=e1048]:
+            - img [ref=e1049]
+      - listitem "1" [ref=e1051] [cursor=pointer]:
+        - generic [ref=e1052]: "1"
+      - listitem "2" [ref=e1053] [cursor=pointer]:
+        - generic [ref=e1054]: "2"
+      - listitem "3" [ref=e1055] [cursor=pointer]:
+        - generic [ref=e1056]: "3"
+      - listitem "向后 3 页" [ref=e1057] [cursor=pointer]:
+        - generic [ref=e1059]:
+          - img "double-right" [ref=e1060]:
+            - img [ref=e1061]
+          - generic [ref=e1063]: •••
+      - listitem "15" [ref=e1064] [cursor=pointer]:
+        - generic [ref=e1065]: "15"
+      - listitem "下一页" [ref=e1066] [cursor=pointer]:
+        - button "right" [ref=e1067]:
+          - img "right" [ref=e1068]:
+            - img [ref=e1069]
+      - listitem [ref=e1071]:
+        - generic [ref=e1072] [cursor=pointer]:
+          - generic [ref=e1073]:
+            - combobox [ref=e1075]
+            - generic [ref=e1076]: 20 条/页
+          - generic:
+            - img:
+              - img

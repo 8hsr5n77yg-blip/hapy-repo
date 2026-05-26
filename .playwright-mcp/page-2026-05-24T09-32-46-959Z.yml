@@ -1,0 +1,599 @@
+- generic [active] [ref=e1]:
+  - link "跳转至正文" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content-title"
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - link "Go to the Flutter docs homepage." [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Flutter CN logo" [ref=e6]
+        - generic [ref=e7]: Flutter
+        - generic [ref=e8]: Docs
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "指南" [ref=e11] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e12]:
+          - link "学习" [ref=e13] [cursor=pointer]:
+            - /url: /learn/pathway
+        - listitem [ref=e14]:
+          - link "AI" [ref=e15] [cursor=pointer]:
+            - /url: /ai/create-with-ai
+        - listitem [ref=e16]:
+          - link "API 参考" [ref=e17] [cursor=pointer]:
+            - /url: https://api.flutter-io.cn
+        - listitem [ref=e18]:
+          - link "关于中文文档" [ref=e19] [cursor=pointer]:
+            - /url: /about
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - text: search
+          - searchbox "搜索" [ref=e22] [cursor=pointer]
+        - button "Select a theme." [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: routine
+        - button "Visit related sites." [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]: apps
+        - link "开始使用" [ref=e29] [cursor=pointer]:
+          - /url: /learn/pathway
+  - generic [ref=e30]:
+    - generic [ref=e31]:
+      - navigation [ref=e33]:
+        - list [ref=e34]:
+          - listitem [ref=e35]: 开始使用
+          - listitem [ref=e36]:
+            - link "快速入门" [ref=e37] [cursor=pointer]:
+              - /url: /install/quick
+              - generic [ref=e39]: 快速入门
+          - listitem [ref=e40]:
+            - link "自定义安装" [ref=e41] [cursor=pointer]:
+              - /url: /install/custom
+              - generic [ref=e43]: 自定义安装
+          - listitem [ref=e44]:
+            - link "学习 Flutter" [ref=e45] [cursor=pointer]:
+              - /url: /learn
+              - generic [ref=e47]: 学习 Flutter
+          - listitem [ref=e48]
+          - listitem [ref=e50]: 用户界面
+          - listitem [ref=e51]:
+            - link "概览" [ref=e52] [cursor=pointer]:
+              - /url: /ui
+              - generic [ref=e53]:
+                - generic [ref=e54]: palette
+                - generic [ref=e55]: 概览
+          - listitem [ref=e56]:
+            - button "Widget 目录" [ref=e57] [cursor=pointer]:
+              - generic [ref=e58]:
+                - generic [ref=e59]: view_module
+                - generic [ref=e60]: Widget 目录
+              - generic [ref=e61]: expand_more
+          - listitem [ref=e62]:
+            - button "布局" [ref=e63] [cursor=pointer]:
+              - generic [ref=e64]:
+                - generic [ref=e65]: view_quilt
+                - generic [ref=e66]: 布局
+              - generic [ref=e67]: expand_more
+          - listitem [ref=e68]:
+            - button "自适应 & 响应式设计" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]:
+                - generic [ref=e71]: devices
+                - generic [ref=e72]: 自适应 & 响应式设计
+              - generic [ref=e73]: expand_more
+          - listitem [ref=e74]:
+            - button "设计 & 主题" [ref=e75] [cursor=pointer]:
+              - generic [ref=e76]:
+                - generic [ref=e77]: palette
+                - generic [ref=e78]: 设计 & 主题
+              - generic [ref=e79]: expand_more
+          - listitem [ref=e80]:
+            - button "交互" [ref=e81] [cursor=pointer]:
+              - generic [ref=e82]:
+                - generic [ref=e83]: touch_app
+                - generic [ref=e84]: 交互
+              - generic [ref=e85]: expand_more
+          - listitem [ref=e86]:
+            - button "资源 & 媒体" [ref=e87] [cursor=pointer]:
+              - generic [ref=e88]:
+                - generic [ref=e89]: photo_library
+                - generic [ref=e90]: 资源 & 媒体
+              - generic [ref=e91]: expand_more
+          - listitem [ref=e92]:
+            - button "导航 & 路由" [ref=e93] [cursor=pointer]:
+              - generic [ref=e94]:
+                - generic [ref=e95]: alt_route
+                - generic [ref=e96]: 导航 & 路由
+              - generic [ref=e97]: expand_more
+          - listitem [ref=e98]:
+            - button "动画 & 过渡" [ref=e99] [cursor=pointer]:
+              - generic [ref=e100]:
+                - generic [ref=e101]: animation
+                - generic [ref=e102]: 动画 & 过渡
+              - generic [ref=e103]: expand_more
+          - listitem [ref=e104]:
+            - button "无障碍 (a11y)" [ref=e105] [cursor=pointer]:
+              - generic [ref=e106]:
+                - generic [ref=e107]: accessibility
+                - generic [ref=e108]: 无障碍 (a11y)
+              - generic [ref=e109]: expand_more
+          - listitem [ref=e110]:
+            - link "国际化 (i18n)" [ref=e111] [cursor=pointer]:
+              - /url: /ui/internationalization
+              - generic [ref=e112]:
+                - generic [ref=e113]: translate
+                - generic [ref=e114]: 国际化 (i18n)
+          - listitem [ref=e115]
+          - listitem [ref=e117]: 界面以外的开发
+          - listitem [ref=e118]:
+            - button "数据调用 & 后端" [ref=e119] [cursor=pointer]:
+              - generic [ref=e120]:
+                - generic [ref=e121]: storage
+                - generic [ref=e122]: 数据调用 & 后端
+              - generic [ref=e123]: expand_more
+          - listitem [ref=e124]:
+            - button "应用架构" [ref=e125] [cursor=pointer]:
+              - generic [ref=e126]:
+                - generic [ref=e127]: account_tree
+                - generic [ref=e128]: 应用架构
+              - generic [ref=e129]: expand_more
+          - listitem [ref=e130]:
+            - button "平台集成" [ref=e131] [cursor=pointer]:
+              - generic [ref=e132]:
+                - generic [ref=e133]: integration_instructions
+                - generic [ref=e134]: 平台集成
+              - generic [ref=e135]: expand_more
+          - listitem [ref=e136]:
+            - button "Package 和插件" [ref=e137] [cursor=pointer]:
+              - generic [ref=e138]:
+                - generic [ref=e139]: extension
+                - generic [ref=e140]: Package 和插件
+              - generic [ref=e141]: expand_more
+          - listitem [ref=e142]:
+            - button "测试和调试" [ref=e143] [cursor=pointer]:
+              - generic [ref=e144]:
+                - generic [ref=e145]: bug_report
+                - generic [ref=e146]: 测试和调试
+              - generic [ref=e147]: expand_more
+          - listitem [ref=e148]:
+            - button "性能优化" [ref=e149] [cursor=pointer]:
+              - generic [ref=e150]:
+                - generic [ref=e151]: speed
+                - generic [ref=e152]: 性能优化
+              - generic [ref=e153]: expand_more
+          - listitem [ref=e154]:
+            - button "打包部署" [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]:
+                - generic [ref=e157]: rocket_launch
+                - generic [ref=e158]: 打包部署
+              - generic [ref=e159]: expand_more
+          - listitem [ref=e160]:
+            - button "将 Flutter 添加到现有应用" [ref=e161] [cursor=pointer]:
+              - generic [ref=e162]:
+                - generic [ref=e163]: add_circle
+                - generic [ref=e164]: 将 Flutter 添加到现有应用
+              - generic [ref=e165]: expand_more
+          - listitem [ref=e166]
+          - listitem [ref=e168]: 资源
+          - listitem [ref=e169]:
+            - button "工具 & 代码编辑器" [ref=e170] [cursor=pointer]:
+              - generic [ref=e171]:
+                - generic [ref=e172]: construction
+                - generic [ref=e173]: 工具 & 代码编辑器
+              - generic [ref=e174]: expand_more
+          - listitem [ref=e175]:
+            - button "Flutter 相关概念" [ref=e176] [cursor=pointer]:
+              - generic [ref=e177]:
+                - generic [ref=e178]: lightbulb
+                - generic [ref=e179]: Flutter 相关概念
+              - generic [ref=e180]: expand_more
+          - listitem [ref=e181]:
+            - button "应用解决方案" [ref=e182] [cursor=pointer]:
+              - generic [ref=e183]:
+                - generic [ref=e184]: apps
+                - generic [ref=e185]: 应用解决方案
+              - generic [ref=e186]: expand_more
+          - listitem [ref=e187]:
+            - button "拥有其他平台开发经验？" [ref=e188] [cursor=pointer]:
+              - generic [ref=e189]:
+                - generic [ref=e190]: devices
+                - generic [ref=e191]: 拥有其他平台开发经验？
+              - generic [ref=e192]: expand_more
+          - listitem [ref=e193]:
+            - button "保持版本更新" [ref=e194] [cursor=pointer]:
+              - generic [ref=e195]:
+                - generic [ref=e196]: update
+                - generic [ref=e197]: 保持版本更新
+              - generic [ref=e198]: expand_more
+          - listitem [ref=e199]:
+            - button "管理安装" [expanded] [ref=e200] [cursor=pointer]:
+              - generic [ref=e201]:
+                - generic [ref=e202]: computer
+                - generic [ref=e203]: 管理安装
+              - generic [ref=e204]: expand_more
+            - list [ref=e205]:
+              - listitem [ref=e206]:
+                - link "概览" [ref=e207] [cursor=pointer]:
+                  - /url: /install
+                  - generic [ref=e209]: 概览
+              - listitem [ref=e210]:
+                - link "手动安装" [ref=e211] [cursor=pointer]:
+                  - /url: /install/manual
+                  - generic [ref=e213]: 手动安装
+              - listitem [ref=e214]:
+                - link "使用 VS Code 安装" [ref=e215] [cursor=pointer]:
+                  - /url: /install/with-vs-code
+                  - generic [ref=e217]: 使用 VS Code 安装
+              - listitem [ref=e218]
+              - listitem [ref=e220]:
+                - link "SDK 版本列表" [ref=e221] [cursor=pointer]:
+                  - /url: /install/archive
+                  - generic [ref=e223]: SDK 版本列表
+              - listitem [ref=e224]:
+                - link "升级 SDK" [ref=e225] [cursor=pointer]:
+                  - /url: /install/upgrade
+                  - generic [ref=e227]: 升级 SDK
+              - listitem [ref=e228]:
+                - link "添加到环境变量" [ref=e229] [cursor=pointer]:
+                  - /url: /install/add-to-path
+                  - generic [ref=e231]: 添加到环境变量
+              - listitem [ref=e232]:
+                - link "安装常见问题" [ref=e233] [cursor=pointer]:
+                  - /url: /install/troubleshoot
+                  - generic [ref=e235]: 安装常见问题
+              - listitem [ref=e236]:
+                - link "卸载 SDK" [ref=e237] [cursor=pointer]:
+                  - /url: /install/uninstall
+                  - generic [ref=e239]: 卸载 SDK
+          - listitem [ref=e240]:
+            - button "开发者资源列表" [ref=e241] [cursor=pointer]:
+              - generic [ref=e242]:
+                - generic [ref=e243]: library_books
+                - generic [ref=e244]: 开发者资源列表
+              - generic [ref=e245]: expand_more
+      - main [ref=e246]:
+        - button "切换目录下拉菜单" [ref=e249] [cursor=pointer]:
+          - generic [ref=e250]: list
+          - generic [ref=e251]:
+            - generic "本页目录" [ref=e252]
+            - generic [ref=e253]: chevron_right
+          - generic [ref=e255]: Flutter SDK 归档列表
+        - alert [ref=e256]:
+          - paragraph [ref=e257]:
+            - text: Flutter 将于 5 月 19 日至 20 日重返 Google I/O 大会！
+            - link "立即注册" [ref=e258] [cursor=pointer]:
+              - /url: https://io.google/2026/?utm_source=flutter&utm_medium=embedded_marketing&utm_campaign=flutter
+        - article [ref=e260]:
+          - generic [ref=e261]:
+            - navigation "breadcrumb" [ref=e262]:
+              - list [ref=e263]:
+                - listitem [ref=e264]:
+                  - link "安装" [ref=e265] [cursor=pointer]:
+                    - /url: /install
+                  - generic [ref=e266]: chevron_right
+                - listitem [ref=e267]:
+                  - link "归档列表" [ref=e268]:
+                    - /url: /install/archive
+            - heading "Flutter SDK 归档列表" [level=1] [ref=e269]
+            - paragraph [ref=e270]: 所有 Flutter SDK 的版本列表：稳定版 (stable)、beta 版和主分支 (main)。
+            - button "View page options." [ref=e272] [cursor=pointer]:
+              - generic [ref=e273]: more_vert
+          - generic [ref=e274]:
+            - complementary [ref=e275]:
+              - generic [ref=e276]:
+                - generic [ref=e277]: feedback
+                - generic [ref=e278]: 重点提醒
+              - paragraph [ref=e280]:
+                - text: 国内的网络环境下可能需要对 Flutter 工具进行一些额外配置，请参考文档
+                - link "在中国网络环境下使用 Flutter" [ref=e281] [cursor=pointer]:
+                  - /url: https://docs.flutter.cn/community/china/
+                - text: 。
+            - generic [ref=e282]:
+              - heading "概览" [level=2] [ref=e283]
+              - link "Link to 'Overview' section" [ref=e284] [cursor=pointer]:
+                - /url: "#overview"
+                - text: "#"
+            - paragraph [ref=e285]: Flutter SDK 归档列表是 Flutter SDK 以前所有版本的集合。对于出于兼容性原因或调查错误而需要使用旧版本 Flutter 的开发人员来说，该归档列表非常有用。
+            - paragraph [ref=e286]:
+              - text: 下载 Flutter SDK 后，请按照
+              - link "手动安装指南" [ref=e287] [cursor=pointer]:
+                - /url: /install/manual
+              - text: 来配置 Flutter。
+            - paragraph [ref=e288]:
+              - text: 该归档列表包括以下
+              - link "渠道 (channel)" [ref=e289] [cursor=pointer]:
+                - /url: https://github.com/flutter/flutter/blob/main/docs/releases/Flutter-build-release-channels.md
+              - text: 的 Flutter SDK（Windows、macOS 和 Linux）：
+            - list [ref=e290]:
+              - listitem [ref=e291]:
+                - paragraph [ref=e292]:
+                  - strong [ref=e293]: Stable channel
+                  - text: ：该渠道 (channel) 包含最稳定的 Flutter 版本。大概每三个 beta 版本就会提升到稳定 (stable) 版本。稳定渠道 (stable channel) 是新开发者和生产应用发布最推荐的渠道 (channel)。
+              - listitem [ref=e294]:
+                - paragraph [ref=e295]:
+                  - strong [ref=e296]: Beta channel
+                  - text: ：该渠道 (channel) 是 Flutter 的最新版本，但尚未稳定。 beta 分支通常在每月的第一个星期三发布。一个修复通常会在 main channel 发布两周后进入 beta channel。 beta channel 会以
+                  - link "安装包" [ref=e297] [cursor=pointer]:
+                    - /url: https://github.com/flutter/flutter/blob/main/docs/infra/Flutter-Installation-Bundles.md
+                  - text: 的形式发布
+              - listitem [ref=e298]:
+                - paragraph [ref=e299]:
+                  - strong [ref=e300]: Main channel
+                  - text: ：该渠道 (channel) 会有最新的特性，但尚未经过全面测试，可能会存在一些 Bug。我们不建议你使用它，除非你要为 Flutter 本身做出贡献。
+            - paragraph [ref=e301]: SDK 归档列表中的每个 Flutter 版本都有以下信息：
+            - list [ref=e302]:
+              - listitem [ref=e303]:
+                - paragraph [ref=e304]:
+                  - strong [ref=e305]: Flutter 版本
+                  - text: ：Flutter SDK 的版本号（例如 3.35.0、2.10.5）。该版本号遵循
+                  - link "日历化版本 (CalVer)" [ref=e306] [cursor=pointer]:
+                    - /url: https://calver.org/
+                  - text: 规范，更多详细信息，请查看
+                  - link "Flutter SDK 版本" [ref=e307] [cursor=pointer]:
+                    - /url: https://github.com/flutter/flutter/blob/main/docs/releases/Release-versioning.md
+                  - text: 。
+              - listitem [ref=e308]:
+                - paragraph [ref=e309]:
+                  - strong [ref=e310]: 架构
+                  - text: ：SDK 适用的处理器架构（例如 x64、arm64）。这指定了 SDK 兼容的处理器类型。
+              - listitem [ref=e311]:
+                - paragraph [ref=e312]:
+                  - strong [ref=e313]: Ref
+                  - text: ：唯一标识该版本特定代码仓库的 git 提交哈希值 (hash)。
+              - listitem [ref=e314]:
+                - paragraph [ref=e315]:
+                  - strong [ref=e316]: 发布日期
+                  - text: ：当前 Flutter 版本正式发布的日期。
+              - listitem [ref=e317]:
+                - paragraph [ref=e318]:
+                  - strong [ref=e319]: Dart 版本
+                  - text: ：Flutter SDK 中包含的 Dart SDK 的对应版本。
+              - listitem [ref=e320]:
+                - paragraph [ref=e321]:
+                  - strong [ref=e322]: 出处/来源
+                  - text: ：提供有关 SDK 构建过程和来源的详细信息，可能包括所适用的安全证明或构建系统的信息。结果以 JSON 格式返回。
+            - generic [ref=e323]:
+              - heading "Public release windows" [level=2] [ref=e324]
+              - link "Link to 'Public release windows' section" [ref=e325] [cursor=pointer]:
+                - /url: "#public-release-windows"
+                - text: "#"
+            - paragraph [ref=e326]: Predictability is key to landing complex features safely. We use public release windows to provide the community with the visibility needed to plan ahead. By explicitly calling out branch cutoff dates and release targets, we enable everyone to align their development cycles and coordinate feature landing effectively.
+            - generic [ref=e327]:
+              - heading "What is a branch cutoff date?" [level=3] [ref=e328]
+              - link "Link to 'What is a branch cutoff date?' section" [ref=e329] [cursor=pointer]:
+                - /url: "#what-is-a-branch-cutoff-date"
+                - text: "#"
+            - paragraph [ref=e330]:
+              - text: This date is the deadline for pull requests to land in the default branches (
+              - code [ref=e331]: main
+              - text: for Dart and
+              - code [ref=e332]: master
+              - text: for Flutter) to guarantee inclusion in the next stable release.
+            - list [ref=e333]:
+              - listitem [ref=e334]:
+                - strong [ref=e335]: "Before cutoff:"
+                - text: Your PR will ship in the next stable version.
+              - listitem [ref=e336]:
+                - strong [ref=e337]: "After cutoff:"
+                - text: Your PR will wait for the following cycle.
+            - generic [ref=e338]:
+              - heading "2026 schedule" [level=3] [ref=e339]
+              - link "Link to '2026 schedule' section" [ref=e340] [cursor=pointer]:
+                - /url: "#2026-schedule"
+                - text: "#"
+            - table [ref=e342]:
+              - rowgroup [ref=e343]:
+                - row "Flutter version Release target Branch cutoff date" [ref=e344]:
+                  - columnheader "Flutter version" [ref=e345]
+                  - columnheader "Release target" [ref=e346]
+                  - columnheader "Branch cutoff date" [ref=e347]
+              - rowgroup [ref=e348]:
+                - row "Flutter 3.41 February, 2026 2026-01-06" [ref=e349]:
+                  - cell "Flutter 3.41" [ref=e350]
+                  - cell "February, 2026" [ref=e351]
+                  - cell "2026-01-06" [ref=e352]
+                - row "Flutter 3.44 May, 2026 2026-04-07" [ref=e353]:
+                  - cell "Flutter 3.44" [ref=e354]
+                  - cell "May, 2026" [ref=e355]
+                  - cell "2026-04-07" [ref=e356]
+                - row "Flutter 3.47 August, 2026 2026-07-07" [ref=e357]:
+                  - cell "Flutter 3.47" [ref=e358]
+                  - cell "August, 2026" [ref=e359]
+                  - cell "2026-07-07" [ref=e360]
+                - row "Flutter 3.50 November, 2026 2026-10-06" [ref=e361]:
+                  - cell "Flutter 3.50" [ref=e362]
+                  - cell "November, 2026" [ref=e363]
+                  - cell "2026-10-06" [ref=e364]
+            - separator [ref=e365]
+            - generic [ref=e366]:
+              - heading "Stable channel" [level=2] [ref=e367]
+              - link "Link to 'Stable channel' section" [ref=e368] [cursor=pointer]:
+                - /url: "#stable-channel"
+                - text: "#"
+            - generic [ref=e369]:
+              - tablist [ref=e370]:
+                - listitem [ref=e371]:
+                  - tab "Windows" [selected] [ref=e372] [cursor=pointer]
+                - listitem [ref=e373]:
+                  - tab "macOS" [ref=e374] [cursor=pointer]
+                - listitem [ref=e375]:
+                  - tab "Linux" [ref=e376] [cursor=pointer]
+              - tabpanel "Windows" [ref=e378]:
+                - paragraph [ref=e379]: 请从以下列表中选择：
+                - table [ref=e381]:
+                  - rowgroup [ref=e382]:
+                    - row "Flutter 版本 架构 Ref 发布日期 Dart 版本 出处/来源" [ref=e383]:
+                      - columnheader "Flutter 版本" [ref=e384]
+                      - columnheader "架构" [ref=e385]
+                      - columnheader "Ref" [ref=e386]
+                      - columnheader "发布日期" [ref=e387]
+                      - columnheader "Dart 版本" [ref=e388]
+                      - columnheader "出处/来源" [ref=e389]
+                  - rowgroup [ref=e390]:
+                    - row "加载失败。请刷新页面重试" [ref=e391]:
+                      - cell "加载失败。请刷新页面重试" [ref=e392]
+            - generic [ref=e393]:
+              - heading "Beta channel" [level=2] [ref=e394]
+              - link "Link to 'Beta channel' section" [ref=e395] [cursor=pointer]:
+                - /url: "#beta-channel"
+                - text: "#"
+            - generic [ref=e396]:
+              - tablist [ref=e397]:
+                - listitem [ref=e398]:
+                  - tab "Windows" [selected] [ref=e399] [cursor=pointer]
+                - listitem [ref=e400]:
+                  - tab "macOS" [ref=e401] [cursor=pointer]
+                - listitem [ref=e402]:
+                  - tab "Linux" [ref=e403] [cursor=pointer]
+              - tabpanel "Windows" [ref=e405]:
+                - paragraph [ref=e406]: 请从以下列表中选择：
+                - table [ref=e408]:
+                  - rowgroup [ref=e409]:
+                    - row "Flutter 版本 架构 Ref 发布日期 Dart 版本 出处/来源" [ref=e410]:
+                      - columnheader "Flutter 版本" [ref=e411]
+                      - columnheader "架构" [ref=e412]
+                      - columnheader "Ref" [ref=e413]
+                      - columnheader "发布日期" [ref=e414]
+                      - columnheader "Dart 版本" [ref=e415]
+                      - columnheader "出处/来源" [ref=e416]
+                  - rowgroup [ref=e417]:
+                    - row "加载失败。请刷新页面重试" [ref=e418]:
+                      - cell "加载失败。请刷新页面重试" [ref=e419]
+            - complementary [ref=e420]:
+              - generic [ref=e421]:
+                - generic [ref=e422]: lightbulb
+                - generic [ref=e423]: 小提示
+              - generic [ref=e424]:
+                - paragraph [ref=e425]: To see what's changed in a beta release, compare the version tags on GitHub.
+                - list [ref=e426]:
+                  - listitem [ref=e427]:
+                    - text: Find the version number (tag) you want to see (for example,
+                    - code [ref=e428]: 3.38.0-0.2.pre
+                    - text: ).
+                  - listitem [ref=e429]:
+                    - text: Find the previous version number (for example,
+                    - code [ref=e430]: 3.38.0-0.1.pre
+                    - text: ).
+                  - listitem [ref=e431]:
+                    - text: Go to the
+                    - link "GitHub compare page" [ref=e432] [cursor=pointer]:
+                      - /url: https://github.com/flutter/flutter/compare
+                    - text: .
+                  - listitem [ref=e433]:
+                    - text: Select the older tag for the
+                    - code [ref=e434]: base
+                    - text: field and the newer tag for the
+                    - code [ref=e435]: compare
+                    - text: field.
+                - paragraph [ref=e436]:
+                  - text: "For example:"
+                  - link "flutter/flutter@3.38.0-0.1.pre...3.38.0-0.2.pre" [ref=e437] [cursor=pointer]:
+                    - /url: https://github.com/flutter/flutter/compare/3.38.0-0.1.pre...3.38.0-0.2.pre
+                    - code [ref=e438]: flutter/flutter@3.38.0-0.1.pre...3.38.0-0.2.pre
+            - paragraph
+            - generic [ref=e439]:
+              - heading "Main channel" [level=2] [ref=e440]
+              - link "Link to 'Main channel' section" [ref=e441] [cursor=pointer]:
+                - /url: "#main-channel"
+                - text: "#"
+            - paragraph [ref=e442]:
+              - text: 我们没有对
+              - code [ref=e443]: main
+              - text: channel （以前是
+              - code [ref=e444]: master
+              - text: channel）提供
+              - link "安装包" [ref=e445] [cursor=pointer]:
+                - /url: https://github.com/flutter/flutter/blob/main/docs/infra/Flutter-Installation-Bundles.md
+              - text: 下载。不过，你可以通过
+              - code [ref=e446]: git clone
+              - link "Github 上 repo" [ref=e447] [cursor=pointer]:
+                - /url: https://github.com/flutter/flutter
+              - text: 的
+              - code [ref=e448]: main
+              - text: 分支来下载使用：
+            - generic [ref=e450]:
+              - code [ref=e452]:
+                - generic [ref=e454]: $ git clone -b main https://github.com/flutter/flutter.git
+                - generic [ref=e456]: $ ./flutter/bin/flutter --version
+              - button "Copy code to clipboard" [ref=e457] [cursor=pointer]:
+                - generic [ref=e458]: content_copy
+            - paragraph
+            - generic [ref=e459]:
+              - heading "更多信息" [level=2] [ref=e460]
+              - link "Link to 'More information' section" [ref=e461] [cursor=pointer]:
+                - /url: "#more-information"
+                - text: "#"
+            - list [ref=e462]:
+              - listitem [ref=e463]:
+                - paragraph [ref=e464]:
+                  - text: 当你下载 SDK 后，关于安装 Flutter 的说明，请参阅
+                  - link "手动安装 Flutter" [ref=e465] [cursor=pointer]:
+                    - /url: /install/manual
+                  - text: 。
+              - listitem [ref=e466]:
+                - paragraph [ref=e467]:
+                  - text: 要了解 Flutter 主要版本的新内容，请查看
+                  - link "版本发行注记" [ref=e468] [cursor=pointer]:
+                    - /url: /release/release-notes
+                  - text: 页。
+              - listitem [ref=e469]:
+                - paragraph [ref=e470]:
+                  - text: 关于安装包结构的更多信息，请查看这个页面：
+                  - link "Flutter 安装包结构" [ref=e471] [cursor=pointer]:
+                    - /url: https://github.com/flutter/flutter/blob/main/docs/infra/Flutter-Installation-Bundles.md
+                  - text: 。
+          - generic [ref=e472]:
+            - generic [ref=e474]:
+              - generic [ref=e475]: 本页内容对你有帮助吗？
+              - generic [ref=e476]:
+                - button "Yes, this page was helpful." [ref=e477] [cursor=pointer]:
+                  - generic [ref=e478]: thumb_up
+                - button "No, this page was not helpful or had an issue" [ref=e479] [cursor=pointer]:
+                  - generic [ref=e480]: thumb_down
+            - paragraph [ref=e481]:
+              - text: 除非另有说明，本文档之所提及适用于 Flutter 3.44.0 版本。本页面最后更新时间：2026-05-20。
+              - link "查看文档源码" [ref=e482] [cursor=pointer]:
+                - /url: https://github.com/cfug/flutter.cn/blob/main/sites/docs/src/content/install/archive.md
+              - text: 或者
+              - link "为本页面内容提出建议" [ref=e483] [cursor=pointer]:
+                - /url: https://github.com/cfug/flutter.cn/issues/new?template=1_page_issue.yml&page-url=https://docs.flutter.cn/install/archive&page-source=https://github.com/cfug/flutter.cn/blob/main/sites/docs/src/content/install/archive.md
+              - text: 。
+    - contentinfo [ref=e484]:
+      - generic [ref=e485]:
+        - link "Flutter logo" [ref=e486] [cursor=pointer]:
+          - /url: /
+          - img "Flutter logo" [ref=e487]
+        - generic [ref=e488]:
+          - link "Flutter's blog" [ref=e489] [cursor=pointer]:
+            - /url: https://blog.flutter.dev
+            - img [ref=e490]
+          - link "Flutter's YouTube channel" [ref=e492] [cursor=pointer]:
+            - /url: https://youtube.com/@flutterdev
+            - img [ref=e493]
+          - link "Flutter's GitHub organization" [ref=e495] [cursor=pointer]:
+            - /url: https://github.com/flutter
+            - img [ref=e496]
+          - link "Flutter's Bluesky profile" [ref=e498] [cursor=pointer]:
+            - /url: https://bsky.app/profile/flutter.dev
+            - img [ref=e499]
+          - link "Flutter's X (Twitter) profile" [ref=e501] [cursor=pointer]:
+            - /url: https://twitter.com/FlutterDev
+            - img [ref=e502]
+      - generic [ref=e504]:
+        - generic [ref=e505]: 引用中文内容需注明本站及链接作为出处，英文内容和示例代码均遵从源站授权协议。
+        - generic [ref=e506]:
+          - list [ref=e507]:
+            - listitem [ref=e508]:
+              - link "使用条款" [ref=e509] [cursor=pointer]:
+                - /url: /tos
+            - listitem [ref=e510]:
+              - link "品牌指南" [ref=e511] [cursor=pointer]:
+                - /url: /brand
+            - listitem [ref=e512]:
+              - link "隐私权说明" [ref=e513] [cursor=pointer]:
+                - /url: https://policies.google.com/privacy
+            - listitem [ref=e514]:
+              - link "安全性" [ref=e515] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=e516]:
+              - link "免责声明" [ref=e517] [cursor=pointer]:
+                - /url: /disclaimer
+          - link "This site is built with the Jaspr web framework for Dart." [ref=e519] [cursor=pointer]:
+            - /url: https://jaspr.site
+            - img [ref=e521]

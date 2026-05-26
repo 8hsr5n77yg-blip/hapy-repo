@@ -1,0 +1,212 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5] [cursor=pointer]:
+      - generic [ref=e6]:
+        - img [ref=e8]
+        - generic [ref=e12]: 搜索菜单
+        - generic [ref=e13]: Ctrl + /
+      - generic [ref=e15]:
+        - button "公共" [ref=e16]
+        - button "人力" [ref=e17]
+        - button "资产" [ref=e18]
+    - menu [ref=e20] [cursor=pointer]:
+      - menuitem "首页" [ref=e21]:
+        - generic [ref=e23]:
+          - img [ref=e25]
+          - generic [ref=e29]: 首页
+      - menuitem "待办事项 12" [ref=e30]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - img [ref=e35]
+            - generic [ref=e41]: 待办事项
+          - superscript [ref=e42]: "12"
+      - listitem [ref=e43]:
+        - generic [ref=e44]:
+          - img [ref=e46]
+          - generic [ref=e48]: 组织管理
+          - generic [ref=e49]: ▸
+      - listitem [ref=e50]:
+        - generic [ref=e51]:
+          - img [ref=e53]
+          - generic [ref=e57]: 绩效管理
+          - generic [ref=e58]: ▸
+      - listitem [ref=e59]:
+        - generic [ref=e60]:
+          - img [ref=e62]
+          - generic [ref=e66]: 薪酬管理
+          - generic [ref=e67]: ▸
+      - listitem [ref=e68]:
+        - generic [ref=e69]:
+          - img [ref=e71]
+          - generic [ref=e73]: 审批管理
+          - generic [ref=e74]: ▸
+      - listitem [ref=e75]:
+        - generic [ref=e76]:
+          - img [ref=e78]
+          - generic [ref=e81]: 学习管理
+          - generic [ref=e82]: ▸
+      - listitem [ref=e83]:
+        - generic [ref=e84]:
+          - img [ref=e86]
+          - generic [ref=e88]: 资产管理
+          - generic [ref=e89]: ▸
+      - listitem [ref=e90]:
+        - generic [ref=e91]:
+          - img [ref=e93]
+          - generic [ref=e95]: 折旧管理
+          - generic [ref=e96]: ▸
+      - listitem [ref=e97]:
+        - generic [ref=e98]:
+          - img [ref=e100]
+          - generic [ref=e102]: 运营管理
+          - generic [ref=e103]: ▸
+      - listitem [ref=e104]:
+        - generic [ref=e105]:
+          - img [ref=e107]
+          - generic [ref=e109]: 库存管理
+          - generic [ref=e110]: ▸
+      - listitem [ref=e111]:
+        - generic [ref=e112]:
+          - img [ref=e114]
+          - generic [ref=e118]: 系统设置
+          - generic [ref=e119]: ▸
+  - generic [ref=e120]:
+    - generic [ref=e121]:
+      - img [ref=e124] [cursor=pointer]
+      - generic [ref=e128]: 首页
+      - generic [ref=e129]:
+        - button "编辑布局" [ref=e131] [cursor=pointer]
+        - button "添加卡片" [disabled] [ref=e133]
+        - button "重置卡片" [disabled] [ref=e135]
+        - button "重新排列" [disabled] [ref=e137]
+    - generic [ref=e138]:
+      - generic [ref=e139] [cursor=pointer]:
+        - generic [ref=e140]: 沃德辰龙
+        - img [ref=e143]
+      - generic [ref=e145] [cursor=pointer]:
+        - generic [ref=e146]: 帮助文档
+        - img [ref=e149]
+      - generic [ref=e152] [cursor=pointer]:
+        - img [ref=e154]
+        - generic [ref=e157]: 刘航 13842951343
+  - generic [ref=e159]:
+    - generic [ref=e161] [cursor=pointer]:
+      - generic [ref=e162]: 课程完成情况
+      - img [ref=e165]
+    - generic [ref=e174] [cursor=pointer]:
+      - generic [ref=e175]: 课程开展情况
+      - img [ref=e178]
+    - generic [ref=e186]:
+      - generic [ref=e187] [cursor=pointer]:
+        - generic [ref=e188]: 我的课程
+        - img [ref=e191]
+      - generic [ref=e196]:
+        - generic [ref=e197] [cursor=pointer]:
+          - generic [ref=e198]: 班级数量
+          - generic [ref=e199]: "5"
+        - generic [ref=e200] [cursor=pointer]:
+          - generic [ref=e201]: 开课总数
+          - generic [ref=e202]: "272"
+        - generic [ref=e203] [cursor=pointer]:
+          - generic [ref=e204]: 课程完成率
+          - generic [ref=e205]: 13%
+    - generic [ref=e207]:
+      - generic [ref=e208] [cursor=pointer]:
+        - generic [ref=e209]: 月度双赢协议
+        - img [ref=e212]
+      - generic [ref=e219] [cursor=pointer]:
+        - generic [ref=e220]: 查看更多
+        - img [ref=e222]
+    - generic [ref=e224]:
+      - generic [ref=e225] [cursor=pointer]:
+        - generic [ref=e226]: 绩效分析 (2026年4月)
+        - img [ref=e229]
+      - generic [ref=e234]:
+        - generic [ref=e235] [cursor=pointer]:
+          - generic [ref=e236]: 本月得分
+          - generic [ref=e237]: 暂无
+        - generic [ref=e238] [cursor=pointer]:
+          - generic [ref=e239]: 上月成绩
+          - generic [ref=e240]: "0"
+        - generic [ref=e241] [cursor=pointer]:
+          - generic [ref=e242]: 环比得分
+          - generic [ref=e243]: 暂无
+        - generic [ref=e244] [cursor=pointer]:
+          - generic [ref=e245]: 部门排名
+          - generic [ref=e246]: 暂无
+      - generic [ref=e247] [cursor=pointer]:
+        - generic [ref=e248]: 查看更多
+        - img [ref=e250]
+    - generic [ref=e252]:
+      - generic [ref=e253] [cursor=pointer]:
+        - generic [ref=e254]: 得分同比
+        - img [ref=e257]
+      - generic [ref=e265] [cursor=pointer]:
+        - generic [ref=e266]: 查看更多
+        - img [ref=e268]
+    - generic [ref=e270]:
+      - generic [ref=e271] [cursor=pointer]:
+        - generic [ref=e272]: 待办事项
+        - img [ref=e275]
+      - generic [ref=e279]:
+        - generic [ref=e280]:
+          - generic [ref=e281]: 待办内容
+          - generic [ref=e282]: 操作
+        - generic [ref=e283]:
+          - generic [ref=e284]:
+            - generic [ref=e285]:
+              - img [ref=e287]
+              - generic [ref=e291]: 【资产模块】新资产模块场景化测试用例
+            - generic [ref=e292]:
+              - generic [ref=e293]:
+                - generic [ref=e294]: 刘佳慧
+                - generic [ref=e295]: 月度任务评分
+              - button "去处理" [ref=e296] [cursor=pointer]
+          - generic [ref=e297]:
+            - generic [ref=e298]:
+              - img [ref=e300]
+              - generic [ref=e304]: 【资产模块】新资产模块场景化测试用例
+            - generic [ref=e305]:
+              - generic [ref=e306]:
+                - generic [ref=e307]: 刘佳慧
+                - generic [ref=e308]: 月度任务评分
+              - button "去处理" [ref=e309] [cursor=pointer]
+          - generic [ref=e310]:
+            - generic [ref=e311]:
+              - img [ref=e313]
+              - generic [ref=e317]: 【资产模块】新资产模块场景化测试用例
+            - generic [ref=e318]:
+              - generic [ref=e319]:
+                - generic [ref=e320]: 刘佳慧
+                - generic [ref=e321]: 月度任务评分
+              - button "去处理" [ref=e322] [cursor=pointer]
+          - generic [ref=e323]:
+            - generic [ref=e324]:
+              - img [ref=e326]
+              - generic [ref=e330]: 任务：完成资产作废、转移申请测试
+            - generic [ref=e331]:
+              - generic [ref=e332]:
+                - generic [ref=e333]: 刘佳慧
+                - generic [ref=e334]: 月度任务评分
+              - button "去处理" [ref=e335] [cursor=pointer]
+          - generic [ref=e336]:
+            - generic [ref=e337]:
+              - img [ref=e339]
+              - generic [ref=e343]: 任务：完成资产作废、转移申请测试
+            - generic [ref=e344]:
+              - generic [ref=e345]:
+                - generic [ref=e346]: 刘佳慧
+                - generic [ref=e347]: 月度任务评分
+              - button "去处理" [ref=e348] [cursor=pointer]
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - img [ref=e352]
+              - generic [ref=e356]: 任务：【资产管理】资产报废功能改造测试
+            - generic [ref=e357]:
+              - generic [ref=e358]:
+                - generic [ref=e359]: 刘佳慧
+                - generic [ref=e360]: 月度任务评分
+              - button "去处理" [ref=e361] [cursor=pointer]
+      - generic [ref=e362] [cursor=pointer]:
+        - generic [ref=e363]: 查看更多
+        - img [ref=e365]

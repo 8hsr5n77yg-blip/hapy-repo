@@ -1,0 +1,41 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - img "logo"
+        - separator [ref=e5]
+        - img "logo"
+      - generic [ref=e6]: 服务端异常
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e17]:
+          - img "user" [ref=e19]:
+            - img [ref=e20]
+          - textbox "请输入手机号" [ref=e22]
+        - generic [ref=e29]:
+          - img "lock" [ref=e31]:
+            - img [ref=e32]
+          - textbox "请输入智慧蛋鸡密码" [ref=e34]
+        - generic [ref=e42]:
+          - img "robot" [ref=e44]:
+            - img [ref=e45]
+          - textbox "验证码" [ref=e47]
+        - button "登 录" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: 登 录
+      - separator [ref=e52]:
+        - generic [ref=e53]: 其他登录方式
+      - generic [ref=e54]:
+        - generic [ref=e58] [cursor=pointer]: 手机验证登录
+        - generic [ref=e62] [cursor=pointer]: 扫码登录
+    - contentinfo [ref=e63]:
+      - generic [ref=e64]:
+        - text: 北京沃德博创信息科技有限公司
+        - link "京ICP备 16023641号-1" [ref=e65] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn/
+        - link "京公网安备 1101172000388号" [ref=e66] [cursor=pointer]:
+          - /url: https://beian.mps.gov.cn/#/query/webSearch
+      - generic [ref=e67]: ©2026 Beijing Wode Botron Information Technology Co., Ltd. All Rights Reserved.
+  - generic [ref=e69]:
+    - img "close-circle" [ref=e70]:
+      - img [ref=e71]
+    - text: 请先登录

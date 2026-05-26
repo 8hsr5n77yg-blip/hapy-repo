@@ -1,0 +1,60 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - link "酷安" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: 酷安
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "首页" [ref=e10] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e11]:
+          - link "编辑精选" [ref=e12] [cursor=pointer]:
+            - /url: /editorChoice
+        - listitem [ref=e13]:
+          - link "官方评测" [ref=e14] [cursor=pointer]:
+            - /url: /officialEvaluation
+        - listitem [ref=e15]:
+          - link "联系酷安" [ref=e16] [cursor=pointer]:
+            - /url: /about/contact.html
+    - generic [ref=e18]:
+      - heading "出错了，你访问的页面不存在" [level=1] [ref=e19]
+      - paragraph [ref=e20]:
+        - text: 将在 4 秒钟后自动跳转至首页，如需快速转至首页请
+        - link "点击这里" [ref=e21] [cursor=pointer]:
+          - /url: /
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e27]:
+          - paragraph [ref=e28]: 酷安APP
+          - paragraph [ref=e29]: 分享美好科技生活
+        - list [ref=e31]:
+          - listitem [ref=e32]:
+            - link "关于酷安" [ref=e33] [cursor=pointer]:
+              - /url: /about/about.html
+          - listitem [ref=e34]:
+            - link "联系合作" [ref=e35] [cursor=pointer]:
+              - /url: /about/contact.html
+          - listitem [ref=e36]:
+            - link "加入我们" [ref=e37] [cursor=pointer]:
+              - /url: /about/jobs.html
+          - listitem [ref=e38]:
+            - link "版权声明" [ref=e39] [cursor=pointer]:
+              - /url: /about/copyright.html
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: Copyright © 2010- 2026 酷安网
+          - paragraph [ref=e42]:
+            - link "粤ICP备15030494号-2" [ref=e43] [cursor=pointer]:
+              - /url: https://beian.miit.gov.cn
+            - text: "| 粤网文 [2016] 2468-477号 | 粤B2-20180425 | APP备案号："
+            - link "粤ICP备15030494号-3A" [ref=e44] [cursor=pointer]:
+              - /url: https://beian.miit.gov.cn
+          - paragraph [ref=e45]: 违法和不良信息举报电话：0755-86965007 举报邮箱：jubao@coolapk.com
+          - paragraph [ref=e46]:
+            - img [ref=e47]
+            - text: 粤公网安备44030502000719号
+      - generic [ref=e48]:
+        - paragraph [ref=e50]: 酷安微博
+        - paragraph [ref=e52]: 酷安公众号
+  - link:
+    - /url: https://dl.coolapk.com/down?pn=com.coolapk.market&id=NDU5OQ&h=46bb9d98&from=from-web

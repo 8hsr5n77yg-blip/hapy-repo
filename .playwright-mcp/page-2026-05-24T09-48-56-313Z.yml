@@ -1,0 +1,555 @@
+- generic [ref=e1]:
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。":
+    - /url: javascript:void(0)
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - link "到百度首页" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "到百度首页" [ref=e7]
+          - generic [ref=e10]:
+            - textbox [ref=e12]: android sdk commandlinetools windows 下载
+            - generic [ref=e14]:
+              - generic [ref=e15]:
+                - img [ref=e17] [cursor=pointer]
+                - img [ref=e27] [cursor=pointer]
+                - generic [ref=e30]:
+                  - img [ref=e34] [cursor=pointer]
+                  - img [ref=e39] [cursor=pointer]
+              - button "百度一下" [ref=e43] [cursor=pointer]
+      - generic [ref=e45]:
+        - link "百度首页" [ref=e46] [cursor=pointer]:
+          - /url: /
+        - link "设置" [ref=e47] [cursor=pointer]:
+          - /url: javascript:;
+        - link "登录" [ref=e48] [cursor=pointer]:
+          - /url: https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F
+    - generic [ref=e51]:
+      - link [ref=e52] [cursor=pointer]:
+        - /url: https://chat.baidu.com/search?word=android+sdk+commandlinetools+windows+%E4%B8%8B%E8%BD%BD&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&pd=csaitab&setype=csaitab&extParamsJson=%7B%22enter_type%22%3A%22search_a_tab%22%2C%22sa%22%3A%22vs_tab%22%2C%22apagelid%22%3A%2210766935046259488747%22%2C%22ori_lid%22%3A%2210766935046259488747%22%7D
+        - img [ref=e53]
+      - generic [ref=e54]: 网页
+      - link "图片" [ref=e55] [cursor=pointer]:
+        - /url: http://image.baidu.com/i?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&lid=956bd661000037eb&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=android+sdk+commandlinetools+windows+%E4%B8%8B%E8%BD%BD
+      - link "资讯" [ref=e56] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=android+sdk+commandlinetools+windows+%E4%B8%8B%E8%BD%BD
+      - link "视频" [ref=e57] [cursor=pointer]:
+        - /url: /sf/vsearch?pd=video&tn=vsearch&lid=956bd661000037eb&ie=utf-8&wd=android+sdk+commandlinetools+windows+%E4%B8%8B%E8%BD%BD&rsv_spt=7&rsv_bp=1&f=8&oq=android+sdk+commandlinetools+windows+%E4%B8%8B%E8%BD%BD&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI
+      - link "笔记" [ref=e58] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?pd=note&rpf=pc&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=android+sdk+commandlinetools+windows+%E4%B8%8B%E8%BD%BD
+      - link "地图" [ref=e59] [cursor=pointer]:
+        - /url: https://map.baidu.com/?newmap=1&ie=utf-8&from=pstab&s=s%26wd%3Dandroid+sdk+commandlinetools+windows+%E4%B8%8B%E8%BD%BD
+      - link "贴吧" [ref=e60] [cursor=pointer]:
+        - /url: http://tieba.baidu.com/f?fr=wwwt&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&kw=android+sdk+commandlinetools+windows+%E4%B8%8B%E8%BD%BD
+      - link "文库" [ref=e61] [cursor=pointer]:
+        - /url: http://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=android+sdk+commandlinetools+windows+%E4%B8%8B%E8%BD%BD
+      - link "更多" [ref=e62] [cursor=pointer]:
+        - /url: http://www.baidu.com/more/
+      - generic [ref=e63] [cursor=pointer]: 搜索工具
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - table [ref=e67]:
+          - rowgroup [ref=e68]:
+            - row "相关搜索  android sdk tools下载  安卓sdk工具下载  电脑出现command line  android开发工具箱  Android SDK Tools  android9.0系统下载    换一换 热搜榜 北京榜 民生榜 财经榜  安全不容失守 责任重于泰山 1 煤矿爆炸时247人下井仅记录124人 热 2 微信“史诗级”更新 登录方式有变 热 3 暴雨强对流双预警 出行需注意防范 4 武汉发布气象防御指南：停课停业 热 5 发射塔旁50米有棵树被火烧千百回不死 新 6 食用油开封近俩月就报废？真别吃了 7 山西煤矿事故现场发现两条隐藏巷道 8 李晨郑恺停止宣传《跑男》 9 每天刷手机5小时以上的人都怎么样了 新 10 端午放假通知：连休3天高速不免费 11 高铁行李架掉下条蛇？铁路部门辟谣 12 男子接亲路上才得知新娘已婚已育 13 油车销量断崖式下滑 经销商亏本甩卖 14 大脑在这两个年纪会断崖式衰老 新 15 重庆永川暴雨致17人失联 3人死亡 热" [ref=e69]:
+              - cell "相关搜索  android sdk tools下载  安卓sdk工具下载  电脑出现command line  android开发工具箱  Android SDK Tools  android9.0系统下载    换一换 热搜榜 北京榜 民生榜 财经榜  安全不容失守 责任重于泰山 1 煤矿爆炸时247人下井仅记录124人 热 2 微信“史诗级”更新 登录方式有变 热 3 暴雨强对流双预警 出行需注意防范 4 武汉发布气象防御指南：停课停业 热 5 发射塔旁50米有棵树被火烧千百回不死 新 6 食用油开封近俩月就报废？真别吃了 7 山西煤矿事故现场发现两条隐藏巷道 8 李晨郑恺停止宣传《跑男》 9 每天刷手机5小时以上的人都怎么样了 新 10 端午放假通知：连休3天高速不免费 11 高铁行李架掉下条蛇？铁路部门辟谣 12 男子接亲路上才得知新娘已婚已育 13 油车销量断崖式下滑 经销商亏本甩卖 14 大脑在这两个年纪会断崖式衰老 新 15 重庆永川暴雨致17人失联 3人死亡 热" [ref=e70]:
+                - generic [ref=e71]:
+                  - generic [ref=e77]:
+                    - generic [ref=e79]: 相关搜索
+                    - generic [ref=e80]:
+                      - link " android sdk tools下载" [ref=e83] [cursor=pointer]:
+                        - /url: /s?wd=android%20sdk%20tools%E4%B8%8B%E8%BD%BD&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=afa0CGyBKhao4wVIFl6EzDZmDYCka8EdbyRCYuAhE4dA7qPvCgQQPf9wFTs&rfqid=956bd661000037eb&rsv_dl=0_prs_28616_1&rq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsf=101633403
+                        - generic [ref=e84]:
+                          - generic [ref=e85]: 
+                          - generic [ref=e86]: android sdk tools下载
+                      - link " 安卓sdk工具下载" [ref=e89] [cursor=pointer]:
+                        - /url: /s?wd=%E5%AE%89%E5%8D%93sdk%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=afa0CGyBKhao4wVIFl6EzDZmDYCka8EdbyRCYuAhE4dA7qPvCgQQPf9wFTs&rfqid=956bd661000037eb&rsv_dl=0_prs_28616_2&rq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsf=101636803
+                        - generic [ref=e90]:
+                          - generic [ref=e91]: 
+                          - generic [ref=e92]: 安卓sdk工具下载
+                      - link " 电脑出现command line" [ref=e95] [cursor=pointer]:
+                        - /url: /s?wd=%E7%94%B5%E8%84%91%E5%87%BA%E7%8E%B0command%20line&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=afa0CGyBKhao4wVIFl6EzDZmDYCka8EdbyRCYuAhE4dA7qPvCgQQPf9wFTs&rfqid=956bd661000037eb&rsv_dl=0_prs_28616_3&rq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsf=101631202
+                        - generic [ref=e96]:
+                          - generic [ref=e97]: 
+                          - generic [ref=e98]: 电脑出现command line
+                      - link " android开发工具箱" [ref=e101] [cursor=pointer]:
+                        - /url: /s?wd=android%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E7%AE%B1&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=afa0CGyBKhao4wVIFl6EzDZmDYCka8EdbyRCYuAhE4dA7qPvCgQQPf9wFTs&rfqid=956bd661000037eb&rsv_dl=0_prs_28616_4&rq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsf=101636803
+                        - generic [ref=e102]:
+                          - generic [ref=e103]: 
+                          - generic [ref=e104]: android开发工具箱
+                      - link " Android SDK Tools" [ref=e107] [cursor=pointer]:
+                        - /url: /s?wd=Android%20SDK%20Tools&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=a058eiIN65xtOQAllheBCMLJmfyqidtQkEPe1q%2BkcePrIivFi8ZKWgu3yBU&rfqid=956bd661000037eb&rsv_dl=0_prs_28616_5&rq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsf=101633403
+                        - generic [ref=e108]:
+                          - generic [ref=e109]: 
+                          - generic [ref=e110]: Android SDK Tools
+                      - link " android9.0系统下载" [ref=e113] [cursor=pointer]:
+                        - /url: /s?wd=android9.0%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%BD%BD&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=a058eiIN65xtOQAllheBCMLJmfyqidtQkEPe1q%2BkcePrIivFi8ZKWgu3yBU&rfqid=956bd661000037eb&rsv_dl=0_prs_28616_6&rq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsf=101636803
+                        - generic [ref=e114]:
+                          - generic [ref=e115]: 
+                          - generic [ref=e116]: android9.0系统下载
+                  - generic [ref=e120]:
+                    - generic "百度热搜" [ref=e121]:
+                      - link " " [ref=e122] [cursor=pointer]:
+                        - /url: https://top.baidu.com/board?platform=pc&sa=pcindex_a_right
+                        - generic [ref=e123]: 
+                        - generic [ref=e124]: 
+                      - link " 换一换" [ref=e126] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=e127]: 
+                        - text: 换一换
+                    - generic [ref=e128]:
+                      - generic [ref=e129] [cursor=pointer]: 热搜榜
+                      - generic [ref=e130] [cursor=pointer]: 北京榜
+                      - generic [ref=e131] [cursor=pointer]: 民生榜
+                      - generic [ref=e132] [cursor=pointer]: 财经榜
+                    - generic [ref=e134]:
+                      - generic [ref=e136]:
+                        - generic [ref=e138]: 
+                        - link "安全不容失守 责任重于泰山" [ref=e139] [cursor=pointer]:
+                          - /url: /s?wd=%E5%AE%89%E5%85%A8%E4%B8%8D%E5%AE%B9%E5%A4%B1%E5%AE%88%20%E8%B4%A3%E4%BB%BB%E9%87%8D%E4%BA%8E%E6%B3%B0%E5%B1%B1&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=a058eiIN65xtOQAllheBCMLJmfyqidtQkEPe1q%2BkcePrIivFi8ZKWgu3yBU&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_1_15_1&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e141]:
+                        - generic [ref=e142]: "1"
+                        - link "煤矿爆炸时247人下井仅记录124人" [ref=e143] [cursor=pointer]:
+                          - /url: /s?wd=%E7%85%A4%E7%9F%BF%E7%88%86%E7%82%B8%E6%97%B6247%E4%BA%BA%E4%B8%8B%E4%BA%95%E4%BB%85%E8%AE%B0%E5%BD%95124%E4%BA%BA&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=a058eiIN65xtOQAllheBCMLJmfyqidtQkEPe1q%2BkcePrIivFi8ZKWgu3yBU&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_1_15_2&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e144]: 热
+                      - generic [ref=e146]:
+                        - generic [ref=e147]: "2"
+                        - link "微信“史诗级”更新 登录方式有变" [ref=e148] [cursor=pointer]:
+                          - /url: /s?wd=%E5%BE%AE%E4%BF%A1%E2%80%9C%E5%8F%B2%E8%AF%97%E7%BA%A7%E2%80%9D%E6%9B%B4%E6%96%B0%20%E7%99%BB%E5%BD%95%E6%96%B9%E5%BC%8F%E6%9C%89%E5%8F%98&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=a058eiIN65xtOQAllheBCMLJmfyqidtQkEPe1q%2BkcePrIivFi8ZKWgu3yBU&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_1_15_3&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e149]: 热
+                      - generic [ref=e151]:
+                        - generic [ref=e152]: "3"
+                        - link "暴雨强对流双预警 出行需注意防范" [ref=e153] [cursor=pointer]:
+                          - /url: /s?wd=%E6%9A%B4%E9%9B%A8%E5%BC%BA%E5%AF%B9%E6%B5%81%E5%8F%8C%E9%A2%84%E8%AD%A6%20%E5%87%BA%E8%A1%8C%E9%9C%80%E6%B3%A8%E6%84%8F%E9%98%B2%E8%8C%83&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=a058eiIN65xtOQAllheBCMLJmfyqidtQkEPe1q%2BkcePrIivFi8ZKWgu3yBU&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_1_15_4&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e155]:
+                        - generic [ref=e156]: "4"
+                        - link "武汉发布气象防御指南：停课停业" [ref=e157] [cursor=pointer]:
+                          - /url: /s?wd=%E6%AD%A6%E6%B1%89%E5%8F%91%E5%B8%83%E6%B0%94%E8%B1%A1%E9%98%B2%E5%BE%A1%E6%8C%87%E5%8D%97%EF%BC%9A%E5%81%9C%E8%AF%BE%E5%81%9C%E4%B8%9A&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=a058eiIN65xtOQAllheBCMLJmfyqidtQkEPe1q%2BkcePrIivFi8ZKWgu3yBU&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_1_15_5&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e158]: 热
+                      - generic [ref=e160]:
+                        - generic [ref=e161]: "5"
+                        - link "发射塔旁50米有棵树被火烧千百回不死" [ref=e162] [cursor=pointer]:
+                          - /url: /s?wd=%E5%8F%91%E5%B0%84%E5%A1%94%E6%97%8150%E7%B1%B3%E6%9C%89%E6%A3%B5%E6%A0%91%E8%A2%AB%E7%81%AB%E7%83%A7%E5%8D%83%E7%99%BE%E5%9B%9E%E4%B8%8D%E6%AD%BB&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=a058eiIN65xtOQAllheBCMLJmfyqidtQkEPe1q%2BkcePrIivFi8ZKWgu3yBU&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_1_15_6&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e163]: 新
+                      - generic [ref=e165]:
+                        - generic [ref=e166]: "6"
+                        - link "食用油开封近俩月就报废？真别吃了" [ref=e167] [cursor=pointer]:
+                          - /url: /s?wd=%E9%A3%9F%E7%94%A8%E6%B2%B9%E5%BC%80%E5%B0%81%E8%BF%91%E4%BF%A9%E6%9C%88%E5%B0%B1%E6%8A%A5%E5%BA%9F%EF%BC%9F%E7%9C%9F%E5%88%AB%E5%90%83%E4%BA%86&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=3ca1BKN7Lvd49bt1ggf29mk56VYJTjb8bAABM760Mf0f%2F5G4Nnkco9h6EyA&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_1_15_7&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e169]:
+                        - generic [ref=e170]: "7"
+                        - link "山西煤矿事故现场发现两条隐藏巷道" [ref=e171] [cursor=pointer]:
+                          - /url: /s?wd=%E5%B1%B1%E8%A5%BF%E7%85%A4%E7%9F%BF%E4%BA%8B%E6%95%85%E7%8E%B0%E5%9C%BA%E5%8F%91%E7%8E%B0%E4%B8%A4%E6%9D%A1%E9%9A%90%E8%97%8F%E5%B7%B7%E9%81%93&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=3ca1BKN7Lvd49bt1ggf29mk56VYJTjb8bAABM760Mf0f%2F5G4Nnkco9h6EyA&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_1_15_8&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e173]:
+                        - generic [ref=e174]: "8"
+                        - link "李晨郑恺停止宣传《跑男》" [ref=e175] [cursor=pointer]:
+                          - /url: /s?wd=%E6%9D%8E%E6%99%A8%E9%83%91%E6%81%BA%E5%81%9C%E6%AD%A2%E5%AE%A3%E4%BC%A0%E3%80%8A%E8%B7%91%E7%94%B7%E3%80%8B&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=3ca1BKN7Lvd49bt1ggf29mk56VYJTjb8bAABM760Mf0f%2F5G4Nnkco9h6EyA&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_1_15_9&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e177]:
+                        - generic [ref=e178]: "9"
+                        - link "每天刷手机5小时以上的人都怎么样了" [ref=e179] [cursor=pointer]:
+                          - /url: /s?wd=%E6%AF%8F%E5%A4%A9%E5%88%B7%E6%89%8B%E6%9C%BA5%E5%B0%8F%E6%97%B6%E4%BB%A5%E4%B8%8A%E7%9A%84%E4%BA%BA%E9%83%BD%E6%80%8E%E4%B9%88%E6%A0%B7%E4%BA%86&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=3ca1BKN7Lvd49bt1ggf29mk56VYJTjb8bAABM760Mf0f%2F5G4Nnkco9h6EyA&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_1_15_10&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e180]: 新
+                      - generic [ref=e182]:
+                        - generic [ref=e183]: "10"
+                        - link "端午放假通知：连休3天高速不免费" [ref=e184] [cursor=pointer]:
+                          - /url: /s?wd=%E7%AB%AF%E5%8D%88%E6%94%BE%E5%81%87%E9%80%9A%E7%9F%A5%EF%BC%9A%E8%BF%9E%E4%BC%913%E5%A4%A9%E9%AB%98%E9%80%9F%E4%B8%8D%E5%85%8D%E8%B4%B9&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=3ca1BKN7Lvd49bt1ggf29mk56VYJTjb8bAABM760Mf0f%2F5G4Nnkco9h6EyA&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_1_15_11&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e186]:
+                        - generic [ref=e187]: "11"
+                        - link "高铁行李架掉下条蛇？铁路部门辟谣" [ref=e188] [cursor=pointer]:
+                          - /url: /s?wd=%E9%AB%98%E9%93%81%E8%A1%8C%E6%9D%8E%E6%9E%B6%E6%8E%89%E4%B8%8B%E6%9D%A1%E8%9B%87%EF%BC%9F%E9%93%81%E8%B7%AF%E9%83%A8%E9%97%A8%E8%BE%9F%E8%B0%A3&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=3ca1BKN7Lvd49bt1ggf29mk56VYJTjb8bAABM760Mf0f%2F5G4Nnkco9h6EyA&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_1_15_12&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e190]:
+                        - generic [ref=e191]: "12"
+                        - link "男子接亲路上才得知新娘已婚已育" [ref=e192] [cursor=pointer]:
+                          - /url: /s?wd=%E7%94%B7%E5%AD%90%E6%8E%A5%E4%BA%B2%E8%B7%AF%E4%B8%8A%E6%89%8D%E5%BE%97%E7%9F%A5%E6%96%B0%E5%A8%98%E5%B7%B2%E5%A9%9A%E5%B7%B2%E8%82%B2&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=3ca1BKN7Lvd49bt1ggf29mk56VYJTjb8bAABM760Mf0f%2F5G4Nnkco9h6EyA&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_1_15_13&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e194]:
+                        - generic [ref=e195]: "13"
+                        - link "油车销量断崖式下滑 经销商亏本甩卖" [ref=e196] [cursor=pointer]:
+                          - /url: /s?wd=%E6%B2%B9%E8%BD%A6%E9%94%80%E9%87%8F%E6%96%AD%E5%B4%96%E5%BC%8F%E4%B8%8B%E6%BB%91%20%E7%BB%8F%E9%94%80%E5%95%86%E4%BA%8F%E6%9C%AC%E7%94%A9%E5%8D%96&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=3ca1BKN7Lvd49bt1ggf29mk56VYJTjb8bAABM760Mf0f%2F5G4Nnkco9h6EyA&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_1_15_14&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e198]:
+                        - generic [ref=e199]: "14"
+                        - link "大脑在这两个年纪会断崖式衰老" [ref=e200] [cursor=pointer]:
+                          - /url: /s?wd=%E5%A4%A7%E8%84%91%E5%9C%A8%E8%BF%99%E4%B8%A4%E4%B8%AA%E5%B9%B4%E7%BA%AA%E4%BC%9A%E6%96%AD%E5%B4%96%E5%BC%8F%E8%A1%B0%E8%80%81&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=3ca1BKN7Lvd49bt1ggf29mk56VYJTjb8bAABM760Mf0f%2F5G4Nnkco9h6EyA&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_1_15_15&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e201]: 新
+                      - generic [ref=e203]:
+                        - generic [ref=e204]: "15"
+                        - link "重庆永川暴雨致17人失联 3人死亡" [ref=e205] [cursor=pointer]:
+                          - /url: /s?wd=%E9%87%8D%E5%BA%86%E6%B0%B8%E5%B7%9D%E6%9A%B4%E9%9B%A8%E8%87%B417%E4%BA%BA%E5%A4%B1%E8%81%94%203%E4%BA%BA%E6%AD%BB%E4%BA%A1&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=3ca1BKN7Lvd49bt1ggf29mk56VYJTjb8bAABM760Mf0f%2F5G4Nnkco9h6EyA&rqid=956bd661000037eb&rsf=466f23e3697a22437c016cd4241f2b57_16_30_16&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e206]: 热
+        - generic [ref=e207]:
+          - generic [ref=e211]:
+            - heading "通过Android Studio 安装 Android 环境" [level=3] [ref=e214]:
+              - link "通过Android Studio 安装 Android 环境" [ref=e215] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=jfTIKiIAv4exvXCaNH6INZD9iPZDEECldliFnjYQVpERJqNQhxJCNHESqVZSvDZJTiQQj_djW0pbwHe0iY5-EUmWCdcT5pjjgv4zpipLyxLpDDjBDIYOu03PIVXrmAcu
+                - paragraph [ref=e218]:
+                  - generic [ref=e221]:
+                    - text: 通过
+                    - emphasis [ref=e222]: Android
+                    - text: Studio 安装 Android 环境
+            - generic [ref=e223]:
+              - link [ref=e225] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=jfTIKiIAv4exvXCaNH6INZD9iPZDEECldliFnjYQVpERJqNQhxJCNHESqVZSvDZJTiQQj_djW0pbwHe0iY5-EUmWCdcT5pjjgv4zpipLyxLpDDjBDIYOu03PIVXrmAcu
+              - generic [ref=e230]:
+                - generic [ref=e236]:
+                  - text: "#1."
+                  - emphasis [ref=e237]: 下载
+                  - text: 安装 Command tools zip 包 [参考官方文档open in new
+                  - emphasis [ref=e238]: window
+                  - text: "] 打开Command toolsopen in new window,滚到底部Command line tools only下载对应平台 zip 安装包,将其解压缩 将解压缩的 cmdline-tools 目录移至您选择的新目录,例如~/Documents/AndroidSDK。"
+                - link "Donut" [ref=e243] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=jfTIKiIAv4exvXCaNH6INZD9iPZDEECldliFnjYQVpERJqNQhxJCNHESqVZSvDZJTiQQj_djW0pbwHe0iY5-EUmWCdcT5pjjgv4zpipLyxLpDDjBDIYOu03PIVXrmAcu
+                  - generic [ref=e244]: Donut
+                  - generic [ref=e246]: 
+          - generic [ref=e250]:
+            - generic [ref=e252]:
+              - link "官方" [ref=e254] [cursor=pointer]:
+                - /url: https://aiqicha.baidu.com/feedback/official?from=baidu&type=gw
+                - generic [ref=e255]: 官方
+              - heading "下载Android Studio 和应用工具 - Android 开发者 | Android..." [level=3] [ref=e256]:
+                - link "下载Android Studio 和应用工具 - Android 开发者 | Android..." [ref=e257] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=jfTIKiIAv4exvXCaNH6INUj9QqOwHU80TSbyUEz7DhvDUhOhLKeGm_FPvGF5o0UtSgWoMSFU9QEe3qzTmk3eca
+                  - paragraph [ref=e260]:
+                    - generic [ref=e263]:
+                      - emphasis [ref=e264]: 下载Android
+                      - text: Studio 和应用工具 - Android 开发者 | Android...
+            - generic [ref=e270]:
+              - text: Linux
+              - emphasis [ref=e271]: commandlinetools
+              - text: "-linux-14742923_latest.zip 172.8 MB 48833c34b761c10cb20bcd16582129395d121b27"
+              - emphasis [ref=e272]: Android
+              - text: Studio 中包含命令行工具。如果您不需要 Android Studio,可以从上面
+              - emphasis [ref=e273]: 下载
+              - text: 基本的 Android 命令行工具。您可以使用随附的
+              - emphasis [ref=e274]: sdk
+              - text: manager 来下载其他
+              - emphasis [ref=e275]: SDK
+              - text: 软件包。近期视频 更多视频 未找到任何结果。微信...
+            - generic [ref=e276]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=jfTIKiIAv4exvXCaNH6INUj9QqOwHU80TSbyUEz7DhvDUhOhLKeGm_FPvGF5o0UtSgWoMSFU9QEe3qzTmk3eca
+              - link [ref=e282] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=jfTIKiIAv4exvXCaNH6INUj9QqOwHU80TSbyUEz7DhvDUhOhLKeGm_FPvGF5o0UtSgWoMSFU9QEe3qzTmk3eca
+              - link [ref=e286] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=jfTIKiIAv4exvXCaNH6INUj9QqOwHU80TSbyUEz7DhvDUhOhLKeGm_FPvGF5o0UtSgWoMSFU9QEe3qzTmk3eca
+              - link "6" [ref=e290] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=jfTIKiIAv4exvXCaNH6INUj9QqOwHU80TSbyUEz7DhvDUhOhLKeGm_FPvGF5o0UtSgWoMSFU9QEe3qzTmk3eca
+                - generic [ref=e293]:
+                  - generic [ref=e294]: 
+                  - text: "6"
+            - link "Android" [ref=e299] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=jfTIKiIAv4exvXCaNH6INUj9QqOwHU80TSbyUEz7DhvDUhOhLKeGm_FPvGF5o0UtSgWoMSFU9QEe3qzTmk3eca
+              - generic [ref=e300]: Android
+              - generic [ref=e302]: 
+          - generic [ref=e306]:
+            - heading "Android SDK 官方下载渠道与使用指南" [level=3] [ref=e309]:
+              - link "Android SDK 官方下载渠道与使用指南" [ref=e310] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=y_VIcVsTNDt0hrWLNhpcj3txWQjfH1kub4OriRvWtgCAyMHgv7Nd0canxC4XyKH5oGbF1VbbxDA7GDCMaiXgZK
+                - paragraph [ref=e313]:
+                  - generic [ref=e316]:
+                    - emphasis [ref=e317]: Android
+                    - emphasis [ref=e318]: SDK
+                    - text: 官方
+                    - emphasis [ref=e319]: 下载
+                    - text: 渠道与使用指南
+            - generic [ref=e325]:
+              - emphasis [ref=e326]: Android
+              - emphasis [ref=e327]: SDK
+              - text: 作为Android应用开发的核心工具包,其
+              - emphasis [ref=e328]: 下载
+              - text: "渠道的权威性直接关系到开发环境的稳定性。Google官方提供的下载方式主要有两种:"
+            - link "头像 百度智能云" [ref=e333] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=y_VIcVsTNDt0hrWLNhpcj3txWQjfH1kub4OriRvWtgCAyMHgv7Nd0canxC4XyKH5oGbF1VbbxDA7GDCMaiXgZK
+              - img "头像" [ref=e336]
+              - generic [ref=e337]: 百度智能云
+              - generic [ref=e339]: 
+          - generic [ref=e347]:
+            - generic [ref=e348]: 大家还在搜
+            - generic [ref=e349]:
+              - link "android sdk tools下载" [ref=e350] [cursor=pointer]:
+                - /url: /s?wd=android%20sdk%20tools%E4%B8%8B%E8%BD%BD&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=953dwwJkMp9IgcsvNV9xmSaLC2ekoYbhSPsPAaSd3I5XWE99NVIxHWjk0ZI&rsf=101633403&rsv_dl=0_prs_28608_1
+                - generic [ref=e352]: android sdk tools下载
+              - link "安卓sdk工具下载" [ref=e353] [cursor=pointer]:
+                - /url: /s?wd=%E5%AE%89%E5%8D%93sdk%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=953dwwJkMp9IgcsvNV9xmSaLC2ekoYbhSPsPAaSd3I5XWE99NVIxHWjk0ZI&rsf=101636803&rsv_dl=0_prs_28608_2
+                - generic [ref=e355]: 安卓sdk工具下载
+              - link "电脑出现command line" [ref=e356] [cursor=pointer]:
+                - /url: /s?wd=%E7%94%B5%E8%84%91%E5%87%BA%E7%8E%B0command%20line&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=953dwwJkMp9IgcsvNV9xmSaLC2ekoYbhSPsPAaSd3I5XWE99NVIxHWjk0ZI&rsf=101631202&rsv_dl=0_prs_28608_3
+                - generic [ref=e358]: 电脑出现command line
+              - link "android开发工具箱" [ref=e359] [cursor=pointer]:
+                - /url: /s?wd=android%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E7%AE%B1&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=953dwwJkMp9IgcsvNV9xmSaLC2ekoYbhSPsPAaSd3I5XWE99NVIxHWjk0ZI&rsf=101636803&rsv_dl=0_prs_28608_4
+                - generic [ref=e361]: android开发工具箱
+              - link "Android SDK Tools" [ref=e362] [cursor=pointer]:
+                - /url: /s?wd=Android%20SDK%20Tools&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=953dwwJkMp9IgcsvNV9xmSaLC2ekoYbhSPsPAaSd3I5XWE99NVIxHWjk0ZI&rsf=101633403&rsv_dl=0_prs_28608_5
+                - generic [ref=e364]: Android SDK Tools
+              - link "android9.0系统下载" [ref=e365] [cursor=pointer]:
+                - /url: /s?wd=android9.0%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%BD%BD&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=953dwwJkMp9IgcsvNV9xmSaLC2ekoYbhSPsPAaSd3I5XWE99NVIxHWjk0ZI&rsf=101636803&rsv_dl=0_prs_28608_6
+                - generic [ref=e367]: android9.0系统下载
+              - link "android:windowSoftInputMode" [ref=e368] [cursor=pointer]:
+                - /url: /s?wd=android%3AwindowSoftInputMode&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=953dwwJkMp9IgcsvNV9xmSaLC2ekoYbhSPsPAaSd3I5XWE99NVIxHWjk0ZI&rsf=101633403&rsv_dl=0_prs_28608_7
+                - generic [ref=e370]: android:windowSoftInputMode
+              - link "androidROM下载" [ref=e371] [cursor=pointer]:
+                - /url: /s?wd=androidROM%E4%B8%8B%E8%BD%BD&usm=1&ie=utf-8&rsv_pq=956bd661000037eb&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&rsv_t=953dwwJkMp9IgcsvNV9xmSaLC2ekoYbhSPsPAaSd3I5XWE99NVIxHWjk0ZI&rsf=101636803&rsv_dl=0_prs_28608_8
+                - generic [ref=e373]: androidROM下载
+          - generic [ref=e377]:
+            - heading "Android SDK手动下载与配置全指南" [level=3] [ref=e380]:
+              - link "Android SDK手动下载与配置全指南" [ref=e381] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=y_VIcVsTNDt0hrWLNhpcj3txWQjfH1kub4OriRvWtgCAyMHgv7Nd0canxC4XyKH5hEyzCkznLSuiw3EJ_noFl_
+                - paragraph [ref=e384]:
+                  - generic [ref=e387]:
+                    - emphasis [ref=e388]: Android
+                    - emphasis [ref=e389]: SDK
+                    - text: 手动
+                    - emphasis [ref=e390]: 下载
+                    - text: 与配置全指南
+            - generic [ref=e395]:
+              - text: 2025年9月9日
+              - generic [ref=e396]:
+                - emphasis [ref=e397]: Android
+                - text: SDK(Software Development Kit)是开发Android应用程序的核心工具包。虽然Android Studio提供了集成下载方式,但在以下场景中,手动
+                - emphasis [ref=e398]: 下载SDK
+                - text: "具有独特优势:"
+            - link "头像 百度智能云" [ref=e403] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=y_VIcVsTNDt0hrWLNhpcj3txWQjfH1kub4OriRvWtgCAyMHgv7Nd0canxC4XyKH5hEyzCkznLSuiw3EJ_noFl_
+              - img "头像" [ref=e406]
+              - generic [ref=e407]: 百度智能云
+              - generic [ref=e409]: 
+          - generic [ref=e419]:
+            - heading "【亲测免费】 Android SDK 命令行工具下载-CSDN博客" [level=3] [ref=e422]:
+              - link "【亲测免费】 Android SDK 命令行工具下载-CSDN博客" [ref=e423] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=FUQosBFzdQV8h5HtD43Xk7VM5a6Sg1slq6XmjpQhU1nOScmi8rVISZLqv6pTiSYd98RtzM92m_H0sfwkFE8lnRIlp0fU1DwidNbB-pvEYcS
+                - paragraph [ref=e426]:
+                  - generic [ref=e429]:
+                    - text: 【亲测免费】
+                    - emphasis [ref=e430]: Android
+                    - emphasis [ref=e431]: SDK
+                    - text: 命令行工具
+                    - emphasis [ref=e432]: 下载
+                    - text: "-CSDN博客"
+            - generic [ref=e437]:
+              - text: 2025年4月20日
+              - generic [ref=e438]:
+                - text: "项目地址: https://gitcode.com/Universal-Tool/3ff85 此仓库提供了"
+                - emphasis [ref=e439]: Android
+                - emphasis [ref=e440]: SDK
+                - text: "的命令行工具资源文件:"
+                - emphasis [ref=e441]: commandlinetools
+                - text: "-win-6609375_latest.zip。该工具是Android开发的重要组成部分,允许开发者通过命令行界面进行Android应用开发。 文件描述 此资源文件包含最新版本的"
+                - emphasis [ref=e442]: Windows
+                - text: 平台Android SDK命令行工具。此工具旨在为Android...
+            - link "头像 CSDN博客" [ref=e447] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=FUQosBFzdQV8h5HtD43Xk7VM5a6Sg1slq6XmjpQhU1nOScmi8rVISZLqv6pTiSYd98RtzM92m_H0sfwkFE8lnRIlp0fU1DwidNbB-pvEYcS
+              - img "头像" [ref=e450]
+              - generic [ref=e451]: CSDN博客
+              - generic [ref=e453]: 
+          - generic [ref=e457]:
+            - heading "Android SDK下载与使用全指南:从入门到精通-百度开发者中心" [level=3] [ref=e460]:
+              - link "Android SDK下载与使用全指南:从入门到精通-百度开发者中心" [ref=e461] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=A9k7zfpeDaH38tM04Qjzg5d9aW1-ITe1pouUXn_Mio2QtpoKF08IV-UMRn5oSTy-c7V_PgyF2jvomKRGPVlZDJzeJaenTBdQj427tsTjubC
+                - paragraph [ref=e464]:
+                  - generic [ref=e467]:
+                    - emphasis [ref=e468]: Android
+                    - emphasis [ref=e469]: SDK下载
+                    - text: 与使用全指南:从入门到精通-百度开发者中心
+            - generic [ref=e474]:
+              - text: 2025年9月9日
+              - generic [ref=e475]:
+                - text: curl -O https://dl.google.com/
+                - emphasis [ref=e476]: android
+                - text: /repository/
+                - emphasis [ref=e477]: commandlinetools
+                - text: "-latest.zip #"
+                - emphasis [ref=e478]: Windows
+                - text: "# 使用浏览器"
+                - emphasis [ref=e479]: 下载
+                - text: 对应zip包 2.2 版本选择建议 生产环境:建议使用稳定版(Stable Channel) 尝鲜功能:可选择Canary版(但可能存在稳定性问题) 历史版本:通过
+                - emphasis [ref=e480]: SDK
+                - text: Manager可下载特定API级别的SDK ...
+            - link "百度开发者中心" [ref=e485] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=A9k7zfpeDaH38tM04Qjzg5d9aW1-ITe1pouUXn_Mio2QtpoKF08IV-UMRn5oSTy-c7V_PgyF2jvomKRGPVlZDJzeJaenTBdQj427tsTjubC
+              - generic [ref=e486]: 百度开发者中心
+              - generic [ref=e488]: 
+          - generic [ref=e492]:
+            - heading "Android命令行工具(commandlinetools-win-13114758-latest.zip..." [level=3] [ref=e495]:
+              - link "Android命令行工具(commandlinetools-win-13114758-latest.zip..." [active] [ref=e496] [cursor=pointer]:
+                - /url: https://www.baidu.com/link?url=3immSJWc5fQ0Muj1SbJVdIk5EZpzX3e2V5m_GPxQ0mpw3AUjFeZFwMXugr_N5QnHXmx-c-06L9oDDdZUkVdj2cjaRJgmdC0TQhtESimb657&wd=&eqid=956bd661000037eb000000036a12c97a
+                - paragraph [ref=e499]:
+                  - generic [ref=e502]:
+                    - emphasis [ref=e503]: Android
+                    - text: 命令行工具(
+                    - emphasis [ref=e504]: commandlinetools
+                    - text: "-"
+                    - emphasis [ref=e505]: win
+                    - text: "-13114758-latest.zip..."
+            - generic [ref=e510]:
+              - text: 2025年4月1日
+              - generic [ref=e511]:
+                - emphasis [ref=e512]: android
+                - text: 命令行工具(
+                - emphasis [ref=e513]: commandlinetools
+                - text: "-win-13114758_latest.zip)适用于"
+                - emphasis [ref=e514]: windows
+                - text: 系统.如果不需要 android studio,可以
+                - emphasis [ref=e515]: 下载
+                - text: android命令行工具.可以使用包含
+                - emphasis [ref=e516]: sdk
+                - text: manager的下载其他 sdk包.该工具包含在 android studio中.android命令行工具是android软件开发工具包(sdk)的一部分,它提供了一套可以在命令行界面中使用的工具,用于...
+            - link "头像 CSDN下载" [ref=e521] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=3immSJWc5fQ0Muj1SbJVdIk5EZpzX3e2V5m_GPxQ0mpw3AUjFeZFwMXugr_N5QnHXmx-c-06L9oDDdZUkVdj2cjaRJgmdC0TQhtESimb657
+              - img "头像" [ref=e524]
+              - generic [ref=e525]: CSDN下载
+              - generic [ref=e527]: 
+          - generic [ref=e531]:
+            - heading "Android SDK 安装指南(MacOS 和 Windows)_android-sdk-windows-CSDN博..." [level=3] [ref=e534]:
+              - link "Android SDK 安装指南(MacOS 和 Windows)_android-sdk-windows-CSDN博..." [ref=e535] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=A9k7zfpeDaH38tM04QjzgtHh9QWelu1urQdFQLonSgOXs3rGkHfXt2wh8wIvE-FQo9L3EzM1FGPa5FedYzIEX4dr5erW56RN50bDza2Ejx7
+                - paragraph [ref=e538]:
+                  - generic [ref=e541]:
+                    - emphasis [ref=e542]: Android
+                    - emphasis [ref=e543]: SDK
+                    - text: 安装指南(MacOS 和
+                    - emphasis [ref=e544]: Windows
+                    - text: )_
+                    - emphasis [ref=e545]: android
+                    - text: "-"
+                    - emphasis [ref=e546]: sdk
+                    - text: "-"
+                    - emphasis [ref=e547]: windows
+                    - text: "-CSDN博..."
+            - generic [ref=e552]:
+              - text: 2026年2月2日
+              - generic [ref=e553]:
+                - text: "步骤1:"
+                - emphasis [ref=e554]: 下载
+                - emphasis [ref=e555]: Android
+                - emphasis [ref=e556]: SDK
+                - text: 工具包 访问Android 开发者官网 SDK 下载页,下滑到「
+                - emphasis [ref=e557]: Command line tools
+                - text: "only」,下载对应系统版本的命令行工具包: macOS:"
+                - emphasis [ref=e558]: commandlinetools
+                - text: "-mac-xxx_latest.zip"
+                - emphasis [ref=e559]: Windows
+                - text: ":commandlinetools-win-xxx_latest.zip 解压下载的压缩包,创建一个专门存放 Android SDK 的目录(避免中文/空格路径): ..."
+            - link "头像 CSDN博客" [ref=e564] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=A9k7zfpeDaH38tM04QjzgtHh9QWelu1urQdFQLonSgOXs3rGkHfXt2wh8wIvE-FQo9L3EzM1FGPa5FedYzIEX4dr5erW56RN50bDza2Ejx7
+              - img "头像" [ref=e567]
+              - generic [ref=e568]: CSDN博客
+              - generic [ref=e570]: 
+          - generic [ref=e574]:
+            - heading "commandlinetools-win-9123335_latest.zip 在哪里下载 - CSDN文库" [level=3] [ref=e577]:
+              - link "commandlinetools-win-9123335_latest.zip 在哪里下载 - CSDN文库" [ref=e578] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=y_VIcVsTNDt0hrWLNhpcjBYC_aGvaJmOW_P8cF7-TjOQ8HwxQ6hWUvbUG6MM296gaFNK4AAAHFU8oeQVwWDfNq
+                - paragraph [ref=e581]:
+                  - generic [ref=e584]:
+                    - emphasis [ref=e585]: commandlinetools
+                    - text: "-"
+                    - emphasis [ref=e586]: win
+                    - text: "-9123335_latest.zip 在哪里"
+                    - emphasis [ref=e587]: 下载
+                    - text: "- CSDN文库"
+            - generic [ref=e592]:
+              - text: 2025年10月3日
+              - generic [ref=e593]:
+                - emphasis [ref=e594]: 下载commandlinetools
+                - text: "-win-9123335_latest.zip的官方地址 commandlinetools-win-9123335_latest.zip是"
+                - emphasis [ref=e595]: Android
+                - emphasis [ref=e596]: SDK
+                - text: 的命令行工具包,适用于
+                - emphasis [ref=e597]: Windows
+                - text: "平台。该文件可以从 Google 官方网站下载。其官方下载地址为: https://dl.google.com/"
+                - emphasis [ref=e598]: android
+                - text: /repository/commandlinetools-win-9123335_latest.zip ...
+            - link "博客" [ref=e603] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=y_VIcVsTNDt0hrWLNhpcjBYC_aGvaJmOW_P8cF7-TjOQ8HwxQ6hWUvbUG6MM296gaFNK4AAAHFU8oeQVwWDfNq
+              - generic [ref=e604]: 博客
+              - generic [ref=e606]: 
+        - generic [ref=e609]:
+          - generic [ref=e610]: 相关搜索
+          - table [ref=e611]:
+            - rowgroup [ref=e612]:
+              - row "android sdk tools下载 安卓sdk工具下载" [ref=e613]:
+                - cell "android sdk tools下载" [ref=e614]:
+                  - link "android sdk tools下载" [ref=e615] [cursor=pointer]:
+                    - /url: /s?wd=android%20sdk%20tools%E4%B8%8B%E8%BD%BD&rsf=101633403&rsp=0&f=1&rs_src=0&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&rsv_dl=brs_28338_1
+                    - generic [ref=e617]: android sdk tools下载
+                - cell "安卓sdk工具下载" [ref=e618]:
+                  - link "安卓sdk工具下载" [ref=e619] [cursor=pointer]:
+                    - /url: /s?wd=%E5%AE%89%E5%8D%93sdk%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD&rsf=101636803&rsp=1&f=1&rs_src=0&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&rsv_dl=brs_28338_2
+                    - generic [ref=e621]: 安卓sdk工具下载
+              - row "电脑出现command line android开发工具箱" [ref=e622]:
+                - cell "电脑出现command line" [ref=e623]:
+                  - link "电脑出现command line" [ref=e624] [cursor=pointer]:
+                    - /url: /s?wd=%E7%94%B5%E8%84%91%E5%87%BA%E7%8E%B0command%20line&rsf=101631202&rsp=2&f=1&rs_src=0&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&rsv_dl=brs_28338_3
+                    - generic [ref=e626]: 电脑出现command line
+                - cell "android开发工具箱" [ref=e627]:
+                  - link "android开发工具箱" [ref=e628] [cursor=pointer]:
+                    - /url: /s?wd=android%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E7%AE%B1&rsf=101636803&rsp=3&f=1&rs_src=0&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&rsv_dl=brs_28338_4
+                    - generic [ref=e630]: android开发工具箱
+              - row "Android SDK Tools android:windowSoftInputMode" [ref=e631]:
+                - cell "Android SDK Tools" [ref=e632]:
+                  - link "Android SDK Tools" [ref=e633] [cursor=pointer]:
+                    - /url: /s?wd=Android%20SDK%20Tools&rsf=101633403&rsp=4&f=1&rs_src=0&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&rsv_dl=brs_28338_5
+                    - generic [ref=e635]: Android SDK Tools
+                - cell "android:windowSoftInputMode" [ref=e636]:
+                  - link "android:windowSoftInputMode" [ref=e637] [cursor=pointer]:
+                    - /url: /s?wd=android%3AwindowSoftInputMode&rsf=101633403&rsp=5&f=1&rs_src=0&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&rsv_dl=brs_28338_6
+                    - generic [ref=e639]: android:windowSoftInputMode
+              - row "未找到文件commandline androidROM下载" [ref=e640]:
+                - cell "未找到文件commandline" [ref=e641]:
+                  - link "未找到文件commandline" [ref=e642] [cursor=pointer]:
+                    - /url: /s?wd=%E6%9C%AA%E6%89%BE%E5%88%B0%E6%96%87%E4%BB%B6commandline&rsf=101631202&rsp=6&f=1&rs_src=0&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&rsv_dl=brs_28338_7
+                    - generic [ref=e644]: 未找到文件commandline
+                - cell "androidROM下载" [ref=e645]:
+                  - link "androidROM下载" [ref=e646] [cursor=pointer]:
+                    - /url: /s?wd=androidROM%E4%B8%8B%E8%BD%BD&rsf=101636803&rsp=7&f=1&rs_src=0&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&rsv_dl=brs_28338_8
+                    - generic [ref=e648]: androidROM下载
+              - row "android9.0系统下载 android14下载安装" [ref=e649]:
+                - cell "android9.0系统下载" [ref=e650]:
+                  - link "android9.0系统下载" [ref=e651] [cursor=pointer]:
+                    - /url: /s?wd=android9.0%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%BD%BD&rsf=101636803&rsp=8&f=1&rs_src=0&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&rsv_dl=brs_28338_9
+                    - generic [ref=e653]: android9.0系统下载
+                - cell "android14下载安装" [ref=e654]:
+                  - link "android14下载安装" [ref=e655] [cursor=pointer]:
+                    - /url: /s?wd=android14%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85&rsf=100636803&rsp=9&f=1&rs_src=0&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&rsv_dl=brs_28338_10
+                    - generic [ref=e657]: android14下载安装
+      - generic [ref=e660]:
+        - link "上一页":
+          - /url: ""
+          - img "上一页"
+        - strong [ref=e661]:
+          - generic [ref=e662]: "1"
+        - link "2" [ref=e663] [cursor=pointer]:
+          - /url: /s?wd=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&pn=10&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&topic_pn=
+          - generic [ref=e664]: "2"
+        - link "3" [ref=e665] [cursor=pointer]:
+          - /url: /s?wd=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&pn=20&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&topic_pn=
+          - generic [ref=e666]: "3"
+        - link "4" [ref=e667] [cursor=pointer]:
+          - /url: /s?wd=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&pn=30&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&topic_pn=
+          - generic [ref=e668]: "4"
+        - link "5" [ref=e669] [cursor=pointer]:
+          - /url: /s?wd=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&pn=40&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&topic_pn=
+          - generic [ref=e670]: "5"
+        - link "6" [ref=e671] [cursor=pointer]:
+          - /url: /s?wd=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&pn=50&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&topic_pn=
+          - generic [ref=e672]: "6"
+        - link "7" [ref=e673] [cursor=pointer]:
+          - /url: /s?wd=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&pn=60&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&topic_pn=
+          - generic [ref=e674]: "7"
+        - link "8" [ref=e675] [cursor=pointer]:
+          - /url: /s?wd=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&pn=70&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&topic_pn=
+          - generic [ref=e676]: "8"
+        - link "9" [ref=e677] [cursor=pointer]:
+          - /url: /s?wd=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&pn=80&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&topic_pn=
+          - generic [ref=e678]: "9"
+        - link "10" [ref=e679] [cursor=pointer]:
+          - /url: /s?wd=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&pn=90&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&topic_pn=
+          - generic [ref=e680]: "10"
+        - link "下一页" [ref=e681] [cursor=pointer]:
+          - /url: /s?wd=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&pn=10&oq=android%20sdk%20commandlinetools%20windows%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=956bd661000037eb&rsv_t=7a0eLWftuqHSqguXwFMcpGlTLvLbfkKHf%2BjlL5i%2BdPWGzsE%2Bc4Z6S4B2LiI&topic_pn=&rsv_page=1
+          - img "下一页" [ref=e682]
+      - generic [ref=e685]:
+        - link "帮助" [ref=e686] [cursor=pointer]:
+          - /url: https://help.baidu.com/question?prod_id=1
+        - link "举报" [ref=e687] [cursor=pointer]:
+          - /url: https://help.baidu.com/jubao?source=search
+        - link "用户反馈" [ref=e688] [cursor=pointer]:
+          - /url: javascript:;
+        - link "企业推广" [ref=e689] [cursor=pointer]:
+          - /url: https://e.baidu.com/lp/search/?refer=1298

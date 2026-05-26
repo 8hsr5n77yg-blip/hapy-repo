@@ -1,0 +1,5 @@
+- generic [active] [ref=e1]:
+  - heading "502 Bad Gateway" [level=1] [ref=e2]
+  - paragraph [ref=e3]: The proxy server received an invalid response from an upstream server.
+  - separator [ref=e4]
+  - text: Powered by Tengine

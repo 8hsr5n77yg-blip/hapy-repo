@@ -1,0 +1,168 @@
+- generic [active] [ref=e1]:
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。":
+    - /url: javascript:void(0)
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - link "到百度首页" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "到百度首页" [ref=e7]
+          - generic [ref=e10]:
+            - textbox [ref=e12]: site:lanzou.com android sdk commandline 下载
+            - generic [ref=e14]:
+              - generic [ref=e15]:
+                - img [ref=e17] [cursor=pointer]
+                - img [ref=e27] [cursor=pointer]
+                - generic [ref=e30]:
+                  - img [ref=e34] [cursor=pointer]
+                  - img [ref=e39] [cursor=pointer]
+              - button "百度一下" [ref=e43] [cursor=pointer]
+      - generic [ref=e45]:
+        - link "百度首页" [ref=e46] [cursor=pointer]:
+          - /url: /
+        - link "设置" [ref=e47] [cursor=pointer]:
+          - /url: javascript:;
+        - link "登录" [ref=e48] [cursor=pointer]:
+          - /url: https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F
+    - generic [ref=e51]:
+      - link [ref=e52] [cursor=pointer]:
+        - /url: https://chat.baidu.com/search?word=site%3Alanzou.com+android+sdk+commandline+%E4%B8%8B%E8%BD%BD&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&pd=csaitab&setype=csaitab&extParamsJson=%7B%22enter_type%22%3A%22search_a_tab%22%2C%22sa%22%3A%22vs_tab%22%2C%22apagelid%22%3A%2212360577580493979657%22%2C%22ori_lid%22%3A%2212360577580493979657%22%7D
+        - img [ref=e53]
+      - generic [ref=e54]: 网页
+      - link "图片" [ref=e55] [cursor=pointer]:
+        - /url: http://image.baidu.com/i?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&lid=ab8997d200004009&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=site%3Alanzou.com+android+sdk+commandline+%E4%B8%8B%E8%BD%BD
+      - link "资讯" [ref=e56] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=site%3Alanzou.com+android+sdk+commandline+%E4%B8%8B%E8%BD%BD
+      - link "视频" [ref=e57] [cursor=pointer]:
+        - /url: /sf/vsearch?pd=video&tn=vsearch&lid=ab8997d200004009&ie=utf-8&wd=site%3Alanzou.com+android+sdk+commandline+%E4%B8%8B%E8%BD%BD&rsv_spt=7&rsv_bp=1&f=8&oq=site%3Alanzou.com+android+sdk+commandline+%E4%B8%8B%E8%BD%BD&rsv_pq=ab8997d200004009&rsv_t=6a9bjhHh1v%2B0MqPrLsRYwBs0qTWRIwAjgzB9Umpz4e5Pvz%2F7xXO6KzpFzWI
+      - link "笔记" [ref=e58] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?pd=note&rpf=pc&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=site%3Alanzou.com+android+sdk+commandline+%E4%B8%8B%E8%BD%BD
+      - link "地图" [ref=e59] [cursor=pointer]:
+        - /url: https://map.baidu.com/?newmap=1&ie=utf-8&from=pstab&s=s%26wd%3Dsite%3Alanzou.com+android+sdk+commandline+%E4%B8%8B%E8%BD%BD
+      - link "贴吧" [ref=e60] [cursor=pointer]:
+        - /url: http://tieba.baidu.com/f?fr=wwwt&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&kw=site%3Alanzou.com+android+sdk+commandline+%E4%B8%8B%E8%BD%BD
+      - link "文库" [ref=e61] [cursor=pointer]:
+        - /url: http://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=site%3Alanzou.com+android+sdk+commandline+%E4%B8%8B%E8%BD%BD
+      - link "更多" [ref=e62] [cursor=pointer]:
+        - /url: http://www.baidu.com/more/
+      - generic [ref=e63] [cursor=pointer]: 搜索工具
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e71] [cursor=pointer]: 清除
+            - generic [ref=e74] [cursor=pointer]: 时间不限
+            - generic [ref=e76] [cursor=pointer]: 所有网页和文件
+            - generic [ref=e78] [cursor=pointer]: lanzou.com
+          - generic [ref=e80]: 百度为您找到以下结果
+        - table [ref=e82]:
+          - rowgroup [ref=e83]:
+            - row "相关搜索  android sdk tools下载  Android SDK下载  安卓sdk工具下载  电脑出现command line  Android开发工具下载  android终端app" [ref=e84]:
+              - cell "相关搜索  android sdk tools下载  Android SDK下载  安卓sdk工具下载  电脑出现command line  Android开发工具下载  android终端app" [ref=e85]:
+                - generic [ref=e92]:
+                  - generic [ref=e94]: 相关搜索
+                  - generic [ref=e95]:
+                    - link " android sdk tools下载" [ref=e98] [cursor=pointer]:
+                      - /url: /s?wd=android%20sdk%20tools%E4%B8%8B%E8%BD%BD&ie=utf-8&rsv_pq=ab8997d200004009&oq=site%3Alanzou.com%20android%20sdk%20commandline%20%E4%B8%8B%E8%BD%BD&rsv_t=774bISBG5DgkzD%2FMQmuTIpdnuCPCFY6%2FIFcgVMWhvGvpstHXClRpBuvCuTw&rfqid=ab8997d200004009&rsv_dl=0_prs_28616_1&rq=site%3Alanzou.com%20android%20sdk%20commandline%20%E4%B8%8B%E8%BD%BD&rsf=101633403
+                      - generic [ref=e99]:
+                        - generic [ref=e100]: 
+                        - generic [ref=e101]: android sdk tools下载
+                    - link " Android SDK下载" [ref=e104] [cursor=pointer]:
+                      - /url: /s?wd=Android%20SDK%E4%B8%8B%E8%BD%BD&ie=utf-8&rsv_pq=ab8997d200004009&oq=site%3Alanzou.com%20android%20sdk%20commandline%20%E4%B8%8B%E8%BD%BD&rsv_t=0c85FSoMEmeCeE4aO6hIyI2VovQvgX1GRDAgR%2BJiHkiSNK9yWcRw5IhLshw&rfqid=ab8997d200004009&rsv_dl=0_prs_28616_2&rq=site%3Alanzou.com%20android%20sdk%20commandline%20%E4%B8%8B%E8%BD%BD&rsf=101633403
+                      - generic [ref=e105]:
+                        - generic [ref=e106]: 
+                        - generic [ref=e107]: Android SDK下载
+                    - link " 安卓sdk工具下载" [ref=e110] [cursor=pointer]:
+                      - /url: /s?wd=%E5%AE%89%E5%8D%93sdk%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD&ie=utf-8&rsv_pq=ab8997d200004009&oq=site%3Alanzou.com%20android%20sdk%20commandline%20%E4%B8%8B%E8%BD%BD&rsv_t=0c85FSoMEmeCeE4aO6hIyI2VovQvgX1GRDAgR%2BJiHkiSNK9yWcRw5IhLshw&rfqid=ab8997d200004009&rsv_dl=0_prs_28616_3&rq=site%3Alanzou.com%20android%20sdk%20commandline%20%E4%B8%8B%E8%BD%BD&rsf=101633403
+                      - generic [ref=e111]:
+                        - generic [ref=e112]: 
+                        - generic [ref=e113]: 安卓sdk工具下载
+                    - link " 电脑出现command line" [ref=e116] [cursor=pointer]:
+                      - /url: /s?wd=%E7%94%B5%E8%84%91%E5%87%BA%E7%8E%B0command%20line&ie=utf-8&rsv_pq=ab8997d200004009&oq=site%3Alanzou.com%20android%20sdk%20commandline%20%E4%B8%8B%E8%BD%BD&rsv_t=0c85FSoMEmeCeE4aO6hIyI2VovQvgX1GRDAgR%2BJiHkiSNK9yWcRw5IhLshw&rfqid=ab8997d200004009&rsv_dl=0_prs_28616_4&rq=site%3Alanzou.com%20android%20sdk%20commandline%20%E4%B8%8B%E8%BD%BD&rsf=101631202
+                      - generic [ref=e117]:
+                        - generic [ref=e118]: 
+                        - generic [ref=e119]: 电脑出现command line
+                    - link " Android开发工具下载" [ref=e122] [cursor=pointer]:
+                      - /url: /s?wd=Android%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD&ie=utf-8&rsv_pq=ab8997d200004009&oq=site%3Alanzou.com%20android%20sdk%20commandline%20%E4%B8%8B%E8%BD%BD&rsv_t=0c85FSoMEmeCeE4aO6hIyI2VovQvgX1GRDAgR%2BJiHkiSNK9yWcRw5IhLshw&rfqid=ab8997d200004009&rsv_dl=0_prs_28616_5&rq=site%3Alanzou.com%20android%20sdk%20commandline%20%E4%B8%8B%E8%BD%BD&rsf=101636803
+                      - generic [ref=e123]:
+                        - generic [ref=e124]: 
+                        - generic [ref=e125]: Android开发工具下载
+                    - link " android终端app" [ref=e128] [cursor=pointer]:
+                      - /url: /s?wd=android%E7%BB%88%E7%AB%AFapp&ie=utf-8&rsv_pq=ab8997d200004009&oq=site%3Alanzou.com%20android%20sdk%20commandline%20%E4%B8%8B%E8%BD%BD&rsv_t=0c85FSoMEmeCeE4aO6hIyI2VovQvgX1GRDAgR%2BJiHkiSNK9yWcRw5IhLshw&rfqid=ab8997d200004009&rsv_dl=0_prs_28616_6&rq=site%3Alanzou.com%20android%20sdk%20commandline%20%E4%B8%8B%E8%BD%BD&rsf=100636803
+                      - generic [ref=e129]:
+                        - generic [ref=e130]: 
+                        - generic [ref=e131]: android终端app
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - paragraph [ref=e134]: 抱歉，未找到相关结果。
+            - generic [ref=e135]: 温馨提示：
+            - list [ref=e136]:
+              - listitem [ref=e137]: 请检查您的输入是否正确
+              - listitem [ref=e138]:
+                - text: 如网页未收录或者新站未收录，请
+                - link "提交网址" [ref=e139] [cursor=pointer]:
+                  - /url: http://zhanzhang.baidu.com/sitesubmit/index?sitename=http%3A%2F%2Fsite%3Alanzou.com%20android%20sdk%20commandline%20%E4%B8%8B%E8%BD%BD
+                - text: 给我们
+              - listitem [ref=e140]:
+                - text: 如有任何意见或建议，请及时
+                - link "反馈给我们" [ref=e141] [cursor=pointer]:
+                  - /url: http://help.baidu.com/newadd?prod_id=1&category=4
+          - generic [ref=e144]:
+            - generic [ref=e145]: 相关搜索
+            - table [ref=e146]:
+              - rowgroup [ref=e147]:
+                - row "android sdk tools下载 Android SDK下载" [ref=e148]:
+                  - cell "android sdk tools下载" [ref=e149]:
+                    - link "android sdk tools下载" [ref=e150] [cursor=pointer]:
+                      - /url: /s?wd=android%20sdk%20tools%E4%B8%8B%E8%BD%BD&rsf=101633403&rsp=0&f=1&rs_src=0&rsv_pq=ab8997d200004009&rsv_t=6a9bjhHh1v%2B0MqPrLsRYwBs0qTWRIwAjgzB9Umpz4e5Pvz%2F7xXO6KzpFzWI&rsv_dl=brs_28338_1
+                      - generic [ref=e152]: android sdk tools下载
+                  - cell "Android SDK下载" [ref=e153]:
+                    - link "Android SDK下载" [ref=e154] [cursor=pointer]:
+                      - /url: /s?wd=Android%20SDK%E4%B8%8B%E8%BD%BD&rsf=101633403&rsp=1&f=1&rs_src=0&rsv_pq=ab8997d200004009&rsv_t=6a9bjhHh1v%2B0MqPrLsRYwBs0qTWRIwAjgzB9Umpz4e5Pvz%2F7xXO6KzpFzWI&rsv_dl=brs_28338_2
+                      - generic [ref=e156]: Android SDK下载
+                - row "安卓sdk工具下载 电脑出现command line" [ref=e157]:
+                  - cell "安卓sdk工具下载" [ref=e158]:
+                    - link "安卓sdk工具下载" [ref=e159] [cursor=pointer]:
+                      - /url: /s?wd=%E5%AE%89%E5%8D%93sdk%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD&rsf=101633403&rsp=2&f=1&rs_src=0&rsv_pq=ab8997d200004009&rsv_t=6a9bjhHh1v%2B0MqPrLsRYwBs0qTWRIwAjgzB9Umpz4e5Pvz%2F7xXO6KzpFzWI&rsv_dl=brs_28338_3
+                      - generic [ref=e161]: 安卓sdk工具下载
+                  - cell "电脑出现command line" [ref=e162]:
+                    - link "电脑出现command line" [ref=e163] [cursor=pointer]:
+                      - /url: /s?wd=%E7%94%B5%E8%84%91%E5%87%BA%E7%8E%B0command%20line&rsf=101631202&rsp=3&f=1&rs_src=0&rsv_pq=ab8997d200004009&rsv_t=6a9bjhHh1v%2B0MqPrLsRYwBs0qTWRIwAjgzB9Umpz4e5Pvz%2F7xXO6KzpFzWI&rsv_dl=brs_28338_4
+                      - generic [ref=e165]: 电脑出现command line
+                - row "Android开发工具下载 Android安装" [ref=e166]:
+                  - cell "Android开发工具下载" [ref=e167]:
+                    - link "Android开发工具下载" [ref=e168] [cursor=pointer]:
+                      - /url: /s?wd=Android%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD&rsf=101636803&rsp=4&f=1&rs_src=0&rsv_pq=ab8997d200004009&rsv_t=6a9bjhHh1v%2B0MqPrLsRYwBs0qTWRIwAjgzB9Umpz4e5Pvz%2F7xXO6KzpFzWI&rsv_dl=brs_28338_5
+                      - generic [ref=e170]: Android开发工具下载
+                  - cell "Android安装" [ref=e171]:
+                    - link "Android安装" [ref=e172] [cursor=pointer]:
+                      - /url: /s?wd=Android%E5%AE%89%E8%A3%85&rsf=101636803&rsp=5&f=1&rs_src=0&rsv_pq=ab8997d200004009&rsv_t=6a9bjhHh1v%2B0MqPrLsRYwBs0qTWRIwAjgzB9Umpz4e5Pvz%2F7xXO6KzpFzWI&rsv_dl=brs_28338_6
+                      - generic [ref=e174]: Android安装
+                - row "androidsdk最新版本 android终端app" [ref=e175]:
+                  - cell "androidsdk最新版本" [ref=e176]:
+                    - link "androidsdk最新版本" [ref=e177] [cursor=pointer]:
+                      - /url: /s?wd=androidsdk%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&rsf=101631202&rsp=6&f=1&rs_src=0&rsv_pq=ab8997d200004009&rsv_t=6a9bjhHh1v%2B0MqPrLsRYwBs0qTWRIwAjgzB9Umpz4e5Pvz%2F7xXO6KzpFzWI&rsv_dl=brs_28338_7
+                      - generic [ref=e179]: androidsdk最新版本
+                  - cell "android终端app" [ref=e180]:
+                    - link "android终端app" [ref=e181] [cursor=pointer]:
+                      - /url: /s?wd=android%E7%BB%88%E7%AB%AFapp&rsf=100636803&rsp=7&f=1&rs_src=0&rsv_pq=ab8997d200004009&rsv_t=6a9bjhHh1v%2B0MqPrLsRYwBs0qTWRIwAjgzB9Umpz4e5Pvz%2F7xXO6KzpFzWI&rsv_dl=brs_28338_8
+                      - generic [ref=e183]: android终端app
+                - row "android sdk是什么 android14下载" [ref=e184]:
+                  - cell "android sdk是什么" [ref=e185]:
+                    - link "android sdk是什么" [ref=e186] [cursor=pointer]:
+                      - /url: /s?wd=android%20sdk%E6%98%AF%E4%BB%80%E4%B9%88&rsf=100631202&rsp=8&f=1&rs_src=0&rsv_pq=ab8997d200004009&rsv_t=6a9bjhHh1v%2B0MqPrLsRYwBs0qTWRIwAjgzB9Umpz4e5Pvz%2F7xXO6KzpFzWI&rsv_dl=brs_28338_9
+                      - generic [ref=e188]: android sdk是什么
+                  - cell "android14下载" [ref=e189]:
+                    - link "android14下载" [ref=e190] [cursor=pointer]:
+                      - /url: /s?wd=android14%E4%B8%8B%E8%BD%BD&rsf=100636803&rsp=9&f=1&rs_src=0&rsv_pq=ab8997d200004009&rsv_t=6a9bjhHh1v%2B0MqPrLsRYwBs0qTWRIwAjgzB9Umpz4e5Pvz%2F7xXO6KzpFzWI&rsv_dl=brs_28338_10
+                      - generic [ref=e192]: android14下载
+      - generic [ref=e194]:
+        - link "帮助" [ref=e195] [cursor=pointer]:
+          - /url: https://help.baidu.com/question?prod_id=1
+        - link "举报" [ref=e196] [cursor=pointer]:
+          - /url: https://help.baidu.com/jubao?source=search
+        - link "用户反馈" [ref=e197] [cursor=pointer]:
+          - /url: javascript:;
+        - link "企业推广" [ref=e198] [cursor=pointer]:
+          - /url: https://e.baidu.com/lp/search/?refer=1298

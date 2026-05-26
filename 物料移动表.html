@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920">
+<title>智慧蛋鸡 新质生产力+ - 物料移动表</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Microsoft YaHei", "PingFang SC", "Helvetica Neue", sans-serif; font-size: 14px; color: #333; background: #f2f2f2; min-width: 1920px; }
+
+  /* ===== TOP HEADER (golden #efab12) ===== */
+  .top-header { height: 55px; background: #efab12; display: flex; align-items: center; padding: 0 16px; color: #fff; flex-shrink: 0; position: relative; }
+  .top-header .logo { display: flex; align-items: center; gap: 8px; position: absolute; left: 120px; top: 8px; }
+  .top-header .logo img { width: 42px; height: 42px; border-radius: 50%; object-fit: contain; }
+  .top-header .logo .brand { font-size: 16px; font-weight: 700; color: #fff; white-space: nowrap; }
+  .top-header .search-wrap { margin-left: 380px; position: relative; }
+  .top-header .search-wrap input { width: 360px; height: 36px; border-radius: 18px; border: none; background: rgba(255,255,255,0.25); color: #fff; padding: 0 44px 0 18px; font-size: 13px; outline: none; }
+  .top-header .search-wrap input::placeholder { color: rgba(255,255,255,0.55); }
+  .top-header .search-wrap .s-icon { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); width: 22px; height: 22px; border: 2px solid rgba(255,255,255,0.7); border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+  .top-header .search-wrap .s-icon::after { content: ''; width: 6px; height: 2px; background: rgba(255,255,255,0.7); position: absolute; bottom: -5px; right: -1px; transform: rotate(45deg); border-radius: 1px; }
+  .top-header .right-actions { margin-left: auto; display: flex; align-items: center; gap: 20px; }
+  .top-header .right-actions .help { display: flex; align-items: center; gap: 4px; color: #fff; font-size: 13px; text-decoration: none; }
+  .top-header .right-actions .help .help-icon { width: 18px; height: 18px; border: 2px solid #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; }
+  .top-header .right-actions .user { display: flex; align-items: center; gap: 8px; color: #fff; font-size: 13px; }
+  .top-header .right-actions .user .avatar { width: 30px; height: 30px; border-radius: 50%; background: #fff; color: #efab12; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; }
+
+  /* ===== SUB-HEADER TABS ===== */
+  .sub-header { height: 42px; background: #fff; border-bottom: 1px solid #e5e5e5; display: flex; align-items: center; padding: 0 20px; gap: 0; }
+  .sub-header .sub-tab { padding: 10px 18px; font-size: 13px; color: #666; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+  .sub-header .sub-tab.active { color: #333; font-weight: 600; border-bottom-color: #efab12; }
+
+  /* ===== LAYOUT ===== */
+  .app-body { display: flex; flex: 1; min-height: calc(100vh - 97px); }
+
+  /* ===== LEFT SIDEBAR ===== */
+  .sidebar { width: 200px; background: #f9f9f9; border-right: 1px solid #e8e8e8; padding: 8px 0; flex-shrink: 0; }
+  .sidebar .menu-group-title { padding: 6px 16px 4px; font-size: 11px; color: #aaa; }
+  .sidebar .menu-item { display: flex; align-items: center; gap: 8px; padding: 11px 16px; cursor: pointer; font-size: 13px; color: #555; transition: all 0.15s; }
+  .sidebar .menu-item:hover { background: #eef0ee; color: #333; }
+  .sidebar .menu-item.active { background: #e8f0e8; color: #2d8c2d; font-weight: 600; border-right: 2px solid #2d8c2d; }
+  .sidebar .menu-item .m-icon { width: 16px; text-align: center; font-size: 13px; }
+  .sidebar .menu-item .badge { margin-left: auto; background: #e74c3c; color: #fff; font-size: 10px; padding: 1px 6px; border-radius: 8px; font-weight: 500; }
+
+  /* ===== MAIN CONTENT ===== */
+  .main-content { flex: 1; padding: 14px 18px; background: #f2f2f2; overflow-y: auto; }
+
+  /* Breadcrumb */
+  .breadcrumb { font-size: 12px; color: #999; margin-bottom: 10px; }
+  .breadcrumb .sep { color: #ccc; }
+
+  /* Content wrapper */
+  .content-card { background: #fff; border-radius: 4px; padding: 14px 18px; box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
+
+  /* Page title */
+  .page-title { font-size: 16px; font-weight: 600; color: #333; margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
+
+  /* Filter row */
+  .filter-row { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; flex-wrap: wrap; }
+  .filter-item { display: flex; align-items: center; gap: 6px; font-size: 13px; color: #555; }
+  .filter-item label { white-space: nowrap; }
+  .filter-item input, .filter-item select { height: 30px; border: 1px solid #d0d0d0; border-radius: 3px; padding: 0 8px; font-size: 13px; color: #333; background: #fff; outline: none; }
+  .filter-item input:focus, .filter-item select:focus { border-color: #efab12; }
+  .filter-item input[type="date"] { width: 128px; }
+  .filter-item select { min-width: 140px; }
+  .btn { height: 30px; padding: 0 14px; border-radius: 3px; font-size: 13px; cursor: pointer; border: 1px solid #d0d0d0; background: #fff; color: #333; display: inline-flex; align-items: center; gap: 4px; transition: all 0.15s; }
+  .btn:hover { border-color: #efab12; color: #efab12; }
+  .btn-primary { background: #efab12; border-color: #e09f10; color: #fff; }
+  .btn-primary:hover { background: #e09f10; color: #fff; }
+
+  /* ===== TABLE ===== */
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead th { background: #f5f5f5; padding: 10px 12px; text-align: left; font-size: 12px; font-weight: 600; color: #555; border: 1px solid #e5e5e5; white-space: nowrap; }
+  thead th:last-child { text-align: center; }
+  tbody td { padding: 10px 12px; border: 1px solid #eee; white-space: nowrap; color: #333; }
+  tbody tr:nth-child(even) td { background: #fafafa; }
+  tbody tr:hover td { background: #fef8e8; }
+  tbody td:last-child { text-align: center; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: 500; }
+  .tag-out { background: #fff0e8; color: #d46b08; }
+  .tag-in { background: #f0f5ff; color: #2f54eb; }
+  .tag-transfer { background: #f6ffed; color: #389e0d; }
+  .link { color: #2d8c2d; text-decoration: none; font-size: 12px; cursor: pointer; }
+  .link:hover { text-decoration: underline; }
+
+  /* Pagination */
+  .table-footer { padding: 10px 0 0; display: flex; align-items: center; justify-content: space-between; font-size: 12px; color: #999; }
+  .pagination { display: flex; align-items: center; gap: 2px; }
+  .pagination .pg { width: 26px; height: 26px; display: flex; align-items: center; justify-content: center; border: 1px solid #d9d9d9; border-radius: 2px; cursor: pointer; background: #fff; font-size: 12px; color: #555; }
+  .pagination .pg:hover { border-color: #efab12; color: #efab12; }
+  .pagination .pg.active { background: #efab12; color: #fff; border-color: #e09f10; }
+  .pagination .pg.disabled { color: #ccc; cursor: default; pointer-events: none; }
+
+  /* Bottom tabs */
+  .bottom-tabs { display: flex; gap: 0; margin-top: 14px; background: #fff; border-radius: 4px; box-shadow: 0 1px 2px rgba(0,0,0,0.04); padding: 2px 16px; }
+  .bottom-tabs .btab { padding: 9px 18px; font-size: 13px; cursor: pointer; color: #666; border-bottom: 2px solid transparent; }
+  .bottom-tabs .btab:hover { color: #333; }
+  .bottom-tabs .btab.active { color: #efab12; border-bottom-color: #efab12; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<header class="top-header">
+  <div class="logo">🌱<span class="brand">智慧蛋鸡 新质生产力+</span></div>
+  <div class="search-wrap">
+    <input type="text" placeholder="搜索 单据详情">
+    <span class="s-icon"></span>
+  </div>
+  <div class="right-actions">
+    <a href="#" class="help"><span class="help-icon">?</span> 帮助文档</a>
+    <div class="user"><span class="avatar">刘</span> 刘航</div>
+  </div>
+</header>
+
+<div class="sub-header">
+  <div class="sub-tab">全部</div>
+  <div class="sub-tab active">个人</div>
+  <div class="sub-tab">财务</div>
+</div>
+
+<div class="app-body">
+  <aside class="sidebar">
+    <div class="menu-group-title">导航菜单</div>
+    <div class="menu-item"><span class="m-icon">◆</span> 客户管理</div>
+    <div class="menu-item"><span class="m-icon">◇</span> 待办事项 <span class="badge">3</span></div>
+    <div class="menu-item"><span class="m-icon">○</span> 资产管理</div>
+    <div class="menu-item"><span class="m-icon">▣</span> 库存管理</div>
+    <div class="menu-item active"><span class="m-icon">▤</span> 物料移动表</div>
+  </aside>
+
+  <main class="main-content">
+    <div class="breadcrumb">库存管理 <span class="sep">/</span> 物料移动表</div>
+
+    <div class="content-card">
+      <div class="page-title">物料移动表</div>
+
+      <div class="filter-row">
+        <div class="filter-item">
+          <label>所属组织：</label>
+          <select><option>请选择</option><option>沃德辰龙</option></select>
+        </div>
+        <div class="filter-item">
+          <label>日期选择：</label>
+          <input type="date" value="2023-12-01">
+          <span>至</span>
+          <input type="date" value="2023-12-31">
+        </div>
+        <button class="btn btn-primary">🔍 查询</button>
+        <button class="btn">↺ 重置</button>
+        <button class="btn">📥 导出</button>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>发起日期</th>
+            <th>移动类型</th>
+            <th>单据类型</th>
+            <th>单号</th>
+            <th>往来单位</th>
+            <th>工厂名称</th>
+            <th>仓库总数</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2023-12-05</td>
+            <td><span class="tag tag-out">出库</span></td>
+            <td>物资领用</td>
+            <td>CK2026011012345001</td>
+            <td>沃德辰龙养殖基地</td>
+            <td>北京饲料加工厂</td>
+            <td>3</td>
+            <td><a href="#" class="link">查看详情</a></td>
+          </tr>
+          <tr>
+            <td>2023-12-05</td>
+            <td><span class="tag tag-in">入库</span></td>
+            <td>物资采购</td>
+            <td>RK2026011012345002</td>
+            <td>河北供应商A</td>
+            <td>天津仓储中心</td>
+            <td>5</td>
+            <td><a href="#" class="link">查看详情</a></td>
+          </tr>
+          <tr>
+            <td>2023-12-04</td>
+            <td><span class="tag tag-out">出库</span></td>
+            <td>生产领用</td>
+            <td>CK2026011012345003</td>
+            <td>沃德辰龙养殖二场</td>
+            <td>北京饲料加工厂</td>
+            <td>2</td>
+            <td><a href="#" class="link">查看详情</a></td>
+          </tr>
+          <tr>
+            <td>2023-12-04</td>
+            <td><span class="tag tag-transfer">材料调拨</span></td>
+            <td>调拨单</td>
+            <td>DB2026011012345004</td>
+            <td>沃德辰龙养殖基地</td>
+            <td>北京饲料加工厂</td>
+            <td>4</td>
+            <td><a href="#" class="link">查看详情</a></td>
+          </tr>
+          <tr>
+            <td>2023-12-03</td>
+            <td><span class="tag tag-in">入库</span></td>
+            <td>物资采购</td>
+            <td>RK2026011012345005</td>
+            <td>山东供应商B</td>
+            <td>天津仓储中心</td>
+            <td>3</td>
+            <td><a href="#" class="link">查看详情</a></td>
+          </tr>
+          <tr>
+            <td>2023-12-03</td>
+            <td><span class="tag tag-out">出库</span></td>
+            <td>物资领用</td>
+            <td>CK2026011012345006</td>
+            <td>沃德辰龙养殖三场</td>
+            <td>北京饲料加工厂</td>
+            <td>1</td>
+            <td><a href="#" class="link">查看详情</a></td>
+          </tr>
+          <tr>
+            <td>2023-12-02</td>
+            <td><span class="tag tag-transfer">材料调拨</span></td>
+            <td>调拨单</td>
+            <td>DB2026011012345007</td>
+            <td>沃德辰龙养殖基地</td>
+            <td>河北分厂</td>
+            <td>6</td>
+            <td><a href="#" class="link">查看详情</a></td>
+          </tr>
+          <tr>
+            <td>2023-12-01</td>
+            <td><span class="tag tag-out">出库</span></td>
+            <td>生产领用</td>
+            <td>CK2026011012345008</td>
+            <td>沃德辰龙养殖二场</td>
+            <td>北京饲料加工厂</td>
+            <td>2</td>
+            <td><a href="#" class="link">查看详情</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="table-footer">
+        <span>共 8 条记录，第 1/1 页</span>
+        <div class="pagination">
+          <span class="pg disabled">‹</span>
+          <span class="pg active">1</span>
+          <span class="pg disabled">›</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-tabs">
+      <div class="btab active">库存报表</div>
+      <div class="btab">冲销管理</div>
+      <div class="btab">盘点管理</div>
+    </div>
+  </main>
+</div>
+
+</body>
+</html>

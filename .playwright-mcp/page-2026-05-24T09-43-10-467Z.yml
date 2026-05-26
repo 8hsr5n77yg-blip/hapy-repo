@@ -1,0 +1,469 @@
+- generic [ref=e1]:
+  - generic [ref=e598] [cursor=pointer]: Cookie settings
+  - banner [ref=e8]:
+    - navigation "Global" [ref=e10]:
+      - link "Adoptium Logo" [ref=e11] [cursor=pointer]:
+        - /url: /zh-CN
+        - img "Adoptium Logo" [ref=e12]
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - button "Join Us" [ref=e17] [cursor=pointer]:
+            - text: Join Us
+            - img [ref=e18]
+          - link "Latest Releases" [ref=e20] [cursor=pointer]:
+            - /url: /zh-CN/temurin/releases
+          - link "Marketplace" [ref=e21] [cursor=pointer]:
+            - /url: /zh-CN/marketplace
+          - button "Projects" [ref=e24] [cursor=pointer]:
+            - text: Projects
+            - img [ref=e25]
+          - button "Resources" [ref=e29] [cursor=pointer]:
+            - text: Resources
+            - img [ref=e30]
+          - button "Community" [ref=e34] [cursor=pointer]:
+            - text: Community
+            - img [ref=e35]
+        - generic [ref=e37]:
+          - button "中文" [ref=e41]:
+            - img [ref=e42]
+            - generic [ref=e43]: 中文
+            - img [ref=e44]
+          - generic "notifications" [ref=e47] [cursor=pointer]:
+            - img [ref=e48]
+            - generic [ref=e50]: "1"
+  - main [ref=e51]:
+    - generic [ref=e52]:
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - img [ref=e61]
+            - generic [ref=e64]: 最新版本
+          - generic [ref=e65]: 下载 Temurin® JDK
+        - generic [ref=e66]: 选择版本、软件包类型和 JDK/JRE，下载相应的二进制文件。
+      - generic [ref=e67]:
+        - generic [ref=e72]:
+          - button "所有版本" [ref=e73]
+          - button "JDK 25 - LTS" [ref=e74]:
+            - generic [ref=e75] [cursor=pointer]: JDK 25 - LTS
+          - button "JDK 21 - LTS" [ref=e76]:
+            - generic [ref=e77] [cursor=pointer]: JDK 21 - LTS
+          - button "JDK 17 - LTS" [active] [ref=e78]:
+            - generic [ref=e79] [cursor=pointer]: JDK 17 - LTS
+          - button "JDK 11 - LTS" [ref=e80]:
+            - generic [ref=e81] [cursor=pointer]: JDK 11 - LTS
+          - button "JDK 8 - LTS" [ref=e82]:
+            - generic [ref=e83] [cursor=pointer]: JDK 8 - LTS
+        - list [ref=e300]:
+          - link "发行说明" [ref=e301] [cursor=pointer]:
+            - /url: /zh-CN/temurin/release-notes?version=jdk-17.0.19+10
+            - listitem [ref=e302]:
+              - img [ref=e304]
+              - text: 发行说明
+          - link "安装指南" [ref=e306] [cursor=pointer]:
+            - /url: /zh-CN/installation
+            - listitem [ref=e307]:
+              - img [ref=e309]
+              - text: 安装指南
+          - link "支持的平台" [ref=e311] [cursor=pointer]:
+            - /url: /zh-CN/supported-platforms
+            - listitem [ref=e312]:
+              - img [ref=e314]
+              - text: 支持的平台
+          - link "源代码" [ref=e316] [cursor=pointer]:
+            - /url: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk-sources_17.0.19_10.tar.gz
+            - listitem [ref=e317]:
+              - img [ref=e319]
+              - text: 源代码
+        - generic [ref=e321]:
+          - generic [ref=e322]:
+            - img [ref=e324]
+            - generic [ref=e326]:
+              - generic [ref=e327]:
+                - heading "macOS" [level=4] [ref=e328]
+                - heading "Temurin jdk-17.0.19+10, macOS aarch64 (M1) (.PKG)" [level=5] [ref=e599]
+              - link "Download macOS package" [ref=e331] [cursor=pointer]:
+                - /url: /zh-CN/download?link=https%3A%2F%2Fgithub.com%2Fadoptium%2Ftemurin17-binaries%2Freleases%2Fdownload%2Fjdk-17.0.19%252B10%2FOpenJDK17U-jdk_aarch64_mac_hotspot_17.0.19_10.pkg&vendor=Adoptium
+                - img [ref=e332]
+          - generic [ref=e335]:
+            - img [ref=e337]
+            - generic [ref=e339]:
+              - generic [ref=e340]:
+                - heading "Windows" [level=4] [ref=e341]
+                - heading "Temurin jdk-17.0.19+10, Windows 64 bit (.MSI)" [level=5] [ref=e600]
+              - link "Download Windows package" [ref=e344] [cursor=pointer]:
+                - /url: /zh-CN/download?link=https%3A%2F%2Fgithub.com%2Fadoptium%2Ftemurin17-binaries%2Freleases%2Fdownload%2Fjdk-17.0.19%252B10%2FOpenJDK17U-jdk_x64_windows_hotspot_17.0.19_10.msi&vendor=Adoptium
+                - img [ref=e345]
+        - generic [ref=e85]:
+          - generic [ref=e601]:
+            - generic [ref=e604]:
+              - generic [ref=e605]:
+                - generic [ref=e606]:
+                  - img [ref=e607]
+                  - heading "Linux" [level=5] [ref=e625]
+                - generic [ref=e626]:
+                  - button "x64" [ref=e627]
+                  - button "s390x" [ref=e628]
+                  - button "riscv64" [ref=e629]
+                  - button "ppc64le" [ref=e630]
+                  - button "arm" [ref=e631]
+                  - button "aarch64" [ref=e632]
+              - generic [ref=e633]:
+                - button "JDK" [ref=e634]
+                - button "JRE" [ref=e635]
+            - generic [ref=e636]:
+              - heading "Temurin jdk-17.0.19+10 - 2026/04/23" [level=5] [ref=e637]
+              - generic [ref=e639]:
+                - generic [ref=e640]:
+                  - link [ref=e642] [cursor=pointer]:
+                    - /url: /zh-CN/download?link=https%3A%2F%2Fgithub.com%2Fadoptium%2Ftemurin17-binaries%2Freleases%2Fdownload%2Fjdk-17.0.19%252B10%2FOpenJDK17U-jdk_x64_linux_hotspot_17.0.19_10.tar.gz&vendor=Adoptium
+                    - img [ref=e643]
+                  - heading "TAR.GZ, 193 MB" [level=5] [ref=e646]
+                  - img "此版本已通过 JCK 认证" [ref=e647]
+                  - link "AQAvit logo" [ref=e650] [cursor=pointer]:
+                    - /url: /zh-CN/aqavit
+                    - img "AQAvit logo" [ref=e651]
+                - generic [ref=e652]:
+                  - link [ref=e654] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e655]
+                  - heading "校验和" [level=5] [ref=e657]
+          - generic [ref=e658]:
+            - generic [ref=e661]:
+              - generic [ref=e662]:
+                - generic [ref=e663]:
+                  - img [ref=e664]
+                  - heading "Windows" [level=5] [ref=e666]
+                - generic [ref=e667]:
+                  - button "x64" [ref=e668]
+                  - button "x32" [ref=e669]
+              - generic [ref=e670]:
+                - button "JDK" [ref=e671]
+                - button "JRE" [ref=e672]
+            - generic [ref=e673]:
+              - heading "Temurin jdk-17.0.19+10 - 2026/05/04" [level=5] [ref=e674]
+              - generic [ref=e676]:
+                - generic [ref=e677]:
+                  - link [ref=e679] [cursor=pointer]:
+                    - /url: /zh-CN/download?link=https%3A%2F%2Fgithub.com%2Fadoptium%2Ftemurin17-binaries%2Freleases%2Fdownload%2Fjdk-17.0.19%252B10%2FOpenJDK17U-jdk_x64_windows_hotspot_17.0.19_10.zip&vendor=Adoptium
+                    - img [ref=e680]
+                  - heading "ZIP, 190 MB" [level=5] [ref=e683]
+                  - img "此版本已通过 JCK 认证" [ref=e684]
+                  - link "AQAvit logo" [ref=e687] [cursor=pointer]:
+                    - /url: /zh-CN/aqavit
+                    - img "AQAvit logo" [ref=e688]
+                - generic [ref=e689]:
+                  - link [ref=e691] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e692]
+                  - heading "校验和" [level=5] [ref=e694]
+              - generic [ref=e696]:
+                - generic [ref=e697]:
+                  - link [ref=e699] [cursor=pointer]:
+                    - /url: /zh-CN/download?link=https%3A%2F%2Fgithub.com%2Fadoptium%2Ftemurin17-binaries%2Freleases%2Fdownload%2Fjdk-17.0.19%252B10%2FOpenJDK17U-jdk_x64_windows_hotspot_17.0.19_10.msi&vendor=Adoptium
+                    - img [ref=e700]
+                  - heading "MSI, 168 MB" [level=5] [ref=e703]
+                  - img "此版本已通过 JCK 认证" [ref=e704]
+                  - link "AQAvit logo" [ref=e707] [cursor=pointer]:
+                    - /url: /zh-CN/aqavit
+                    - img "AQAvit logo" [ref=e708]
+                - generic [ref=e709]:
+                  - link [ref=e711] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e712]
+                  - heading "校验和" [level=5] [ref=e714]
+          - generic [ref=e715]:
+            - generic [ref=e718]:
+              - generic [ref=e719]:
+                - generic [ref=e720]:
+                  - img [ref=e721]
+                  - heading "macOS" [level=5] [ref=e723]
+                - generic [ref=e724]:
+                  - button "x64" [ref=e725]
+                  - button "aarch64" [ref=e726]
+              - generic [ref=e727]:
+                - button "JDK" [ref=e728]
+                - button "JRE" [ref=e729]
+            - generic [ref=e730]:
+              - heading "Temurin jdk-17.0.19+10 - 2026/04/28" [level=5] [ref=e731]
+              - generic [ref=e733]:
+                - generic [ref=e734]:
+                  - link [ref=e736] [cursor=pointer]:
+                    - /url: /zh-CN/download?link=https%3A%2F%2Fgithub.com%2Fadoptium%2Ftemurin17-binaries%2Freleases%2Fdownload%2Fjdk-17.0.19%252B10%2FOpenJDK17U-jdk_x64_mac_hotspot_17.0.19_10.tar.gz&vendor=Adoptium
+                    - img [ref=e737]
+                  - heading "TAR.GZ, 180 MB" [level=5] [ref=e740]
+                  - img "此版本已通过 JCK 认证" [ref=e741]
+                  - link "AQAvit logo" [ref=e744] [cursor=pointer]:
+                    - /url: /zh-CN/aqavit
+                    - img "AQAvit logo" [ref=e745]
+                - generic [ref=e746]:
+                  - link [ref=e748] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e749]
+                  - heading "校验和" [level=5] [ref=e751]
+              - generic [ref=e753]:
+                - generic [ref=e754]:
+                  - link [ref=e756] [cursor=pointer]:
+                    - /url: /zh-CN/download?link=https%3A%2F%2Fgithub.com%2Fadoptium%2Ftemurin17-binaries%2Freleases%2Fdownload%2Fjdk-17.0.19%252B10%2FOpenJDK17U-jdk_x64_mac_hotspot_17.0.19_10.pkg&vendor=Adoptium
+                    - img [ref=e757]
+                  - heading "PKG, 180 MB" [level=5] [ref=e760]
+                  - img "此版本已通过 JCK 认证" [ref=e761]
+                  - link "AQAvit logo" [ref=e764] [cursor=pointer]:
+                    - /url: /zh-CN/aqavit
+                    - img "AQAvit logo" [ref=e765]
+                - generic [ref=e766]:
+                  - link [ref=e768] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e769]
+                  - heading "校验和" [level=5] [ref=e771]
+          - generic [ref=e772]:
+            - generic [ref=e775]:
+              - generic [ref=e776]:
+                - generic [ref=e777]:
+                  - img [ref=e778]
+                  - heading "Alpine-linux" [level=5] [ref=e780]
+                - button "x64" [ref=e782]
+              - generic [ref=e783]:
+                - button "JDK" [ref=e784]
+                - button "JRE" [ref=e785]
+            - generic [ref=e786]:
+              - heading "Temurin jdk-17.0.19+10 - 2026/04/24" [level=5] [ref=e787]
+              - generic [ref=e789]:
+                - generic [ref=e790]:
+                  - link [ref=e792] [cursor=pointer]:
+                    - /url: /zh-CN/download?link=https%3A%2F%2Fgithub.com%2Fadoptium%2Ftemurin17-binaries%2Freleases%2Fdownload%2Fjdk-17.0.19%252B10%2FOpenJDK17U-jdk_x64_alpine-linux_hotspot_17.0.19_10.tar.gz&vendor=Adoptium
+                    - img [ref=e793]
+                  - heading "TAR.GZ, 192 MB" [level=5] [ref=e796]
+                  - img "此版本已通过 JCK 认证" [ref=e797]
+                  - link "AQAvit logo" [ref=e800] [cursor=pointer]:
+                    - /url: /zh-CN/aqavit
+                    - img "AQAvit logo" [ref=e801]
+                - generic [ref=e802]:
+                  - link [ref=e804] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e805]
+                  - heading "校验和" [level=5] [ref=e807]
+          - generic [ref=e808]:
+            - generic [ref=e811]:
+              - generic [ref=e812]:
+                - generic [ref=e813]:
+                  - img [ref=e814]
+                  - heading "Aix" [level=5] [ref=e822]
+                - button "ppc64" [ref=e824]
+              - generic [ref=e825]:
+                - button "JDK" [ref=e826]
+                - button "JRE" [ref=e827]
+            - generic [ref=e828]:
+              - heading "Temurin jdk-17.0.19+10 - 2026/04/29" [level=5] [ref=e829]
+              - generic [ref=e831]:
+                - generic [ref=e832]:
+                  - link [ref=e834] [cursor=pointer]:
+                    - /url: /zh-CN/download?link=https%3A%2F%2Fgithub.com%2Fadoptium%2Ftemurin17-binaries%2Freleases%2Fdownload%2Fjdk-17.0.19%252B10%2FOpenJDK17U-jdk_ppc64_aix_hotspot_17.0.19_10.tar.gz&vendor=Adoptium
+                    - img [ref=e835]
+                  - heading "TAR.GZ, 183 MB" [level=5] [ref=e838]
+                  - img "此版本已通过 JCK 认证" [ref=e839]
+                  - link "AQAvit logo" [ref=e842] [cursor=pointer]:
+                    - /url: /zh-CN/aqavit
+                    - img "AQAvit logo" [ref=e843]
+                - generic [ref=e844]:
+                  - link [ref=e846] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e847]
+                  - heading "校验和" [level=5] [ref=e849]
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - heading "获取 Temurin 的其他方式" [level=2] [ref=e95]
+          - paragraph [ref=e96]: 除了直接下载外，还有多种方式可以获取 Eclipse Temurin。下面的精选列表展示了一些用于安装高性能、跨平台、开源 OpenJDK 运行时二进制文件的选项。
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - img [ref=e101] [cursor=pointer]
+            - generic [ref=e103]:
+              - heading "Temurin Containers" [level=3] [ref=e104]
+              - link "Docker Hub" [ref=e106] [cursor=pointer]:
+                - /url: https://hub.docker.com/_/eclipse-temurin
+          - generic [ref=e107]:
+            - img [ref=e109] [cursor=pointer]
+            - generic [ref=e127]:
+              - heading "Linux Repositories" [level=3] [ref=e128]
+              - generic [ref=e129]:
+                - link "Debian" [ref=e130] [cursor=pointer]:
+                  - /url: /zh-CN/installation/linux#_deb_installation_on_debian_or_ubuntu
+                - link "RPM" [ref=e131] [cursor=pointer]:
+                  - /url: /zh-CN/installation/linux#_centosrhelfedora_instructions
+                - link "Alpine" [ref=e132] [cursor=pointer]:
+                  - /url: /zh-CN/installation/linux#_alpine_linux_instructions
+                - link "SLES" [ref=e133] [cursor=pointer]:
+                  - /url: /zh-CN/installation/linux#_opensusesles_instructions
+          - generic [ref=e134]:
+            - img [ref=e136] [cursor=pointer]
+            - generic [ref=e139]:
+              - heading "Package Managers" [level=3] [ref=e140]
+              - generic [ref=e141]:
+                - link "Homebrew" [ref=e142] [cursor=pointer]:
+                  - /url: https://formulae.brew.sh/cask/temurin
+                - link "SDKMAN" [ref=e143] [cursor=pointer]:
+                  - /url: https://sdkman.io/jdks/#tem
+                - link "WinGet" [ref=e144] [cursor=pointer]:
+                  - /url: https://docs.microsoft.com/en-us/windows/package-manager/winget/
+          - generic [ref=e145]:
+            - img [ref=e147] [cursor=pointer]
+            - generic [ref=e149]:
+              - heading "REST API" [level=3] [ref=e150]
+              - generic [ref=e151]:
+                - link "REST API" [ref=e152] [cursor=pointer]:
+                  - /url: https://api.adoptium.net
+                - link "Swagger Docs" [ref=e153] [cursor=pointer]:
+                  - /url: https://api.adoptium.net/q/swagger-ui/
+          - generic [ref=e154]:
+            - img [ref=e156] [cursor=pointer]
+            - generic [ref=e158]:
+              - heading "GitHub Actions" [level=3] [ref=e159]
+              - link "setup-java" [ref=e161] [cursor=pointer]:
+                - /url: https://github.com/actions/setup-java
+          - generic [ref=e162]:
+            - img [ref=e164] [cursor=pointer]
+            - generic [ref=e166]:
+              - heading "Other Downloads" [level=3] [ref=e167]
+              - link "Nightly Builds" [ref=e169] [cursor=pointer]:
+                - /url: /zh-CN/temurin/nightly
+  - paragraph [ref=e172]: 感谢我们的 300+ 位贡献者
+  - contentinfo [ref=e174]:
+    - generic [ref=e177]:
+      - generic [ref=e178]:
+        - generic [ref=e179]:
+          - heading "Eclipse Foundation" [level=3] [ref=e180]: Eclipse Foundation
+          - list [ref=e182]:
+            - listitem [ref=e183]:
+              - link "About Us" [ref=e184] [cursor=pointer]:
+                - /url: https://www.eclipse.org/org/
+            - listitem [ref=e185]:
+              - link "Contact Us" [ref=e186] [cursor=pointer]:
+                - /url: https://www.eclipse.org/org/foundation/contact.php
+            - listitem [ref=e187]:
+              - link "Donate" [ref=e188] [cursor=pointer]:
+                - /url: https://www.eclipse.org/donate/adoptium
+            - listitem [ref=e189]:
+              - link "Members" [ref=e190] [cursor=pointer]:
+                - /url: https://www.eclipse.org/membership
+            - listitem [ref=e191]:
+              - link "Governance" [ref=e192] [cursor=pointer]:
+                - /url: https://www.eclipse.org/org/documents/
+            - listitem [ref=e193]:
+              - link "Code of Conduct" [ref=e194] [cursor=pointer]:
+                - /url: https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php
+            - listitem [ref=e195]:
+              - link "Logo and Artwork" [ref=e196] [cursor=pointer]:
+                - /url: https://www.eclipse.org/artwork/
+            - listitem [ref=e197]:
+              - link "Board of Directors" [ref=e198] [cursor=pointer]:
+                - /url: https://www.eclipse.org/org/foundation/directors.php
+        - generic [ref=e199]:
+          - heading "Legal" [level=3] [ref=e200]: Legal
+          - list [ref=e202]:
+            - listitem [ref=e203]:
+              - link "Privacy Policy" [ref=e204] [cursor=pointer]:
+                - /url: https://www.eclipse.org/legal/privacy.php
+            - listitem [ref=e205]:
+              - link "Terms of Use" [ref=e206] [cursor=pointer]:
+                - /url: https://www.eclipse.org/legal/termsofuse.php
+            - listitem [ref=e207]:
+              - link "Copyright Agent" [ref=e208] [cursor=pointer]:
+                - /url: https://www.eclipse.org/legal/copyright.php
+            - listitem [ref=e209]:
+              - link "Eclipse Public License" [ref=e210] [cursor=pointer]:
+                - /url: https://www.eclipse.org/legal/epl-2.0/
+            - listitem [ref=e211]:
+              - link "Legal Resources" [ref=e212] [cursor=pointer]:
+                - /url: https://www.eclipse.org/legal/
+        - generic [ref=e213]:
+          - heading "Useful Links" [level=3] [ref=e214]: Useful Links
+          - list [ref=e216]:
+            - listitem [ref=e217]:
+              - link "Report a Bug" [ref=e218] [cursor=pointer]:
+                - /url: https://github.com/adoptium/adoptium-support/issues
+            - listitem [ref=e219]:
+              - link "Documentation" [ref=e220] [cursor=pointer]:
+                - /url: /zh-CN/docs
+            - listitem [ref=e221]:
+              - link "How to Contribute" [ref=e222] [cursor=pointer]:
+                - /url: /zh-CN/contributing
+            - listitem [ref=e223]:
+              - link "Mailing Lists" [ref=e224] [cursor=pointer]:
+                - /url: https://www.eclipse.org/mail/
+            - listitem [ref=e225]:
+              - link "Marketplace" [ref=e226] [cursor=pointer]:
+                - /url: https://marketplace.eclipse.org/
+            - listitem [ref=e227]:
+              - link "Sitemap" [ref=e228] [cursor=pointer]:
+                - /url: /zh-CN/sitemap
+            - listitem [ref=e229]:
+              - link "Swag Store" [ref=e230] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e231]:
+          - heading "Other" [level=3] [ref=e232]: Other
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - link "IDE and Tools" [ref=e236] [cursor=pointer]:
+                - /url: https://www.eclipse.org/ide/
+            - listitem [ref=e237]:
+              - link "Projects" [ref=e238] [cursor=pointer]:
+                - /url: https://www.eclipse.org/projects
+            - listitem [ref=e239]:
+              - link "Working Groups" [ref=e240] [cursor=pointer]:
+                - /url: https://www.eclipse.org/org/workinggroups/
+            - listitem [ref=e241]:
+              - link "Research@Eclipse" [ref=e242] [cursor=pointer]:
+                - /url: https://www.eclipse.org/org/research/
+            - listitem [ref=e243]:
+              - link "Report a Vulnerability" [ref=e244] [cursor=pointer]:
+                - /url: https://www.eclipse.org/security/
+            - listitem [ref=e245]:
+              - link "Service Status" [ref=e246] [cursor=pointer]:
+                - /url: https://status.eclipse.org/
+      - generic [ref=e247]:
+        - generic [ref=e248]:
+          - img [ref=e250]
+          - generic [ref=e258]:
+            - paragraph [ref=e259]: Copyright © Eclipse Foundation. All Rights Reserved.
+            - paragraph [ref=e260]: Java and OpenJDK are trademarks or registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective owners.
+        - generic [ref=e261]:
+          - list [ref=e262]:
+            - listitem [ref=e263]:
+              - link "X.com" [ref=e264] [cursor=pointer]:
+                - /url: https://x.com/adoptium
+                - generic [ref=e265]: X.com
+                - img [ref=e266]
+            - listitem [ref=e268]:
+              - link "LinkedIn" [ref=e269] [cursor=pointer]:
+                - /url: https://www.linkedin.com/showcase/adoptium/
+                - generic [ref=e270]: LinkedIn
+                - img [ref=e271]
+            - listitem [ref=e273]:
+              - link "YouTube" [ref=e274] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/EclipseAdoptium
+                - generic [ref=e275]: YouTube
+                - img [ref=e276]
+            - listitem [ref=e278]:
+              - link "GitHub" [ref=e279] [cursor=pointer]:
+                - /url: https://github.com/adoptium
+                - generic [ref=e280]: GitHub
+                - img [ref=e281]
+            - listitem [ref=e283]:
+              - link "Slack" [ref=e284] [cursor=pointer]:
+                - /url: https://adoptium.net/slack
+                - generic [ref=e285]: Slack
+                - img [ref=e286]
+            - listitem [ref=e288]:
+              - link "Mastodon" [ref=e289] [cursor=pointer]:
+                - /url: https://fosstodon.org/@adoptium
+                - generic [ref=e290]: Mastodon
+                - img [ref=e291]
+            - listitem [ref=e293]:
+              - link "Bluesky" [ref=e294] [cursor=pointer]:
+                - /url: https://bsky.app/profile/adoptium.net
+                - generic [ref=e295]: Bluesky
+                - img [ref=e296]
+          - link "Deploys by Netlify":
+            - /url: https://www.netlify.com
+            - img "Deploys by Netlify"
+    - img [ref=e298]
+  - alert [ref=e597]

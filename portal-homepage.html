@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>智慧蛋鸡门户 - 首页</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", sans-serif;
+  font-size: 14px;
+  color: rgba(0,0,0,0.88);
+  background: #fff;
+  min-width: 1280px;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+  position: fixed;
+  left: 0; top: 0; bottom: 0;
+  width: 240px;
+  background: #fff;
+  border-right: 1px solid #e5e7eb;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+  user-select: none;
+}
+.sidebar-top { padding-top: 40px; }
+.search-box {
+  display: flex;
+  align-items: center;
+  height: 34px;
+  border-radius: 8px;
+  margin: 0 4px;
+  padding: 0 20px;
+  gap: 8px;
+  color: #9ca3af;
+  background: rgba(156,163,175,0.05);
+  cursor: pointer;
+  font-size: 13px;
+}
+.search-box .shortcut { color: #d1d5db; margin-left: auto; }
+.category-tabs { display: flex; background: #f9fafb; border-radius: 2px; margin: 4px; }
+.category-tabs button {
+  flex: 1;
+  padding: 4px 0;
+  font-size: 13px;
+  color: #6b7280;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  border-radius: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.category-tabs button:hover { color: #3b82f6; background: #f3f4f6; }
+
+/* ===== MENU ===== */
+.menu-container { flex: 1; overflow-y: auto; cursor: pointer; }
+.menu-container ul { list-style: none; background: #fff; }
+.menu-item {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  padding: 0 24px;
+  font-size: 14px;
+  cursor: pointer;
+  gap: 10px;
+  color: rgba(0,0,0,0.88);
+}
+.menu-item:hover { background: rgba(0,0,0,0.04); }
+.menu-item.active { background: #3b82f6; color: #fff; }
+.menu-item .icon { display: inline-flex; align-items: center; font-size: 16px; line-height: 1; }
+.menu-item .label { flex: 1; }
+.menu-submenu {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  padding: 0 24px;
+  font-size: 14px;
+  cursor: pointer;
+  gap: 10px;
+  color: rgba(0,0,0,0.88);
+}
+.menu-submenu:hover { background: rgba(0,0,0,0.04); }
+.menu-submenu .icon { display: inline-flex; align-items: center; font-size: 16px; color: #52c41a; line-height: 1; }
+.menu-submenu .arrow { margin-left: auto; color: #bbb; font-size: 12px; }
+/* Ant Badge */
+.ant-badge { position: relative; }
+.ant-badge sup {
+  position: absolute;
+  top: -8px;
+  right: -18px;
+  background: #ff4d4f;
+  color: #fff;
+  font-size: 12px;
+  min-width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0 6px;
+  box-shadow: 0 0 0 2px #fff;
+}
+
+/* ===== TOP BAR ===== */
+.topbar {
+  position: fixed;
+  top: 0; right: 0;
+  left: 240px;
+  height: 40px;
+  background: #fff;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.06);
+  user-select: none;
+}
+.topbar-left { display: flex; align-items: center; padding: 0 8px; gap: 4px; }
+.topbar-left .home-icon {
+  width: 32px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.topbar-left .page-title { font-size: 16px; font-weight: 500; margin-right: 16px; }
+.topbar-right { display: flex; align-items: center; padding: 0 8px; gap: 4px; }
+.topbar-right .tb-item {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  height: 32px;
+  font-size: 13px;
+  color: #6b7280;
+  cursor: pointer;
+  border-radius: 4px;
+  gap: 6px;
+  transition: all 0.15s;
+}
+.topbar-right .tb-item:hover { background: #f3f4f6; color: #111827; }
+/* Ant Button */
+.ant-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  padding: 0 8px;
+  font-size: 13px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  color: rgba(0,0,0,0.88);
+  transition: all 0.2s;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.ant-btn:hover { color: #3b82f6; border-color: #3b82f6; }
+.ant-btn:disabled { color: rgba(0,0,0,0.25); border-color: #d9d9d9; background: #f5f5f5; cursor: not-allowed; }
+
+/* ===== MAIN CONTENT ===== */
+.main-content {
+  margin-left: 240px;
+  padding-top: 40px;
+  position: relative;
+}
+.grid-container {
+  position: relative;
+  padding: 8px;
+}
+
+/* ===== DASHBOARD CARDS ===== */
+.grid-card {
+  position: absolute;
+  overflow: hidden;
+}
+.grid-card.empty { display: none; }
+.card-inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 4px;
+  user-select: none;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 12px;
+  border-bottom: 1px solid #f9fafb;
+  cursor: pointer;
+  position: relative;
+}
+.card-header .title-text {
+  font-size: 13px;
+  font-weight: 500;
+  color: #6b7280;
+  border-left: 4px solid #52c41a;
+  padding-left: 8px;
+}
+.card-header .more-btn {
+  position: absolute;
+  top: 0; right: 0;
+  width: 40px; height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #999;
+  font-size: 18px;
+}
+.card-header .more-btn:hover { background: rgba(0,0,0,0.05); }
+.card-body { flex: 1; overflow: auto; padding: 12px; position: relative; }
+.card-body.no-padding { padding: 0; }
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 0 12px;
+  color: #9ca3af;
+  border-top: 1px solid #f9fafb;
+  cursor: pointer;
+  font-size: 13px;
+  gap: 4px;
+}
+.card-footer:hover { color: #6b7280; }
+
+/* Stat grid inside cards */
+.stat-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: #f9fafb; height: 100%; }
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  height: 110px;
+  background: #fff;
+  cursor: pointer;
+}
+.stat-item:hover { background: #f9fafb; }
+.stat-item .stat-label { font-size: 13px; color: #9ca3af; }
+.stat-item .stat-value { font-size: 22px; font-weight: 500; color: #6b7280; }
+
+/* Todo list inside card */
+.todo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 16px;
+  background: #f3f4f6;
+  border-radius: 6px 6px 0 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #6b7280;
+}
+.todo-list { background: #fff; border: 1px solid #f3f4f6; border-radius: 0 0 6px 6px; }
+.todo-item { padding: 6px 8px; border-bottom: 1px solid #f3f4f6; transition: background 0.15s; }
+.todo-item:hover { background: #f9fafb; }
+.todo-item:last-child { border-bottom: none; }
+.todo-item .todo-title { display: flex; align-items: center; gap: 6px; color: #1f2937; font-weight: 500; margin-bottom: 2px; }
+.todo-item .todo-title .todo-icon { color: #3b82f6; flex-shrink: 0; font-size: 14px; }
+.todo-item .todo-title .todo-text { font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.todo-item .todo-meta { display: flex; align-items: center; justify-content: space-between; height: 24px; }
+.todo-item .todo-meta .person { font-size: 12px; color: #6b7280; width: 64px; }
+.todo-item .todo-meta .task-type { font-size: 12px; color: #6b7280; margin-right: auto; }
+.todo-item .todo-meta .action-btn {
+  height: 22px;
+  padding: 0 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  color: rgba(0,0,0,0.88);
+  cursor: pointer;
+  font-family: inherit;
+}
+.todo-item .todo-meta .action-btn:hover { color: #3b82f6; border-color: #3b82f6; }
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d9d9d9; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #bbb; }
+
+/* SVG icons */
+svg.icon { display: inline-block; vertical-align: middle; }
+</style>
+</head>
+<body>
+
+<!-- ===== SIDEBAR ===== -->
+<aside class="sidebar">
+  <div class="sidebar-top">
+    <div class="search-box">
+      <svg width="16" height="16" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"><path d="M21 38c9.389 0 17-7.611 17-17S30.389 4 21 4S4 11.611 4 21s7.611 17 17 17Z"/><path stroke-linecap="round" d="M26.657 14.343A7.975 7.975 0 0 0 21 12a7.975 7.975 0 0 0-5.657 2.343m17.879 18.879l8.485 8.485"/></svg>
+      <span>搜索菜单</span>
+      <span class="shortcut">Ctrl + /</span>
+    </div>
+    <div class="category-tabs">
+      <button>公共</button><button>人力</button><button>资产</button>
+    </div>
+  </div>
+  <nav class="menu-container">
+    <ul>
+      <li class="menu-item active">
+        <span class="icon"><svg width="16" height="16" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4"><path stroke-linecap="round" stroke-linejoin="round" d="M9 18v24h30V18L24 6L9 18Z"/><path stroke-linejoin="round" d="M19 29v13h10V29H19Z"/><path stroke-linecap="round" d="M9 42h30"/></svg></span>
+        <span class="label">首页</span>
+      </li>
+      <li class="menu-item">
+        <span class="icon"><svg width="16" height="16" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10h24M20 24h24M20 38h24"/><circle cx="8" cy="24" r="4"/><circle cx="8" cy="38" r="4"/><path d="m4 10l3 3l6-6"/></svg></span>
+        <span class="label">待办事项</span>
+        <span class="ant-badge"><sup>12</sup></span>
+      </li>
+      <li class="menu-submenu"><span class="icon"><svg width="16" height="16" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M24 33V15M10 9h28v6H10zM8 32l6-7h19.974L40 32M4 33h8v8H4zm16 0h8v8h-8zm16 0h8v8h-8z"/></svg></span><span>组织管理</span><span class="arrow">&#9658;</span></li>
+      <li class="menu-submenu"><span class="icon"><svg width="16" height="16" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4"><path d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4S4 12.954 4 24s8.954 20 20 20Z"/><path d="M24 12v12l8 4"/></svg></span><span>绩效管理</span><span class="arrow">&#9658;</span></li>
+      <li class="menu-submenu"><span class="icon"><svg width="16" height="16" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4"><rect width="40" height="16" x="4" y="6" rx="2"/><path stroke-linecap="round" d="M4 22h40M16 38h16"/></svg></span><span>薪酬管理</span><span class="arrow">&#9658;</span></li>
+      <li class="menu-submenu"><span class="icon"><svg width="16" height="16" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M42 20v22H6V20M4 6h40v14H4z"/></svg></span><span>审批管理</span><span class="arrow">&#9658;</span></li>
+      <li class="menu-submenu"><span class="icon"><svg width="16" height="16" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h28l8 16l-8 16H4V8z"/><circle cx="18" cy="24" r="4"/></svg></span><span>学习管理</span><span class="arrow">&#9658;</span></li>
+      <li class="menu-submenu"><span class="icon"><svg width="16" height="16" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6h36v36H6zM6 16h36M16 6v36"/></svg></span><span>资产管理</span><span class="arrow">&#9658;</span></li>
+      <li class="menu-submenu"><span class="icon"><svg width="16" height="16" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4h24l6 16l-6 16H12L6 20z"/></svg></span><span>折旧管理</span><span class="arrow">&#9658;</span></li>
+      <li class="menu-submenu"><span class="icon"><svg width="16" height="16" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M24 4L4 14v20l20 10l20-10V14z"/></svg></span><span>运营管理</span><span class="arrow">&#9658;</span></li>
+      <li class="menu-submenu"><span class="icon"><svg width="16" height="16" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h40v24H4zM4 12l20 10l20-10"/></svg></span><span>库存管理</span><span class="arrow">&#9658;</span></li>
+      <li class="menu-submenu"><span class="icon"><svg width="16" height="16" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4"><circle cx="24" cy="12" r="4"/><circle cx="24" cy="24" r="4"/><circle cx="24" cy="36" r="4"/></svg></span><span>系统设置</span><span class="arrow">&#9658;</span></li>
+    </ul>
+  </nav>
+</aside>
+
+<!-- ===== TOP BAR ===== -->
+<header class="topbar">
+  <div class="topbar-left">
+    <span class="home-icon"><svg width="18" height="18" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4"><path stroke-linecap="round" stroke-linejoin="round" d="M9 18v24h30V18L24 6L9 18Z"/><path stroke-linejoin="round" d="M19 29v13h10V29H19Z"/><path stroke-linecap="round" d="M9 42h30"/></svg></span>
+    <span class="page-title">首页</span>
+    <button class="ant-btn">编辑布局</button>
+    <button class="ant-btn" disabled>添加卡片</button>
+    <button class="ant-btn" disabled>重置卡片</button>
+    <button class="ant-btn" disabled>重新排列</button>
+  </div>
+  <div class="topbar-right">
+    <div class="tb-item">
+      <span>沃德辰龙</span>
+      <svg width="14" height="14" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M42 19H6M30 7l12 12M6.799 29h36m-36 0l12 12"/></svg>
+    </div>
+    <div class="tb-item">
+      <span>帮助文档</span>
+      <svg width="14" height="14" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"><path d="M24 44a19.937 19.937 0 0 0 14.142-5.858A19.937 19.937 0 0 0 44 24c0-11.046-8.954-20-20-20S4 12.954 4 24s8.954 20 20 20Z"/><circle cx="24" cy="28" r="2" fill="currentColor" stroke="none"/><path stroke-linecap="round" d="M24 24v-4"/></svg>
+    </div>
+    <div class="tb-item">
+      <svg width="14" height="14" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="4"><circle cx="24" cy="16" r="8"/><path stroke-linecap="round" d="M6 40c0-9.941 8.059-18 18-18s18 8.059 18 18"/></svg>
+      <span>刘航 13842951343</span>
+    </div>
+  </div>
+</header>
+
+<!-- ===== MAIN CONTENT ===== -->
+<div class="main-content">
+  <div class="grid-container" id="gridContainer"></div>
+</div>
+
+<script>
+// ===== GRID-STACK REPLICA =====
+(function() {
+  const container = document.getElementById('gridContainer');
+  const sidebarW = 240;
+  const cardH = 350;
+  const padding = 8;
+
+  // Card definitions
+  const cardDefs = [
+    { id: 'chart1', title: '课程完成情况', type: 'chart', chart: 'completion', footer: false },
+    { id: 'chart2', title: '课程开展情况', type: 'chart', chart: 'progress', footer: false },
+    { id: 'stats1', title: '我的课程', type: 'statGrid', items: [
+      { label: '班级数量', value: '5' },
+      { label: '开课总数', value: '272' },
+      { label: '课程完成率', value: '13%' },
+      { label: '', value: '' }
+    ], footer: false },
+    { id: 'monthly', title: '月度双赢协议', type: 'empty', footer: true },
+    { id: 'perf', title: '绩效分析 (2026年4月)', type: 'statGrid', items: [
+      { label: '本月得分', value: '暂无' },
+      { label: '上月成绩', value: '0' },
+      { label: '环比得分', value: '暂无' },
+      { label: '部门排名', value: '暂无' }
+    ], footer: true },
+    { id: 'chart3', title: '得分同比', type: 'chart', chart: 'scoreCompare', footer: true },
+    { id: 'todo', title: '待办事项', type: 'todo', footer: true, todoItems: [
+      '【资产模块】新资产模块场景化测试用例',
+      '【资产模块】新资产模块场景化测试用例',
+      '【资产模块】新资产模块场景化测试用例',
+      '任务：完成资产作废、转移申请时，用户填写的字段属性变更测试',
+      '任务：完成资产作废、转移申请时，用户填写的字段属性变更测试',
+      '任务：【资产管理】资产转移（跨法人），资产报废功能改造测试'
+    ] }
+  ];
+
+  function layout() {
+    const vw = window.innerWidth;
+    const containerW = vw - sidebarW;
+    const cols = Math.max(2, Math.floor(containerW / 340));
+    const cellW = Math.floor((containerW - padding * 2) / cols);
+    const gridW = cellW * cols;
+
+    container.style.width = gridW + 'px';
+    // Ensure the main content area exactly matches the original's width
+    const mc = document.querySelector('.main-content');
+    if (mc) mc.style.width = (sidebarW + padding * 2 + gridW) + 'px';
+    container.style.height = 'auto';
+
+    let html = '';
+    cardDefs.forEach((card, i) => {
+      const col = i % cols;
+      const row = Math.floor(i / cols);
+      const x = padding + col * cellW;
+      const y = padding + row * cardH;
+
+      html += `<div class="grid-card" style="left:${x}px;top:${y}px;width:${cellW}px;height:${cardH}px;">`;
+      html += `<div class="card-inner">`;
+
+      // Header
+      html += `<div class="card-header">`;
+      html += `<span class="title-text">${card.title}</span>`;
+      html += `<span class="more-btn">&#8942;</span>`;
+      html += `</div>`;
+
+      // Body
+      if (card.type === 'chart') {
+        html += `<div class="card-body"><div id="${card.id}" style="width:100%;height:100%;"></div></div>`;
+      } else if (card.type === 'statGrid') {
+        html += `<div class="card-body no-padding"><div class="stat-grid">`;
+        card.items.forEach(item => {
+          html += `<div class="stat-item"><span class="stat-label">${item.label}</span><span class="stat-value">${item.value}</span></div>`;
+        });
+        html += `</div></div>`;
+      } else if (card.type === 'todo') {
+        html += `<div class="card-body no-padding" style="background:#f9fafb;padding:12px;">`;
+        html += `<div class="todo-header"><span>待办内容</span><span>操作</span></div>`;
+        html += `<div class="todo-list" style="max-height:${cardH - 40 - 40 - 24 - 48}px;overflow-y:auto;">`;
+        card.todoItems.forEach(text => {
+          html += `<div class="todo-item">`;
+          html += `<div class="todo-title"><span class="todo-icon">🔔</span><span class="todo-text">${text}</span></div>`;
+          html += `<div class="todo-meta"><span class="person">刘佳慧</span><span class="task-type">月度任务评分</span><button class="action-btn">去处理</button></div>`;
+          html += `</div>`;
+        });
+        html += `</div></div>`;
+      } else {
+        html += `<div class="card-body no-padding" style="background:#f9fafb;min-height:100px;"></div>`;
+      }
+
+      // Footer
+      if (card.footer) {
+        html += `<div class="card-footer"><span style="font-size:13px;">查看更多</span><span style="font-size:16px;">&#8250;</span></div>`;
+      }
+
+      html += `</div></div>`;
+    });
+
+    // Calculate total height
+    const totalRows = Math.ceil(cardDefs.length / cols);
+    container.style.height = (totalRows * cardH) + 'px';
+
+    container.innerHTML = html;
+
+    // Init charts after DOM update
+    setTimeout(initCharts, 100);
+  }
+
+  function initCharts() {
+    // 课程完成情况
+    const el1 = document.getElementById('chart1');
+    if (el1 && !el1._inited) {
+      el1._inited = true;
+      const c = echarts.init(el1);
+      c.setOption({
+        animation: false,
+        grid: { left: 36, right: 16, top: 16, bottom: 28 },
+        xAxis: {
+          type: 'category',
+          data: ['6月','7月','8月','9月','10月','11月','12月','1月','2月','3月','4月','5月'],
+          axisLine: { lineStyle: { color: '#aaa' } },
+          axisTick: { show: false },
+          axisLabel: { color: '#999', fontSize: 12, fontFamily: 'Microsoft YaHei', margin: 8 },
+          interval: 1
+        },
+        yAxis: {
+          type: 'value', min: 0, max: 100, interval: 20,
+          axisLine: { show: false }, axisTick: { show: false },
+          splitLine: { show: false },
+          axisLabel: { color: '#999', fontSize: 12, fontFamily: 'Microsoft YaHei', margin: 8 }
+        },
+        series: [{
+          type: 'line',
+          data: [75,75,75,75,75,75,25,0,75,75,75,75],
+          symbol: 'circle', symbolSize: 6,
+          lineStyle: { color: '#ffb248', width: 2 },
+          itemStyle: { color: '#ffb248' }
+        }],
+        tooltip: { trigger: 'axis' }
+      });
+    }
+
+    // 课程开展情况
+    const el2 = document.getElementById('chart2');
+    if (el2 && !el2._inited) {
+      el2._inited = true;
+      const c = echarts.init(el2);
+      c.setOption({
+        animation: false,
+        grid: { left: 28, right: 16, top: 16, bottom: 28 },
+        xAxis: {
+          type: 'category',
+          data: ['6月','7月','8月','9月','10月','11月','12月','1月','2月','3月','4月','5月'],
+          axisLine: { lineStyle: { color: '#aaa' } },
+          axisTick: { show: false },
+          axisLabel: { color: '#999', fontSize: 12, fontFamily: 'Microsoft YaHei', margin: 8 },
+          interval: 1
+        },
+        yAxis: {
+          type: 'value', min: 0, max: 6, interval: 1,
+          axisLine: { show: false }, axisTick: { show: false },
+          splitLine: { show: false },
+          axisLabel: { color: '#999', fontSize: 12, fontFamily: 'Microsoft YaHei', margin: 8 }
+        },
+        series: [{
+          type: 'bar',
+          data: [3,0,3,3,2,0,3,3,0,2,3,4],
+          barWidth: 16,
+          itemStyle: { color: '#ffb248', borderRadius: [4,4,0,0] }
+        }],
+        tooltip: { trigger: 'axis' }
+      });
+    }
+
+    // 得分同比
+    const el3 = document.getElementById('chart3');
+    if (el3 && !el3._inited) {
+      el3._inited = true;
+      const c = echarts.init(el3);
+      c.setOption({
+        animation: false,
+        grid: { left: 36, right: 16, top: 16, bottom: 44 },
+        xAxis: {
+          type: 'category',
+          data: ['6','7','8','9','10','11','12','1','2','3','4','5'],
+          axisLine: { lineStyle: { color: '#aaa' } },
+          axisTick: { show: false },
+          axisLabel: { color: '#999', fontSize: 12, fontFamily: 'Microsoft YaHei', margin: 8 }
+        },
+        yAxis: {
+          type: 'value', min: 0, max: 120, interval: 20,
+          axisLine: { show: false }, axisTick: { show: false },
+          splitLine: { show: false },
+          axisLabel: { color: '#999', fontSize: 12, fontFamily: 'Microsoft YaHei', margin: 8 }
+        },
+        legend: {
+          bottom: 0, left: 'center',
+          itemWidth: 16, itemHeight: 8,
+          textStyle: { color: '#999', fontSize: 12 },
+          data: ['今年得分', '同比得分']
+        },
+        series: [
+          {
+            name: '今年得分', type: 'line',
+            data: [100,103,104,103,105,104,106,108,null,null,null,null],
+            symbol: 'circle', symbolSize: 6,
+            lineStyle: { color: '#ffb248', width: 2 },
+            itemStyle: { color: '#ffb248' }
+          },
+          {
+            name: '同比得分', type: 'line',
+            data: [null,null,null,null,null,null,null,null,null,null,null,null],
+            symbol: 'circle', symbolSize: 6,
+            lineStyle: { color: '#893448', width: 2 },
+            itemStyle: { color: '#893448' }
+          }
+        ],
+        tooltip: { trigger: 'axis' }
+      });
+    }
+  }
+
+  layout();
+  window.addEventListener('resize', layout);
+})();
+</script>
+
+</body>
+</html>

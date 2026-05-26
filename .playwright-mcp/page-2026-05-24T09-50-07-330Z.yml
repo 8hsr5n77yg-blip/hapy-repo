@@ -1,0 +1,530 @@
+- generic [active] [ref=e1]:
+  - link "欢迎进入 百度一下，你就知道，盲人用户进入读屏幕模式请按快捷键Ctrl加Alt加R；阅读详细操作说明请按快捷键Ctrl加Alt加问号键。":
+    - /url: javascript:void(0)
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic:
+          - link "到百度首页" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "到百度首页" [ref=e7]
+          - generic [ref=e10]:
+            - textbox [ref=e12]: commandlinetools-win 百度网盘 下载
+            - generic [ref=e14]:
+              - generic [ref=e15]:
+                - img [ref=e17] [cursor=pointer]
+                - img [ref=e27] [cursor=pointer]
+                - generic [ref=e30]:
+                  - img [ref=e34] [cursor=pointer]
+                  - img [ref=e39] [cursor=pointer]
+              - button "百度一下" [ref=e43] [cursor=pointer]
+      - generic [ref=e45]:
+        - link "百度首页" [ref=e46] [cursor=pointer]:
+          - /url: /
+        - link "设置" [ref=e47] [cursor=pointer]:
+          - /url: javascript:;
+        - link "登录" [ref=e48] [cursor=pointer]:
+          - /url: https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F
+    - generic [ref=e51]:
+      - link [ref=e52] [cursor=pointer]:
+        - /url: https://chat.baidu.com/search?word=commandlinetools-win+%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98+%E4%B8%8B%E8%BD%BD&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&pd=csaitab&setype=csaitab&extParamsJson=%7B%22enter_type%22%3A%22search_a_tab%22%2C%22sa%22%3A%22vs_tab%22%2C%22apagelid%22%3A%2211603895477849832801%22%2C%22ori_lid%22%3A%2211603895477849832801%22%7D
+        - img [ref=e53]
+      - generic [ref=e54]: 网页
+      - link "图片" [ref=e55] [cursor=pointer]:
+        - /url: http://image.baidu.com/i?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&lid=a109517500003d61&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=commandlinetools-win+%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98+%E4%B8%8B%E8%BD%BD
+      - link "资讯" [ref=e56] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=commandlinetools-win+%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98+%E4%B8%8B%E8%BD%BD
+      - link "视频" [ref=e57] [cursor=pointer]:
+        - /url: /sf/vsearch?pd=video&tn=vsearch&lid=a109517500003d61&ie=utf-8&wd=commandlinetools-win+%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98+%E4%B8%8B%E8%BD%BD&rsv_spt=7&rsv_bp=1&f=8&oq=commandlinetools-win+%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98+%E4%B8%8B%E8%BD%BD&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU
+      - link "笔记" [ref=e58] [cursor=pointer]:
+        - /url: https://www.baidu.com/s?pd=note&rpf=pc&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=commandlinetools-win+%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98+%E4%B8%8B%E8%BD%BD
+      - link "地图" [ref=e59] [cursor=pointer]:
+        - /url: https://map.baidu.com/?newmap=1&ie=utf-8&from=pstab&s=s%26wd%3Dcommandlinetools-win+%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98+%E4%B8%8B%E8%BD%BD
+      - link "贴吧" [ref=e60] [cursor=pointer]:
+        - /url: http://tieba.baidu.com/f?fr=wwwt&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&kw=commandlinetools-win+%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98+%E4%B8%8B%E8%BD%BD
+      - link "文库" [ref=e61] [cursor=pointer]:
+        - /url: http://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&dyTabStr=MTIsMCwzLDEsMiwxMyw3LDYsNSw5&word=commandlinetools-win+%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98+%E4%B8%8B%E8%BD%BD
+      - link "更多" [ref=e62] [cursor=pointer]:
+        - /url: http://www.baidu.com/more/
+      - generic [ref=e63] [cursor=pointer]: 搜索工具
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - table [ref=e67]:
+          - rowgroup [ref=e68]:
+            - row "相关搜索  电脑出现command line  gta4commandline  windows下载命令  百度网盘windows版下载  win10快速打开cmd快捷键  bottomline百度网盘    换一换 热搜榜 北京榜 民生榜 财经榜  安全不容失守 责任重于泰山 1 煤矿爆炸时247人下井仅记录124人 热 2 微信“史诗级”更新 登录方式有变 热 3 暴雨强对流双预警 出行需注意防范 4 武汉发布气象防御指南：停课停业 热 5 发射塔旁50米有棵树被火烧千百回不死 新 6 食用油开封近俩月就报废？真别吃了 7 山西煤矿事故现场发现两条隐藏巷道 8 李晨郑恺停止宣传《跑男》 9 每天刷手机5小时以上的人都怎么样了 新 10 端午放假通知：连休3天高速不免费 11 高铁行李架掉下条蛇？铁路部门辟谣 12 男子接亲路上才得知新娘已婚已育 13 油车销量断崖式下滑 经销商亏本甩卖 14 大脑在这两个年纪会断崖式衰老 新 15 重庆永川暴雨致17人失联 3人死亡 热" [ref=e69]:
+              - cell "相关搜索  电脑出现command line  gta4commandline  windows下载命令  百度网盘windows版下载  win10快速打开cmd快捷键  bottomline百度网盘    换一换 热搜榜 北京榜 民生榜 财经榜  安全不容失守 责任重于泰山 1 煤矿爆炸时247人下井仅记录124人 热 2 微信“史诗级”更新 登录方式有变 热 3 暴雨强对流双预警 出行需注意防范 4 武汉发布气象防御指南：停课停业 热 5 发射塔旁50米有棵树被火烧千百回不死 新 6 食用油开封近俩月就报废？真别吃了 7 山西煤矿事故现场发现两条隐藏巷道 8 李晨郑恺停止宣传《跑男》 9 每天刷手机5小时以上的人都怎么样了 新 10 端午放假通知：连休3天高速不免费 11 高铁行李架掉下条蛇？铁路部门辟谣 12 男子接亲路上才得知新娘已婚已育 13 油车销量断崖式下滑 经销商亏本甩卖 14 大脑在这两个年纪会断崖式衰老 新 15 重庆永川暴雨致17人失联 3人死亡 热" [ref=e70]:
+                - generic [ref=e71]:
+                  - generic [ref=e77]:
+                    - generic [ref=e79]: 相关搜索
+                    - generic [ref=e80]:
+                      - link " 电脑出现command line" [ref=e83] [cursor=pointer]:
+                        - /url: /s?wd=%E7%94%B5%E8%84%91%E5%87%BA%E7%8E%B0command%20line&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=5467yjaQYzHsBjrWQPV1JHghS%2BM34TyN1nex6TYpKZriGeyLe%2FMcQxQ5dSU&rfqid=a109517500003d61&rsv_dl=0_prs_28616_1&rq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsf=101631202
+                        - generic [ref=e84]:
+                          - generic [ref=e85]: 
+                          - generic [ref=e86]: 电脑出现command line
+                      - link " gta4commandline" [ref=e89] [cursor=pointer]:
+                        - /url: /s?wd=gta4commandline&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=1da7GlvWOLRJXbMb%2B18YHndG%2BDJYAVzFkCpv8pxsudVonA94JRTRfFBjnaQ&rfqid=a109517500003d61&rsv_dl=0_prs_28616_2&rq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsf=101631202
+                        - generic [ref=e90]:
+                          - generic [ref=e91]: 
+                          - generic [ref=e92]: gta4commandline
+                      - link " windows下载命令" [ref=e95] [cursor=pointer]:
+                        - /url: /s?wd=windows%E4%B8%8B%E8%BD%BD%E5%91%BD%E4%BB%A4&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=1da7GlvWOLRJXbMb%2B18YHndG%2BDJYAVzFkCpv8pxsudVonA94JRTRfFBjnaQ&rfqid=a109517500003d61&rsv_dl=0_prs_28616_3&rq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsf=101633403
+                        - generic [ref=e96]:
+                          - generic [ref=e97]: 
+                          - generic [ref=e98]: windows下载命令
+                      - link " 百度网盘windows版下载" [ref=e101] [cursor=pointer]:
+                        - /url: /s?wd=%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98windows%E7%89%88%E4%B8%8B%E8%BD%BD&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=1da7GlvWOLRJXbMb%2B18YHndG%2BDJYAVzFkCpv8pxsudVonA94JRTRfFBjnaQ&rfqid=a109517500003d61&rsv_dl=0_prs_28616_4&rq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsf=101636803
+                        - generic [ref=e102]:
+                          - generic [ref=e103]: 
+                          - generic [ref=e104]: 百度网盘windows版下载
+                      - link " win10快速打开cmd快捷键" [ref=e107] [cursor=pointer]:
+                        - /url: /s?wd=win10%E5%BF%AB%E9%80%9F%E6%89%93%E5%BC%80cmd%E5%BF%AB%E6%8D%B7%E9%94%AE&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=1da7GlvWOLRJXbMb%2B18YHndG%2BDJYAVzFkCpv8pxsudVonA94JRTRfFBjnaQ&rfqid=a109517500003d61&rsv_dl=0_prs_28616_5&rq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsf=100633403
+                        - generic [ref=e108]:
+                          - generic [ref=e109]: 
+                          - generic [ref=e110]: win10快速打开cmd快捷键
+                      - link " bottomline百度网盘" [ref=e113] [cursor=pointer]:
+                        - /url: /s?wd=bottomline%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=1da7GlvWOLRJXbMb%2B18YHndG%2BDJYAVzFkCpv8pxsudVonA94JRTRfFBjnaQ&rfqid=a109517500003d61&rsv_dl=0_prs_28616_6&rq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsf=101631202
+                        - generic [ref=e114]:
+                          - generic [ref=e115]: 
+                          - generic [ref=e116]: bottomline百度网盘
+                  - generic [ref=e120]:
+                    - generic "百度热搜" [ref=e121]:
+                      - link " " [ref=e122] [cursor=pointer]:
+                        - /url: https://top.baidu.com/board?platform=pc&sa=pcindex_a_right
+                        - generic [ref=e123]: 
+                        - generic [ref=e124]: 
+                      - link " 换一换" [ref=e126] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                        - generic [ref=e127]: 
+                        - text: 换一换
+                    - generic [ref=e128]:
+                      - generic [ref=e129] [cursor=pointer]: 热搜榜
+                      - generic [ref=e130] [cursor=pointer]: 北京榜
+                      - generic [ref=e131] [cursor=pointer]: 民生榜
+                      - generic [ref=e132] [cursor=pointer]: 财经榜
+                    - generic [ref=e134]:
+                      - generic [ref=e136]:
+                        - generic [ref=e138]: 
+                        - link "安全不容失守 责任重于泰山" [ref=e139] [cursor=pointer]:
+                          - /url: /s?wd=%E5%AE%89%E5%85%A8%E4%B8%8D%E5%AE%B9%E5%A4%B1%E5%AE%88%20%E8%B4%A3%E4%BB%BB%E9%87%8D%E4%BA%8E%E6%B3%B0%E5%B1%B1&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=1da7GlvWOLRJXbMb%2B18YHndG%2BDJYAVzFkCpv8pxsudVonA94JRTRfFBjnaQ&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_1_15_1&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e141]:
+                        - generic [ref=e142]: "1"
+                        - link "煤矿爆炸时247人下井仅记录124人" [ref=e143] [cursor=pointer]:
+                          - /url: /s?wd=%E7%85%A4%E7%9F%BF%E7%88%86%E7%82%B8%E6%97%B6247%E4%BA%BA%E4%B8%8B%E4%BA%95%E4%BB%85%E8%AE%B0%E5%BD%95124%E4%BA%BA&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=1da7GlvWOLRJXbMb%2B18YHndG%2BDJYAVzFkCpv8pxsudVonA94JRTRfFBjnaQ&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_1_15_2&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e144]: 热
+                      - generic [ref=e146]:
+                        - generic [ref=e147]: "2"
+                        - link "微信“史诗级”更新 登录方式有变" [ref=e148] [cursor=pointer]:
+                          - /url: /s?wd=%E5%BE%AE%E4%BF%A1%E2%80%9C%E5%8F%B2%E8%AF%97%E7%BA%A7%E2%80%9D%E6%9B%B4%E6%96%B0%20%E7%99%BB%E5%BD%95%E6%96%B9%E5%BC%8F%E6%9C%89%E5%8F%98&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=1da7GlvWOLRJXbMb%2B18YHndG%2BDJYAVzFkCpv8pxsudVonA94JRTRfFBjnaQ&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_1_15_3&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e149]: 热
+                      - generic [ref=e151]:
+                        - generic [ref=e152]: "3"
+                        - link "暴雨强对流双预警 出行需注意防范" [ref=e153] [cursor=pointer]:
+                          - /url: /s?wd=%E6%9A%B4%E9%9B%A8%E5%BC%BA%E5%AF%B9%E6%B5%81%E5%8F%8C%E9%A2%84%E8%AD%A6%20%E5%87%BA%E8%A1%8C%E9%9C%80%E6%B3%A8%E6%84%8F%E9%98%B2%E8%8C%83&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=5bc7hh7iBEm7bOKZPBq%2BhICNVCQ2UX2UBCv5NnvZVEAixhjNQVCpRz4o87E&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_1_15_4&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e155]:
+                        - generic [ref=e156]: "4"
+                        - link "武汉发布气象防御指南：停课停业" [ref=e157] [cursor=pointer]:
+                          - /url: /s?wd=%E6%AD%A6%E6%B1%89%E5%8F%91%E5%B8%83%E6%B0%94%E8%B1%A1%E9%98%B2%E5%BE%A1%E6%8C%87%E5%8D%97%EF%BC%9A%E5%81%9C%E8%AF%BE%E5%81%9C%E4%B8%9A&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=5bc7hh7iBEm7bOKZPBq%2BhICNVCQ2UX2UBCv5NnvZVEAixhjNQVCpRz4o87E&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_1_15_5&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e158]: 热
+                      - generic [ref=e160]:
+                        - generic [ref=e161]: "5"
+                        - link "发射塔旁50米有棵树被火烧千百回不死" [ref=e162] [cursor=pointer]:
+                          - /url: /s?wd=%E5%8F%91%E5%B0%84%E5%A1%94%E6%97%8150%E7%B1%B3%E6%9C%89%E6%A3%B5%E6%A0%91%E8%A2%AB%E7%81%AB%E7%83%A7%E5%8D%83%E7%99%BE%E5%9B%9E%E4%B8%8D%E6%AD%BB&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=5bc7hh7iBEm7bOKZPBq%2BhICNVCQ2UX2UBCv5NnvZVEAixhjNQVCpRz4o87E&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_1_15_6&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e163]: 新
+                      - generic [ref=e165]:
+                        - generic [ref=e166]: "6"
+                        - link "食用油开封近俩月就报废？真别吃了" [ref=e167] [cursor=pointer]:
+                          - /url: /s?wd=%E9%A3%9F%E7%94%A8%E6%B2%B9%E5%BC%80%E5%B0%81%E8%BF%91%E4%BF%A9%E6%9C%88%E5%B0%B1%E6%8A%A5%E5%BA%9F%EF%BC%9F%E7%9C%9F%E5%88%AB%E5%90%83%E4%BA%86&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=5bc7hh7iBEm7bOKZPBq%2BhICNVCQ2UX2UBCv5NnvZVEAixhjNQVCpRz4o87E&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_1_15_7&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e169]:
+                        - generic [ref=e170]: "7"
+                        - link "山西煤矿事故现场发现两条隐藏巷道" [ref=e171] [cursor=pointer]:
+                          - /url: /s?wd=%E5%B1%B1%E8%A5%BF%E7%85%A4%E7%9F%BF%E4%BA%8B%E6%95%85%E7%8E%B0%E5%9C%BA%E5%8F%91%E7%8E%B0%E4%B8%A4%E6%9D%A1%E9%9A%90%E8%97%8F%E5%B7%B7%E9%81%93&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=5bc7hh7iBEm7bOKZPBq%2BhICNVCQ2UX2UBCv5NnvZVEAixhjNQVCpRz4o87E&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_1_15_8&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e173]:
+                        - generic [ref=e174]: "8"
+                        - link "李晨郑恺停止宣传《跑男》" [ref=e175] [cursor=pointer]:
+                          - /url: /s?wd=%E6%9D%8E%E6%99%A8%E9%83%91%E6%81%BA%E5%81%9C%E6%AD%A2%E5%AE%A3%E4%BC%A0%E3%80%8A%E8%B7%91%E7%94%B7%E3%80%8B&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=5bc7hh7iBEm7bOKZPBq%2BhICNVCQ2UX2UBCv5NnvZVEAixhjNQVCpRz4o87E&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_1_15_9&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e177]:
+                        - generic [ref=e178]: "9"
+                        - link "每天刷手机5小时以上的人都怎么样了" [ref=e179] [cursor=pointer]:
+                          - /url: /s?wd=%E6%AF%8F%E5%A4%A9%E5%88%B7%E6%89%8B%E6%9C%BA5%E5%B0%8F%E6%97%B6%E4%BB%A5%E4%B8%8A%E7%9A%84%E4%BA%BA%E9%83%BD%E6%80%8E%E4%B9%88%E6%A0%B7%E4%BA%86&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=5bc7hh7iBEm7bOKZPBq%2BhICNVCQ2UX2UBCv5NnvZVEAixhjNQVCpRz4o87E&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_1_15_10&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e180]: 新
+                      - generic [ref=e182]:
+                        - generic [ref=e183]: "10"
+                        - link "端午放假通知：连休3天高速不免费" [ref=e184] [cursor=pointer]:
+                          - /url: /s?wd=%E7%AB%AF%E5%8D%88%E6%94%BE%E5%81%87%E9%80%9A%E7%9F%A5%EF%BC%9A%E8%BF%9E%E4%BC%913%E5%A4%A9%E9%AB%98%E9%80%9F%E4%B8%8D%E5%85%8D%E8%B4%B9&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=5bc7hh7iBEm7bOKZPBq%2BhICNVCQ2UX2UBCv5NnvZVEAixhjNQVCpRz4o87E&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_1_15_11&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e186]:
+                        - generic [ref=e187]: "11"
+                        - link "高铁行李架掉下条蛇？铁路部门辟谣" [ref=e188] [cursor=pointer]:
+                          - /url: /s?wd=%E9%AB%98%E9%93%81%E8%A1%8C%E6%9D%8E%E6%9E%B6%E6%8E%89%E4%B8%8B%E6%9D%A1%E8%9B%87%EF%BC%9F%E9%93%81%E8%B7%AF%E9%83%A8%E9%97%A8%E8%BE%9F%E8%B0%A3&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=5bc7hh7iBEm7bOKZPBq%2BhICNVCQ2UX2UBCv5NnvZVEAixhjNQVCpRz4o87E&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_1_15_12&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e190]:
+                        - generic [ref=e191]: "12"
+                        - link "男子接亲路上才得知新娘已婚已育" [ref=e192] [cursor=pointer]:
+                          - /url: /s?wd=%E7%94%B7%E5%AD%90%E6%8E%A5%E4%BA%B2%E8%B7%AF%E4%B8%8A%E6%89%8D%E5%BE%97%E7%9F%A5%E6%96%B0%E5%A8%98%E5%B7%B2%E5%A9%9A%E5%B7%B2%E8%82%B2&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=5bc7hh7iBEm7bOKZPBq%2BhICNVCQ2UX2UBCv5NnvZVEAixhjNQVCpRz4o87E&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_1_15_13&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e194]:
+                        - generic [ref=e195]: "13"
+                        - link "油车销量断崖式下滑 经销商亏本甩卖" [ref=e196] [cursor=pointer]:
+                          - /url: /s?wd=%E6%B2%B9%E8%BD%A6%E9%94%80%E9%87%8F%E6%96%AD%E5%B4%96%E5%BC%8F%E4%B8%8B%E6%BB%91%20%E7%BB%8F%E9%94%80%E5%95%86%E4%BA%8F%E6%9C%AC%E7%94%A9%E5%8D%96&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=5bc7hh7iBEm7bOKZPBq%2BhICNVCQ2UX2UBCv5NnvZVEAixhjNQVCpRz4o87E&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_1_15_14&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                      - generic [ref=e198]:
+                        - generic [ref=e199]: "14"
+                        - link "大脑在这两个年纪会断崖式衰老" [ref=e200] [cursor=pointer]:
+                          - /url: /s?wd=%E5%A4%A7%E8%84%91%E5%9C%A8%E8%BF%99%E4%B8%A4%E4%B8%AA%E5%B9%B4%E7%BA%AA%E4%BC%9A%E6%96%AD%E5%B4%96%E5%BC%8F%E8%A1%B0%E8%80%81&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=5bc7hh7iBEm7bOKZPBq%2BhICNVCQ2UX2UBCv5NnvZVEAixhjNQVCpRz4o87E&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_1_15_15&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e201]: 新
+                      - generic [ref=e203]:
+                        - generic [ref=e204]: "15"
+                        - link "重庆永川暴雨致17人失联 3人死亡" [ref=e205] [cursor=pointer]:
+                          - /url: /s?wd=%E9%87%8D%E5%BA%86%E6%B0%B8%E5%B7%9D%E6%9A%B4%E9%9B%A8%E8%87%B417%E4%BA%BA%E5%A4%B1%E8%81%94%203%E4%BA%BA%E6%AD%BB%E4%BA%A1&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=a105B6fgAM3gHtHkE30vWZY0IpBUWmuWKIGCL2WvgBqWpTw%2BQyhg9tfzvdI&rqid=a109517500003d61&rsf=8907a228485b160cac4b6bdff45a1f26_16_30_16&rsv_dl=0_right_fyb_pchot_20811&sa=0_right_fyb_pchot_20811
+                        - generic [ref=e206]: 热
+        - generic [ref=e207]:
+          - generic [ref=e211]:
+            - heading "commandlinetools-win-14742923_latest.zip资源-CSDN下载" [level=3] [ref=e214]:
+              - link "commandlinetools-win-14742923_latest.zip资源-CSDN下载" [ref=e215] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=uKS_ef-8ZqP17DbsMsLyHKEmigawbTVqLj2cf9YqZhrZRQBBSockuwC8U70pNdfo4dL4Rsq98IkBeNp3V7kppCCtbDBZ_xPJutV5FREKqmm
+                - paragraph [ref=e218]:
+                  - generic [ref=e221]:
+                    - emphasis [ref=e222]: commandlinetools-win
+                    - text: "-14742923_latest.zip资源-CSDN"
+                    - emphasis [ref=e223]: 下载
+            - generic [ref=e228]:
+              - text: 2026年4月5日
+              - generic [ref=e229]:
+                - text: 命令行工具(
+                - emphasis [ref=e230]: command line tools - win
+                - text: "-8512546_ latest . zip )适用于 win dows系统.如果不需要 android studio,可以下载 android 命令行工具.可以使用包含sdkmanager的下载其他 sdk包.该工具包含在 android ... 格式:zip 资源大小:108.9mb android 命令行工具("
+            - link "头像 CSDN下载" [ref=e235] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=uKS_ef-8ZqP17DbsMsLyHKEmigawbTVqLj2cf9YqZhrZRQBBSockuwC8U70pNdfo4dL4Rsq98IkBeNp3V7kppCCtbDBZ_xPJutV5FREKqmm
+              - img "头像" [ref=e238]
+              - generic [ref=e239]: CSDN下载
+              - generic [ref=e241]: 
+          - generic [ref=e245]:
+            - heading "commandline-tools-windows-x64-5.0.3.900.zip.003资源-CSDN下载" [level=3] [ref=e248]:
+              - link "commandline-tools-windows-x64-5.0.3.900.zip.003资源-CSDN下载" [ref=e249] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=uKS_ef-8ZqP17DbsMsLyHKEmigawbTVqLj2cf9YqZhrZRQBBSockuwC8U70pNdfo4dL4Rsq98IkBeNp3V7kpp00XNe1hAYFpPh_gOhUnUZS
+                - paragraph [ref=e252]:
+                  - generic [ref=e255]:
+                    - emphasis [ref=e256]: commandline
+                    - text: "-"
+                    - emphasis [ref=e257]: tools-windows
+                    - text: "-x64-5.0.3.900.zip.003资源-CSDN"
+                    - emphasis [ref=e258]: 下载
+            - generic [ref=e263]:
+              - text: 2024年10月10日
+              - generic [ref=e264]:
+                - text: 浏览:2 5星·资源好评率100% android命令行工具(
+                - emphasis [ref=e265]: command line tools -win
+                - text: "-13114758_latest. zip )适用于 windows 系统.如果不需要 android studio,可以"
+                - emphasis [ref=e266]: 下载
+                - text: android命令行工具.可以使用包含sdkmanager的下载其他 sdk包.该工具包含在 android studio中. 格式:zip 资源大小:136.4mb command line - tools - windows...
+            - link "头像 CSDN下载" [ref=e271] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=uKS_ef-8ZqP17DbsMsLyHKEmigawbTVqLj2cf9YqZhrZRQBBSockuwC8U70pNdfo4dL4Rsq98IkBeNp3V7kpp00XNe1hAYFpPh_gOhUnUZS
+              - img "头像" [ref=e274]
+              - generic [ref=e275]: CSDN下载
+              - generic [ref=e277]: 
+          - generic [ref=e281]:
+            - heading "Command Line Tools 命令行开发者工具离线安装包 - 苹果系统之家" [level=3] [ref=e284]:
+              - link "Command Line Tools 命令行开发者工具离线安装包 - 苹果系统之家" [ref=e285] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=1YG5QgC9RX-Nue4E9_q4REGyEBoYFe0vlTBpy0-6FjYLawu5CVd74Hr9ESokp7EiCLkifef1Xr3MetplDpBRd_
+                - paragraph [ref=e288]:
+                  - generic [ref=e291]:
+                    - emphasis [ref=e292]: Command Line Tools
+                    - text: 命令行开发者工具离线安装包 - 苹果系统之家
+            - generic [ref=e293]:
+              - link [ref=e295] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=1YG5QgC9RX-Nue4E9_q4REGyEBoYFe0vlTBpy0-6FjYLawu5CVd74Hr9ESokp7EiCLkifef1Xr3MetplDpBRd_
+              - generic [ref=e300]:
+                - generic [ref=e305]:
+                  - text: 6天前
+                  - generic [ref=e306]:
+                    - text: 版本大小更新日期兼容系统
+                    - emphasis [ref=e307]: 下载
+                    - text: 链接 15.3691MB2024-03-06暂无此项信息.[
+                    - emphasis [ref=e308]: 百度网盘
+                    - text: "1提取码: p536] 15.1693MB2023-12-15暂无此项信息.[百度网盘1提取码: bt9n] 14.3.1695MB2023-06-01暂无此项信息.[百度网盘1提取码: vxek] 14.3695MB2023-03-30暂无此项信息.[百度网盘1提取码: thrc] ..."
+                - link "macoshome.com/app/develo..." [ref=e313] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=1YG5QgC9RX-Nue4E9_q4REGyEBoYFe0vlTBpy0-6FjYLawu5CVd74Hr9ESokp7EiCLkifef1Xr3MetplDpBRd_
+                  - generic [ref=e314]: macoshome.com/app/develo...
+                  - generic [ref=e316]: 
+          - generic [ref=e320]:
+            - heading "Command_Line_Tools_OS_X_10.11_for_Xcode_7.2.dmg 百度云网盘..." [level=3] [ref=e323]:
+              - link "Command_Line_Tools_OS_X_10.11_for_Xcode_7.2.dmg 百度云网盘..." [ref=e324] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=xBOsKhgqliR721W_G9NTMM72Dd4GmXGW3-Jdw5lyoWx15wTesQ9IR4B8YD-t1eIWfvT-ZHeiIopRAjR6qOx1la
+                - paragraph [ref=e327]:
+                  - generic [ref=e330]:
+                    - emphasis [ref=e331]: Command
+                    - text: _
+                    - emphasis [ref=e332]: Line
+                    - text: _
+                    - emphasis [ref=e333]: Tools
+                    - text: _OS_X_10.11_for_Xcode_7.2.dmg
+                    - emphasis [ref=e334]: 百度
+                    - text: 云
+                    - emphasis [ref=e335]: 网盘
+                    - text: ...
+            - generic [ref=e340]:
+              - text: 2026年4月25日
+              - generic [ref=e341]:
+                - emphasis [ref=e342]: Command
+                - text: _Line_
+                - emphasis [ref=e343]: Tools
+                - text: _OS_X_10.11_for_Xcode_7.2.dmg
+                - emphasis [ref=e344]: 百度云网盘
+                - text: ",torrent种子,磁力链接资源由公民**不右分享于2017年02月17日,文件保存在/,大小为159.58 MB。您可以到Command_Line_Tools_OS_X_10.11_for_Xcode_7.2.dmg的百度网盘页面进行下载资源或保存资源。"
+            - link "www.rrbts.org/detail/51748258f8......" [ref=e349] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=xBOsKhgqliR721W_G9NTMM72Dd4GmXGW3-Jdw5lyoWx15wTesQ9IR4B8YD-t1eIWfvT-ZHeiIopRAjR6qOx1la
+              - generic [ref=e350]: www.rrbts.org/detail/51748258f8......
+              - generic [ref=e352]: 
+          - generic [ref=e356]:
+            - heading "Command line tools(命令行工具)官方下载_Command line tools..." [level=3] [ref=e359]:
+              - link "Command line tools(命令行工具)官方下载_Command line tools..." [ref=e360] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=AT7DxvHWVQGKdc5ctiJw_saAulGpnmz1vsnQ4Ps-KAIuIihuPBwdt8qzc61wg0TyOoJl5B3ywOJV2hJzRTkCk_
+                - paragraph [ref=e363]:
+                  - generic [ref=e366]:
+                    - emphasis [ref=e367]: Command line tools
+                    - text: (命令行工具)官方
+                    - emphasis [ref=e368]: 下载
+                    - text: _Command line tools...
+            - generic [ref=e369]:
+              - link [ref=e371] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=AT7DxvHWVQGKdc5ctiJw_saAulGpnmz1vsnQ4Ps-KAIuIihuPBwdt8qzc61wg0TyOoJl5B3ywOJV2hJzRTkCk_
+              - generic [ref=e376]:
+                - generic [ref=e381]:
+                  - text: 2024年11月13日
+                  - generic [ref=e382]:
+                    - emphasis [ref=e383]: Command line tools
+                    - text: (命令行工具),如果你不需要Android Studio,你可以使用基本Android命令行工具,你可以使用包含的sdkmanager来
+                    - emphasis [ref=e384]: 下载
+                    - text: 其他SDK包,这些工具都包含在Android Studio中。 软件截图 软件介绍 命令行工具 Android SDK 中包含了开发应用所需的多个软件包。本页列出了可供使用的最重要的命令行工具(按提供这些工具的...
+                - link "soft.3dmgame.com/down/21..." [ref=e389] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=AT7DxvHWVQGKdc5ctiJw_saAulGpnmz1vsnQ4Ps-KAIuIihuPBwdt8qzc61wg0TyOoJl5B3ywOJV2hJzRTkCk_
+                  - generic [ref=e390]: soft.3dmgame.com/down/21...
+                  - generic [ref=e392]: 
+          - generic [ref=e400]:
+            - generic [ref=e401]: 大家还在搜
+            - generic [ref=e402]:
+              - link "电脑出现command line" [ref=e403] [cursor=pointer]:
+                - /url: /s?wd=%E7%94%B5%E8%84%91%E5%87%BA%E7%8E%B0command%20line&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=e829yIpdsL6uiNTpqJJFz75wlGI9mc2seGe33pGU7atOJRuo6wXwJqFhG8E&rsf=101631202&rsv_dl=0_prs_28608_1
+                - generic [ref=e405]: 电脑出现command line
+              - link "gta4commandline" [ref=e406] [cursor=pointer]:
+                - /url: /s?wd=gta4commandline&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=6d18Rc1R8bzd5ZbQZJl6aj4AHxyXGnXyUJDWPVCDJmM8sgU%2B3QA3MMDXOOM&rsf=101631202&rsv_dl=0_prs_28608_2
+                - generic [ref=e408]: gta4commandline
+              - link "windows下载命令" [ref=e409] [cursor=pointer]:
+                - /url: /s?wd=windows%E4%B8%8B%E8%BD%BD%E5%91%BD%E4%BB%A4&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=6d18Rc1R8bzd5ZbQZJl6aj4AHxyXGnXyUJDWPVCDJmM8sgU%2B3QA3MMDXOOM&rsf=101633403&rsv_dl=0_prs_28608_3
+                - generic [ref=e411]: windows下载命令
+              - link "百度网盘windows版下载" [ref=e412] [cursor=pointer]:
+                - /url: /s?wd=%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98windows%E7%89%88%E4%B8%8B%E8%BD%BD&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=6d18Rc1R8bzd5ZbQZJl6aj4AHxyXGnXyUJDWPVCDJmM8sgU%2B3QA3MMDXOOM&rsf=101636803&rsv_dl=0_prs_28608_4
+                - generic [ref=e414]: 百度网盘windows版下载
+              - link "win10快速打开cmd快捷键" [ref=e415] [cursor=pointer]:
+                - /url: /s?wd=win10%E5%BF%AB%E9%80%9F%E6%89%93%E5%BC%80cmd%E5%BF%AB%E6%8D%B7%E9%94%AE&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=6d18Rc1R8bzd5ZbQZJl6aj4AHxyXGnXyUJDWPVCDJmM8sgU%2B3QA3MMDXOOM&rsf=100633403&rsv_dl=0_prs_28608_5
+                - generic [ref=e417]: win10快速打开cmd快捷键
+              - link "bottomline百度网盘" [ref=e418] [cursor=pointer]:
+                - /url: /s?wd=bottomline%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=6d18Rc1R8bzd5ZbQZJl6aj4AHxyXGnXyUJDWPVCDJmM8sgU%2B3QA3MMDXOOM&rsf=101631202&rsv_dl=0_prs_28608_6
+                - generic [ref=e420]: bottomline百度网盘
+              - link "line百度云安装包" [ref=e421] [cursor=pointer]:
+                - /url: /s?wd=line%E7%99%BE%E5%BA%A6%E4%BA%91%E5%AE%89%E8%A3%85%E5%8C%85&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=6d18Rc1R8bzd5ZbQZJl6aj4AHxyXGnXyUJDWPVCDJmM8sgU%2B3QA3MMDXOOM&rsf=101631202&rsv_dl=0_prs_28608_7
+                - generic [ref=e423]: line百度云安装包
+              - link "windows工具箱下载手机版" [ref=e424] [cursor=pointer]:
+                - /url: /s?wd=windows%E5%B7%A5%E5%85%B7%E7%AE%B1%E4%B8%8B%E8%BD%BD%E6%89%8B%E6%9C%BA%E7%89%88&usm=1&ie=utf-8&rsv_pq=a109517500003d61&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&rsv_t=6d18Rc1R8bzd5ZbQZJl6aj4AHxyXGnXyUJDWPVCDJmM8sgU%2B3QA3MMDXOOM&rsf=101636803&rsv_dl=0_prs_28608_8
+                - generic [ref=e426]: windows工具箱下载手机版
+          - generic [ref=e430]:
+            - heading "Command line tools下载-Command line tools最新版下载[命令行..." [level=3] [ref=e433]:
+              - link "Command line tools下载-Command line tools最新版下载[命令行..." [ref=e434] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=ZmGiSS_N3IbefNd5lpWOVHyoKEP4KkxSFNjWc0j8IJ61zCDTHIZgQ0oFUt3MIDNfxTjenTz2R2m6ZM1JU1hMhK
+                - paragraph [ref=e437]:
+                  - generic [ref=e440]:
+                    - emphasis [ref=e441]: Command line tools下载
+                    - text: "-Command line tools最新版下载[命令行..."
+            - generic [ref=e442]:
+              - link [ref=e444] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=ZmGiSS_N3IbefNd5lpWOVHyoKEP4KkxSFNjWc0j8IJ61zCDTHIZgQ0oFUt3MIDNfxTjenTz2R2m6ZM1JU1hMhK
+              - generic [ref=e449]:
+                - generic [ref=e454]:
+                  - text: 2021年1月1日
+                  - generic [ref=e455]:
+                    - text: "应用平台:"
+                    - emphasis [ref=e456]: Win
+                    - text: "All 软件授权:免费版 软件类别:系统其它 软件等级: 更新时间:2021-01-01 软件热度:255 软件语言:简体中文 软件介绍 软件截图"
+                    - emphasis [ref=e457]: 下载
+                    - text: 地址 其他版本 相关阅读 网友评论
+                    - emphasis [ref=e458]: Command line tools
+                    - text: 最新版是一款优秀的命令行工具。Command line tools官方版可以使用 Android Studio 的 SDK 管理器或 sdkmanager 命令行...
+                - link "头像 PC下载网" [ref=e463] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=ZmGiSS_N3IbefNd5lpWOVHyoKEP4KkxSFNjWc0j8IJ61zCDTHIZgQ0oFUt3MIDNfxTjenTz2R2m6ZM1JU1hMhK
+                  - img "头像" [ref=e466]
+                  - generic [ref=e467]: PC下载网
+                  - generic [ref=e469]: 
+          - generic [ref=e473]:
+            - heading "Command line tools下载-Command line tools(命令行工具)v1.0官方..." [level=3] [ref=e476]:
+              - link "Command line tools下载-Command line tools(命令行工具)v1.0官方..." [ref=e477] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=JTRGFO9QXTMMI_EYoSXeJeYtWgnrdyRppt7jUjWiL3XJGrJH4pD9qWTpH9LYyv-Q
+                - paragraph [ref=e480]:
+                  - generic [ref=e483]:
+                    - emphasis [ref=e484]: Command line tools下载
+                    - text: "-Command line tools(命令行工具)v1.0官方..."
+            - generic [ref=e485]:
+              - link [ref=e487] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=JTRGFO9QXTMMI_EYoSXeJeYtWgnrdyRppt7jUjWiL3XJGrJH4pD9qWTpH9LYyv-Q
+              - generic [ref=e492]:
+                - generic [ref=e497]:
+                  - text: 2020年9月25日
+                  - generic [ref=e498]:
+                    - emphasis [ref=e499]: 下载
+                    - text: 地址
+                    - emphasis [ref=e500]: Command line tools
+                    - text: 是一款命令行工具,如果你不需要Android Studio,你可以使用基本Android命令行工具,你可以使用包含的sdkmanager来下载其他SDK包,这些工具都包含在Android Studio中。 软件介绍 命令行工具 Android SDK 中包含了开发应用所需的多个软件包。本页列出了可供使用的最重要的命令行工具(按提供这些工具...
+                - link "www.wodown.com/soft/139...." [ref=e505] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=JTRGFO9QXTMMI_EYoSXeJeYtWgnrdyRppt7jUjWiL3XJGrJH4pD9qWTpH9LYyv-Q
+                  - generic [ref=e506]: www.wodown.com/soft/139....
+                  - generic [ref=e508]: 
+          - generic [ref=e512]:
+            - heading "command line tools下载-command line tools Mac下载 V10.10-Mac..." [level=3] [ref=e515]:
+              - link "command line tools下载-command line tools Mac下载 V10.10-Mac..." [ref=e516] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=AT7DxvHWVQGKdc5ctiJw_znZr4d0hFHDQLpoQzGdfWwxm8QpOE8AvVt4IlovOcts889iEy6ZzEiGUgVo1dKCBK
+                - paragraph [ref=e519]:
+                  - generic [ref=e522]:
+                    - emphasis [ref=e523]: command line tools下载
+                    - text: "-command line tools Mac下载 V10.10-Mac..."
+            - generic [ref=e524]:
+              - link [ref=e526] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=AT7DxvHWVQGKdc5ctiJw_znZr4d0hFHDQLpoQzGdfWwxm8QpOE8AvVt4IlovOcts889iEy6ZzEiGUgVo1dKCBK
+              - generic [ref=e531]:
+                - generic [ref=e536]:
+                  - text: 2020年11月20日
+                  - generic [ref=e537]:
+                    - emphasis [ref=e538]: command line tools
+                    - text: Mac
+                    - emphasis [ref=e539]: commandlinetools
+                    - text: Mac是Macos平台上的一款xcode插件,commandlinetoolsMac这款软件可以在线进行安装,也可以直接
+                    - emphasis [ref=e540]: 下载
+                    - text: 安装包进行安装,commandlinetoolsMac可以用来建项目可以写c语言程序或者建立文件夹都是可以的;您可以免费下载。 command line tools Mac是Mac os平台上的一款xcode插件,command line tool...
+                - link "Mac完美下载" [ref=e545] [cursor=pointer]:
+                  - /url: http://www.baidu.com/link?url=AT7DxvHWVQGKdc5ctiJw_znZr4d0hFHDQLpoQzGdfWwxm8QpOE8AvVt4IlovOcts889iEy6ZzEiGUgVo1dKCBK
+                  - generic [ref=e546]: Mac完美下载
+                  - generic [ref=e548]: 
+          - generic [ref=e552]:
+            - heading "command_line_tools_for_osx_10_10_june_2014.dmg下载_百度云..." [level=3] [ref=e555]:
+              - link "command_line_tools_for_osx_10_10_june_2014.dmg下载_百度云..." [ref=e556] [cursor=pointer]:
+                - /url: http://www.baidu.com/link?url=A45O_R_baDIcsn2wyfodwiFQN9H0NnGXbqzzy4461cJLyu2uG8g2uPc1TCEiKSCx3vM8AXmP9NxL-15O-SLUcK
+                - paragraph [ref=e559]:
+                  - generic [ref=e562]:
+                    - emphasis [ref=e563]: command
+                    - text: _
+                    - emphasis [ref=e564]: line
+                    - text: _
+                    - emphasis [ref=e565]: tools
+                    - text: _for_osx_10_10_june_2014.dmg
+                    - emphasis [ref=e566]: 下载
+                    - text: _
+                    - emphasis [ref=e567]: 百度
+                    - text: 云...
+            - generic [ref=e572]:
+              - text: 2016年8月22日
+              - generic [ref=e573]:
+                - emphasis [ref=e574]: command
+                - text: _
+                - emphasis [ref=e575]: line
+                - text: _
+                - emphasis [ref=e576]: tools
+                - text: _for_osx_10_10_june_2014.dmg 为找
+                - emphasis [ref=e577]: 云盘百度
+                - text: 云资源搜索引擎整理的结果,为方便用户您可以直接在本站
+                - emphasis [ref=e578]: 下载
+                - text: 文件,下载地址为
+                - emphasis [ref=e579]: 百度网盘
+                - text: 的真实下载地址,可高速下载,当然您也可以把文件保存到您的百度网盘中。本站仅提供command_line_tools_for_osx_10_10_june_2014.dmg的搜索结果,文件的安全性和完整性...
+            - link "www.zhaoyunpan.cn/shareinfo/6/4628..." [ref=e584] [cursor=pointer]:
+              - /url: http://www.baidu.com/link?url=A45O_R_baDIcsn2wyfodwiFQN9H0NnGXbqzzy4461cJLyu2uG8g2uPc1TCEiKSCx3vM8AXmP9NxL-15O-SLUcK
+              - generic [ref=e585]: www.zhaoyunpan.cn/shareinfo/6/4628...
+              - generic [ref=e587]: 
+        - generic [ref=e590]:
+          - generic [ref=e591]: 相关搜索
+          - table [ref=e592]:
+            - rowgroup [ref=e593]:
+              - row "电脑出现command line gta4commandline" [ref=e594]:
+                - cell "电脑出现command line" [ref=e595]:
+                  - link "电脑出现command line" [ref=e596] [cursor=pointer]:
+                    - /url: /s?wd=%E7%94%B5%E8%84%91%E5%87%BA%E7%8E%B0command%20line&rsf=101631202&rsp=0&f=1&rs_src=0&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&rsv_dl=brs_28338_1
+                    - generic [ref=e598]: 电脑出现command line
+                - cell "gta4commandline" [ref=e599]:
+                  - link "gta4commandline" [ref=e600] [cursor=pointer]:
+                    - /url: /s?wd=gta4commandline&rsf=101631202&rsp=1&f=1&rs_src=0&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&rsv_dl=brs_28338_2
+                    - generic [ref=e602]: gta4commandline
+              - row "百度网盘windows版下载 windows下载命令" [ref=e603]:
+                - cell "百度网盘windows版下载" [ref=e604]:
+                  - link "百度网盘windows版下载" [ref=e605] [cursor=pointer]:
+                    - /url: /s?wd=%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98windows%E7%89%88%E4%B8%8B%E8%BD%BD&rsf=101636803&rsp=2&f=1&rs_src=0&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&rsv_dl=brs_28338_3
+                    - generic [ref=e607]: 百度网盘windows版下载
+                - cell "windows下载命令" [ref=e608]:
+                  - link "windows下载命令" [ref=e609] [cursor=pointer]:
+                    - /url: /s?wd=windows%E4%B8%8B%E8%BD%BD%E5%91%BD%E4%BB%A4&rsf=101633403&rsp=3&f=1&rs_src=0&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&rsv_dl=brs_28338_4
+                    - generic [ref=e611]: windows下载命令
+              - row "bottomline百度网盘 windows工具箱下载手机版" [ref=e612]:
+                - cell "bottomline百度网盘" [ref=e613]:
+                  - link "bottomline百度网盘" [ref=e614] [cursor=pointer]:
+                    - /url: /s?wd=bottomline%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98&rsf=101631202&rsp=4&f=1&rs_src=0&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&rsv_dl=brs_28338_5
+                    - generic [ref=e616]: bottomline百度网盘
+                - cell "windows工具箱下载手机版" [ref=e617]:
+                  - link "windows工具箱下载手机版" [ref=e618] [cursor=pointer]:
+                    - /url: /s?wd=windows%E5%B7%A5%E5%85%B7%E7%AE%B1%E4%B8%8B%E8%BD%BD%E6%89%8B%E6%9C%BA%E7%89%88&rsf=101636803&rsp=5&f=1&rs_src=0&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&rsv_dl=brs_28338_6
+                    - generic [ref=e620]: windows工具箱下载手机版
+              - row "line百度云安装包 win10快速打开cmd快捷键" [ref=e621]:
+                - cell "line百度云安装包" [ref=e622]:
+                  - link "line百度云安装包" [ref=e623] [cursor=pointer]:
+                    - /url: /s?wd=line%E7%99%BE%E5%BA%A6%E4%BA%91%E5%AE%89%E8%A3%85%E5%8C%85&rsf=101631202&rsp=6&f=1&rs_src=0&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&rsv_dl=brs_28338_7
+                    - generic [ref=e625]: line百度云安装包
+                - cell "win10快速打开cmd快捷键" [ref=e626]:
+                  - link "win10快速打开cmd快捷键" [ref=e627] [cursor=pointer]:
+                    - /url: /s?wd=win10%E5%BF%AB%E9%80%9F%E6%89%93%E5%BC%80cmd%E5%BF%AB%E6%8D%B7%E9%94%AE&rsf=100633403&rsp=7&f=1&rs_src=0&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&rsv_dl=brs_28338_8
+                    - generic [ref=e629]: win10快速打开cmd快捷键
+              - row "win 10系统 百度网盘 wintool" [ref=e630]:
+                - cell "win 10系统 百度网盘" [ref=e631]:
+                  - link "win 10系统 百度网盘" [ref=e632] [cursor=pointer]:
+                    - /url: /s?wd=win%2010%E7%B3%BB%E7%BB%9F%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98&rsf=100633403&rsp=8&f=1&rs_src=0&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&rsv_dl=brs_28338_9
+                    - generic [ref=e634]: win 10系统 百度网盘
+                - cell "wintool" [ref=e635]:
+                  - link "wintool" [ref=e636] [cursor=pointer]:
+                    - /url: /s?wd=wintool&rsf=100633403&rsp=9&f=1&rs_src=0&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&rsv_dl=brs_28338_10
+                    - generic [ref=e638]: wintool
+      - generic [ref=e641]:
+        - link "上一页":
+          - /url: ""
+          - img "上一页"
+        - strong [ref=e642]:
+          - generic [ref=e643]: "1"
+        - link "2" [ref=e644] [cursor=pointer]:
+          - /url: /s?wd=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&pn=10&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&topic_pn=
+          - generic [ref=e645]: "2"
+        - link "3" [ref=e646] [cursor=pointer]:
+          - /url: /s?wd=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&pn=20&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&topic_pn=
+          - generic [ref=e647]: "3"
+        - link "4" [ref=e648] [cursor=pointer]:
+          - /url: /s?wd=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&pn=30&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&topic_pn=
+          - generic [ref=e649]: "4"
+        - link "5" [ref=e650] [cursor=pointer]:
+          - /url: /s?wd=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&pn=40&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&topic_pn=
+          - generic [ref=e651]: "5"
+        - link "6" [ref=e652] [cursor=pointer]:
+          - /url: /s?wd=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&pn=50&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&topic_pn=
+          - generic [ref=e653]: "6"
+        - link "7" [ref=e654] [cursor=pointer]:
+          - /url: /s?wd=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&pn=60&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&topic_pn=
+          - generic [ref=e655]: "7"
+        - link "8" [ref=e656] [cursor=pointer]:
+          - /url: /s?wd=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&pn=70&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&topic_pn=
+          - generic [ref=e657]: "8"
+        - link "9" [ref=e658] [cursor=pointer]:
+          - /url: /s?wd=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&pn=80&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&topic_pn=
+          - generic [ref=e659]: "9"
+        - link "10" [ref=e660] [cursor=pointer]:
+          - /url: /s?wd=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&pn=90&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&topic_pn=
+          - generic [ref=e661]: "10"
+        - link "下一页" [ref=e662] [cursor=pointer]:
+          - /url: /s?wd=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&pn=10&oq=commandlinetools-win%20%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%20%E4%B8%8B%E8%BD%BD&ie=utf-8&usm=1&rsv_pq=a109517500003d61&rsv_t=b4276VlAexw1IQgQd3MXQck6kEkMAMIg6TmlXKpP2FhLYzn8mzLvHdilXpU&topic_pn=&rsv_page=1
+          - img "下一页" [ref=e663]
+      - generic [ref=e666]:
+        - link "帮助" [ref=e667] [cursor=pointer]:
+          - /url: https://help.baidu.com/question?prod_id=1
+        - link "举报" [ref=e668] [cursor=pointer]:
+          - /url: https://help.baidu.com/jubao?source=search
+        - link "用户反馈" [ref=e669] [cursor=pointer]:
+          - /url: javascript:;
+        - link "企业推广" [ref=e670] [cursor=pointer]:
+          - /url: https://e.baidu.com/lp/search/?refer=1298

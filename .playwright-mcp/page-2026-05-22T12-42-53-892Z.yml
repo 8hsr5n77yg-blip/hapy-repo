@@ -1,0 +1,7 @@
+- generic [ref=e6]:
+  - heading "无法访问此网站" [level=1] [ref=e7]
+  - paragraph [ref=e8]:
+    - text: 网址为
+    - strong [ref=e9]: https://azshareappddms.3322.cc/appfile/com.supercell.hayday.apk?time=1779453747613&key=3ca0ae3d2aafe6a9f15798f4a68d3332
+    - text: 的网页可能暂时无法连接，或者它已永久性地移动到了新网址。
+  - generic [ref=e10]: ERR_SSL_BAD_RECORD_MAC_ALERT

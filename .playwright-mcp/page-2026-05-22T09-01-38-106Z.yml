@@ -1,0 +1,4 @@
+- generic [ref=e3]:
+  - img "loading" [ref=e4]
+  - generic [ref=e5]: 正在加载数据
+  - generic [ref=e6]: 如长时间停留，请刷新页面

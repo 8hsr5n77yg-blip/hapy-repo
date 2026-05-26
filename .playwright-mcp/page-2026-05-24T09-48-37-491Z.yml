@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - link "Product logo Sonatype Nexus Repository OSS 3.76.1-01" [ref=e3] [cursor=pointer]:
+    - /url: ../..
+    - img "Product logo" [ref=e5]
+    - generic [ref=e6]:
+      - generic [ref=e7]: Sonatype Nexus Repository
+      - generic [ref=e8]: OSS 3.76.1-01
+  - generic [ref=e9]:
+    - generic [ref=e10]:
+      - img "Exclamation point" [ref=e11]
+      - text: Error 400 Bad Request
+    - generic [ref=e13]: Bad Request

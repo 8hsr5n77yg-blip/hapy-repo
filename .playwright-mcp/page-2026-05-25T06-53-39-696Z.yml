@@ -1,0 +1,341 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - navigation [ref=e5]:
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "首页" [ref=e8] [cursor=pointer]:
+              - /url: https://www.smzdm.com/
+          - listitem [ref=e9]:
+            - link "好价" [ref=e10] [cursor=pointer]:
+              - /url: https://www.smzdm.com/jingxuan/
+          - listitem [ref=e11]:
+            - link "社区" [ref=e12] [cursor=pointer]:
+              - /url: https://post.smzdm.com/
+          - listitem [ref=e13]:
+            - link "百科" [ref=e14] [cursor=pointer]:
+              - /url: https://wiki.smzdm.com/
+      - generic [ref=e15]:
+        - list [ref=e16]:
+          - text: 
+          - listitem [ref=e17]:
+            - link "集团官网" [ref=e18] [cursor=pointer]:
+              - /url: https://www.zhidemai.com
+          - listitem [ref=e19]:
+            - link "商业合作" [ref=e20] [cursor=pointer]:
+              - /url: https://e.smzdm.com/
+          - listitem [ref=e21]:
+            - link "爆料投稿 " [ref=e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - text: 爆料投稿
+              - generic [ref=e23]: 
+        - text: 
+        - generic [ref=e24]:
+          - link "登录" [ref=e25] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - link "注册" [ref=e27] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - list: 
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - link:
+          - /url: https://www.smzdm.com/
+          - img [ref=e31] [cursor=pointer]
+      - link "社区" [ref=e34] [cursor=pointer]:
+        - /url: https://post.smzdm.com/
+      - generic [ref=e35]:
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - searchbox "卡西欧" [ref=e39]
+            - text: 
+          - button "" [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]: 
+        - link "写篇文章" [ref=e42] [cursor=pointer]:
+          - /url: https://post.smzdm.com/tougao/
+  - generic [ref=e43]:
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - text: 当前位置：
+        - link "社区首页" [ref=e48] [cursor=pointer]:
+          - /url: https://post.smzdm.com/
+        - generic [ref=e49]: ">"
+        - link "玩模乐器" [ref=e51] [cursor=pointer]:
+          - /url: https://m.smzdm.com/interest/aexxkd3/
+        - generic [ref=e52]: ">"
+        - link "玩具" [ref=e54] [cursor=pointer]:
+          - /url: https://m.smzdm.com/interest/a1qqy52/
+        - generic [ref=e55]: ">"
+        - link "DIY玩具" [ref=e57] [cursor=pointer]:
+          - /url: https://m.smzdm.com/interest/ay11lz5/
+        - generic [ref=e58]: ">"
+        - generic [ref=e59]: AIGC文章详情
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - generic [ref=e64]:
+              - paragraph [ref=e65]
+              - generic [ref=e66]: 张大妈
+            - heading "缝纫手作线上接单全流程解析" [level=1] [ref=e67]: 缝纫手作线上接单全流程解析
+            - generic [ref=e68]:
+              - generic [ref=e70] [cursor=pointer]: 源自抖音：橙子orangee
+              - paragraph [ref=e71]: 04-06 12:52
+            - generic [ref=e74]:
+              - generic [ref=e77]: 缝纫手作作为副业项目，其核心在于建立标准化的接单流程。从获取客户到最终交付，涉及渠道运营、沟通规范、定价策略及售后管理等多个环节。通过系统化的流程梳理，可有效降低试错成本，提高运营效率。
+              - generic [ref=e80]:
+                - generic [ref=e81]: "01"
+                - generic [ref=e82]: 获客渠道选择
+              - list [ref=e85]:
+                - listitem [ref=e86]:
+                  - generic [ref=e87]:
+                    - strong [ref=e88]: 社交媒体平台（小红书、抖音）
+                    - text: 通过发布成品实拍及制作过程视频，配合“缝纫手作”、“手工定制”等精准标签进行引流，主要利用公域流量获取潜在客户。
+                - listitem [ref=e89]:
+                  - generic [ref=e90]:
+                    - strong [ref=e91]: 二手交易平台（闲鱼）
+                    - text: 作为主要接单渠道，标题需明确标注服务内容（如“收纳框定制”）。上架低价引流款产品，引导意向客户私聊详谈，转化率较高。
+                - listitem [ref=e92]:
+                  - generic [ref=e93]:
+                    - strong [ref=e94]: 私域流量（朋友圈）
+                    - text: 初期通过赠送朋友成品并请求转发，积累第一批种子客户。依靠口碑传播在私域圈内建立信任基础。
+              - generic [ref=e97]:
+                - generic [ref=e98]: "02"
+                - generic [ref=e99]: 沟通与风险规避
+              - list [ref=e102]:
+                - listitem [ref=e103]:
+                  - generic [ref=e104]:
+                    - strong [ref=e105]: 定死细节
+                    - text: 要求客户提供参考图，并明确确认款式、尺寸及面料。制作时需预留1-2厘米误差，避免因工艺限制导致成品不符。
+                - listitem [ref=e106]:
+                  - generic [ref=e107]:
+                    - strong [ref=e108]: 规则前置
+                    - text: 在沟通初期即明确工期、现货情况及款式修改权限。特别需在聊天记录中注明“手工定制不退不换”条款，预防后续纠纷。
+                - listitem [ref=e109]:
+                  - generic [ref=e110]:
+                    - strong [ref=e111]: 留存证据
+                    - text: 全程保存聊天记录及成品确认图，作为处理潜在争议的依据。
+              - generic [ref=e114]:
+                - generic [ref=e115]: "03"
+                - generic [ref=e116]: 定价与交付
+              - generic [ref=e120]:
+                - text: 定价需综合考量多维度成本，避免仅计算材料费而忽视人工价值。参考计算公式如下：
+                - strong [ref=e121]: 定价 = 材料成本费 + 手工费 + 运费 + 利润
+              - generic [ref=e124]: 在发货环节，制作完成后需先拍摄高清成品图及细节视频发送给客户确认。包装应注重美观以提升客户体验，促进复购。通过上述流程的标准化执行，可实现手作副业的稳定变现。
+            - generic [ref=e125]:
+              - paragraph [ref=e126]: 精选参考来源 
+              - 'link "缝纫手作线上接单全流程❗️ 整理了自己的一些线上手作接单的流程 #缝纫 #手作 #缝纫新手 #缝纫干货 #副业 橙子orangee 2026-04-03 来自抖音" [ref=e129] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7624464534950275941
+                - generic [ref=e130]:
+                  - generic [ref=e131]: "缝纫手作线上接单全流程❗️ 整理了自己的一些线上手作接单的流程 #缝纫 #手作 #缝纫新手 #缝纫干货 #副业"
+                  - generic [ref=e132]:
+                    - paragraph [ref=e133]:
+                      - generic [ref=e134]: 橙子orangee
+                      - generic [ref=e135]: 2026-04-03
+                    - generic [ref=e136]: 来自抖音
+            - generic [ref=e138]:
+              - generic [ref=e139]: 
+              - text: 内容由AI生成
+          - generic [ref=e140]:
+            - generic "收藏" [ref=e141] [cursor=pointer]:
+              - generic [ref=e142]: 
+              - generic [ref=e143]: "0"
+            - generic "评论" [ref=e144] [cursor=pointer]:
+              - link " 0" [ref=e145]:
+                - /url: "#comments"
+                - generic [ref=e146]: 
+                - generic [ref=e147]: "0"
+            - generic [ref=e148] [cursor=pointer]:
+              - generic [ref=e149]: 
+              - text:    
+          - generic [ref=e152]:
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - emphasis [ref=e155]: "0"
+                - text: 评论
+              - generic [ref=e156]:
+                - paragraph
+                - link [ref=e158] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                - generic [ref=e160]:
+                  - generic [ref=e161]:
+                    - textbox "评论千万条，友善第一条～" [ref=e162]
+                    - button "发表 评论" [ref=e164] [cursor=pointer]:
+                      - text: 发表
+                      - text: 评论
+                  - generic [ref=e167]: 
+                - generic [ref=e168]:
+                  - img [ref=e169]
+                  - generic [ref=e170]: 当前文章无评论，是时候发表评论了
+              - generic [ref=e171]:
+                - generic:
+                  - list
+            - text:         
+        - generic [ref=e172]:
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - generic [ref=e178]:
+                - generic [ref=e179] [cursor=pointer]: 最新文章
+                - generic [ref=e180] [cursor=pointer]: 热门文章
+              - link "查看更多" [ref=e182] [cursor=pointer]:
+                - /url: https://post.smzdm.com/
+            - list [ref=e183]:
+              - listitem [ref=e184]:
+                - generic [ref=e185]:
+                  - link [ref=e186] [cursor=pointer]:
+                    - /url: //post.smzdm.com/p/a26em4wp/
+                    - img [ref=e187]
+                  - generic [ref=e188]:
+                    - link "大疆在日本把摄像机卖疯了：狂揽72.5%的市场份额" [ref=e189] [cursor=pointer]:
+                      - /url: //post.smzdm.com/p/a26em4wp/
+                    - generic [ref=e190]:
+                      - generic [ref=e191]:
+                        - generic [ref=e192]: 
+                        - text: "0"
+                      - generic [ref=e193]:
+                        - generic [ref=e194]: 
+                        - text: "0"
+              - listitem [ref=e195]:
+                - text:  
+                - link "拒绝挤牙膏！美光HBM4产出效率暴涨2倍 明年量产HBM4E已锁定" [ref=e197] [cursor=pointer]:
+                  - /url: //post.smzdm.com/p/az8nm7wr/
+              - listitem [ref=e198]:
+                - text:  
+                - link "蓝臻3段乳铁蛋白真有用？算完这笔账我沉默了" [ref=e200] [cursor=pointer]:
+                  - /url: //post.smzdm.com/p/arzeod9z/
+              - listitem [ref=e201]:
+                - text:  
+                - link "国AA级只是底线！真正护眼台灯要看这3个被90%家长忽略的关键参数" [ref=e203] [cursor=pointer]:
+                  - /url: //post.smzdm.com/p/awwe9d3p/
+              - listitem [ref=e204]:
+                - text:  
+                - link "洛克王国》主策划亲笔回应S2翻车：没换血，是我们自己搞砸了" [ref=e206] [cursor=pointer]:
+                  - /url: //post.smzdm.com/p/a5r7zpe8/
+            - text:          
+          - generic [ref=e207]:
+            - generic [ref=e209]: 下一篇：
+            - link "吉利博越油耗实测：表显与真实数据对比及驾驶体验分析" [ref=e210] [cursor=pointer]:
+              - /url: https://post.smzdm.com/p/aggmv257/
+          - generic [ref=e211]:
+            - generic [ref=e213]: 相关兴趣推荐
+            - list [ref=e214]:
+              - listitem [ref=e215]:
+                - link "DIY玩具" [ref=e216] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/s25k872/
+              - listitem [ref=e217]:
+                - link "指甲贴" [ref=e218] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/spyx572/
+              - listitem [ref=e219]:
+                - link "橡皮泥" [ref=e220] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/spk95n9/
+              - listitem [ref=e221]:
+                - link "涂鸦板" [ref=e222] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/s28653k/
+              - listitem [ref=e223]:
+                - link "水晶泥" [ref=e224] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/spwn0r8/
+              - listitem [ref=e225]:
+                - link "手指画" [ref=e226] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/spkl6l2/
+              - listitem [ref=e227]:
+                - link "儿童绘画" [ref=e228] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/s2rx6k2/
+              - listitem [ref=e229]:
+                - link "儿童画" [ref=e230] [cursor=pointer]:
+                  - /url: https://www.smzdm.com/ju/sp4r9zr/
+    - text:     
+  - contentinfo [ref=e231]:
+    - generic [ref=e232]:
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - link "关于我们" [ref=e235] [cursor=pointer]:
+            - /url: https://www.zhidemai.com/
+          - link "联系我们" [ref=e236] [cursor=pointer]:
+            - /url: https://www.smzdm.com/contact-us
+          - link "招聘专区" [ref=e237] [cursor=pointer]:
+            - /url: https://www.zhidemai.com/personnel/#join
+          - link "网站地图" [ref=e238] [cursor=pointer]:
+            - /url: https://www.smzdm.com/sitemap.html
+          - link "商业合作" [ref=e240] [cursor=pointer]:
+            - /url: https://e.smzdm.com/
+          - link "廉洁举报" [ref=e241] [cursor=pointer]:
+            - /url: https://www.smzdm.com/lianjiejubao
+          - link "用户协议" [ref=e243] [cursor=pointer]:
+            - /url: https://res.smzdm.com/protocol/user/
+          - link "隐私政策" [ref=e244] [cursor=pointer]:
+            - /url: https://res.smzdm.com/protocol/privacy/
+        - generic [ref=e245]:
+          - paragraph [ref=e246]:
+            - link "京公网安备11010602100083" [ref=e247] [cursor=pointer]:
+              - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010602100083
+            - text: "|"
+            - link "电信与信息服务业务经营许可证：京ICP证160379号" [ref=e248] [cursor=pointer]:
+              - /url: https://www.smzdm.com/jingyingxuke/
+            - text: "|"
+            - link "京ICP备12048526号-2" [ref=e249] [cursor=pointer]:
+              - /url: http://beian.miit.gov.cn/
+          - paragraph [ref=e250]:
+            - link "营业性演出许可证 京演（机构）[2024]6171号" [ref=e251] [cursor=pointer]:
+              - /url: https://www.smzdm.com/yingyexingyanchu/
+            - text: "|"
+            - link "互联网药品信息服务资格证书 (京)-非经营性-2022-0049" [ref=e252] [cursor=pointer]:
+              - /url: https://www.smzdm.com/yaopinxuke/
+            - text: "|"
+            - link "营业执照" [ref=e253] [cursor=pointer]:
+              - /url: https://www.smzdm.com/yingyezhizhao
+          - paragraph [ref=e254]:
+            - link "广播电视节目制作经营许可证（京）字第07726号" [ref=e255] [cursor=pointer]:
+              - /url: https://www.smzdm.com/shipinxuke/
+          - paragraph [ref=e256]:
+            - text: 违法和不良信息举报/涉未成年人及
+            - img "chuanxiao" [ref=e257]
+            - text: 举报电话：4008108106-9 | 违法和不良信息举报邮箱：service@zhidemai.com
+          - paragraph [ref=e258]: © copyright 2010-2026 值得买科技. All rights reserved. 版权所有 本站内容未经书面许可,禁止一切形式的转载。
+        - paragraph [ref=e260]:
+          - link "互联网诚信经营示范单位" [ref=e261] [cursor=pointer]:
+            - /url: https://www.etrust.org.cn/CX885277142735.html
+            - img "互联网诚信经营示范单位" [ref=e262]
+          - link "credit" [ref=e263] [cursor=pointer]:
+            - /url: https://www.12377.cn/
+            - img "credit" [ref=e264]
+          - link "12315" [ref=e265] [cursor=pointer]:
+            - /url: https://www.12315.cn/
+            - img "12315" [ref=e266]
+      - generic [ref=e267]:
+        - img "qrcode" [ref=e269]
+        - list [ref=e270]:
+          - listitem [ref=e271]:
+            - generic [ref=e272]:
+              - generic [ref=e273]: 
+              - text: smzdm_smzdm
+          - listitem [ref=e274]:
+            - link " 关注什么值得买" [ref=e275] [cursor=pointer]:
+              - /url: https://weibo.com/smzdm
+              - generic [ref=e276]: 
+              - text: 关注什么值得买
+          - listitem [ref=e277]:
+            - link " Rss 订阅中心" [ref=e278] [cursor=pointer]:
+              - /url: https://www.smzdm.com/dingyue
+              - generic [ref=e279]: 
+              - text: Rss 订阅中心
+    - list [ref=e280]:
+      - listitem [ref=e281]:
+        - link [ref=e282] [cursor=pointer]:
+          - /url: https://zhangdama.smzdm.com/chat?from=zdm
+      - listitem [ref=e283]:
+        - generic [ref=e285]: 
+      - listitem [ref=e286]:
+        - link "" [ref=e287] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e288]: 
+      - listitem [ref=e289]:
+        - link "" [ref=e290] [cursor=pointer]:
+          - /url: https://www.smzdm.com/about
+          - generic [ref=e291]: 
+      - listitem [ref=e292]:
+        - generic [ref=e293]:
+          - text: 举报
+          - text: 电话
+      - listitem [ref=e294]:
+        - link "" [ref=e295] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e296]: 
+  - text: 

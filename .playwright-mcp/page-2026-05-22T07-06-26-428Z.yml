@@ -1,0 +1,9 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - text: "Similarity: 67.36%"
+    - text: "Original: 1369x784 | Replica: 1368x784"
+    - text: "Band 0: 68.0% | Band 1: 88.6% | Band 2: 74.8% | Band 3: 74.6% | Band 4: 66.8% | Band 5: 63.6% | Band 6: 62.9% | Band 7: 59.8% | Band 8: 58.5% | Band 9: 56.1% |"
+  - generic [ref=e3]:
+    - generic [ref=e5]: Original
+    - generic [ref=e8]: Replica
+    - generic [ref=e11]: Diff (red = different)

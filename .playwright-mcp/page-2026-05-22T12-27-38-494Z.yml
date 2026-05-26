@@ -1,0 +1,102 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - list [ref=e6]:
+      - link "游戏狗首页" [ref=e7] [cursor=pointer]:
+        - /url: https://www.gamedog.cn/
+      - text: "|"
+      - link "手游助手" [ref=e8] [cursor=pointer]:
+        - /url: https://www.gamedog.cn/zhushou/
+        - text: 手游助手
+      - text: "|"
+      - link "手机站" [ref=e10] [cursor=pointer]:
+        - /url: https://www.gamedog.cn/mobile/
+        - text: 手机站
+    - generic [ref=e12]:
+      - link "安卓游戏大全" [ref=e13] [cursor=pointer]:
+        - /url: https://www.gamedog.cn/android/
+      - text: "|"
+      - link "iPhone" [ref=e14] [cursor=pointer]:
+        - /url: https://www.gamedog.cn/iphone/
+      - text: "|"
+      - link "网游" [ref=e15] [cursor=pointer]:
+        - /url: https://www.gamedog.cn/online/
+      - text: "|"
+      - link "单机" [ref=e16] [cursor=pointer]:
+        - /url: https://www.gamedog.cn/game/
+      - text: "|"
+      - link "资讯" [ref=e17] [cursor=pointer]:
+        - /url: https://www.gamedog.cn/news/
+      - text: "|"
+      - link "找游戏" [ref=e18] [cursor=pointer]:
+        - /url: https://www.gamedog.cn/games/
+  - generic [ref=e19]:
+    - heading "游戏狗手游第一门户" [level=1] [ref=e20]:
+      - link "游戏狗手游第一门户" [ref=e21] [cursor=pointer]:
+        - /url: https://www.gamedog.cn
+    - button [ref=e23] [cursor=pointer]
+    - link [ref=e25] [cursor=pointer]:
+      - /url: javascript:;
+      - img [ref=e26]
+  - generic [ref=e28]:
+    - link "找游戏" [ref=e29] [cursor=pointer]:
+      - /url: https://www.gamedog.cn/games/
+    - link "安卓" [ref=e30] [cursor=pointer]:
+      - /url: https://www.gamedog.cn/android/
+    - link "网游" [ref=e31] [cursor=pointer]:
+      - /url: https://www.gamedog.cn/online/
+    - link "软件" [ref=e32] [cursor=pointer]:
+      - /url: https://www.gamedog.cn/down/
+    - link "单机" [ref=e33] [cursor=pointer]:
+      - /url: https://www.gamedog.cn/game/
+    - link "资讯" [ref=e34] [cursor=pointer]:
+      - /url: https://www.gamedog.cn/news/
+    - link "攻略" [ref=e35] [cursor=pointer]:
+      - /url: https://www.gamedog.cn/gonglue/
+    - link "排行榜" [ref=e36] [cursor=pointer]:
+      - /url: https://www.gamedog.cn/top/
+    - link "合集" [ref=e37] [cursor=pointer]:
+      - /url: https://www.gamedog.cn/special/
+  - generic [ref=e38]:
+    - img "很抱歉，您访问的页面不存在..." [ref=e40]
+    - generic [ref=e41]:
+      - text: 正在自动跳转到首页，如没有跳转请
+      - link "点击此链接" [ref=e42] [cursor=pointer]:
+        - /url: https://www.gamedog.cn
+    - generic [ref=e43]:
+      - link "返回首页" [ref=e44] [cursor=pointer]:
+        - /url: https://www.gamedog.cn
+      - link "返回上一页" [ref=e45] [cursor=pointer]:
+        - /url: javascript:history.back();
+  - generic [ref=e47]:
+    - generic [ref=e48]:
+      - link "关于我们" [ref=e49] [cursor=pointer]:
+        - /url: //www.gamedog.cn/about/
+      - text: "|"
+      - link "联系我们" [ref=e50] [cursor=pointer]:
+        - /url: //www.gamedog.cn/about/contactus.html
+      - text: "|"
+      - link "网站动态" [ref=e51] [cursor=pointer]:
+        - /url: //www.gamedog.cn/about/list.html
+      - text: "|"
+      - link "家长监护" [ref=e52] [cursor=pointer]:
+        - /url: //www.gamedog.cn/jiazhang/
+    - generic [ref=e53]: 抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活
+    - link "备案编号:沪ICP备15013661号-24" [ref=e56] [cursor=pointer]:
+      - /url: https://beian.miit.gov.cn/
+    - generic [ref=e57]: ©游戏狗 https://www.gamedog.cn版权所有
+    - generic [ref=e58]:
+      - link "安全百店" [ref=e59] [cursor=pointer]:
+        - /url: //app.12321.cn/app.php/
+        - img "安全百店" [ref=e60]
+      - link "ANVA自律组" [ref=e61] [cursor=pointer]:
+        - /url: https://white.anva.org.cn/
+        - img "ANVA自律组" [ref=e62]
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - link [ref=e65] [cursor=pointer]:
+          - /url: javascript:;
+        - link [ref=e66] [cursor=pointer]:
+          - /url: //weibo.com/gamedog
+      - generic [ref=e67]:
+        - img "游戏狗微信" [ref=e68]
+        - generic [ref=e69]: 关注游戏狗订阅号
